@@ -56,6 +56,16 @@ This documentation provides a **complete framework** for:
 
 ---
 
+## Deep-Dive Educational Sections
+
+| Section | Documents | Focus |
+|---------|-----------|-------|
+| [Copilot Instructions](../Copilot%20instructions/) | 34 docs | Complete guide to copilot-instructions.md, path-specific, and prompt files |
+| [AGENTS.md](../03-AGENTS.md/) | 31 docs | Cross-tool AGENTS.md standard — deep dives, compatibility, enterprise |
+| [Spec-Driven Development](../04-Spec-Driven%20Development/) | 44 docs | Full SDD methodology — workflow, writing specs, tools, anti-patterns |
+
+---
+
 ## Quick Start
 
 1. **New to this?** Start with [What Is Meta-Prompting?](01-foundations/what-is-meta-prompting.md)
@@ -63,6 +73,7 @@ This documentation provides a **complete framework** for:
 3. **Multi-tool team?** Read [AGENTS.md Guide](03-agents-md/agents-md-guide.md) first
 4. **Want templates now?** Go to [Templates](07-templates/)
 5. **Building a full framework?** Follow [Building Your Framework](05-meta-prompting-framework/building-your-framework.md)
+6. **Learning SDD?** Start with [What Is SDD?](../04-Spec-Driven%20Development/01-fundamentals/what-is-sdd.md)
 
 ---
 
