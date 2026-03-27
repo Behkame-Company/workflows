@@ -64,6 +64,8 @@ This documentation provides a **complete framework** for:
 | [AGENTS.md](../03-AGENTS.md/) | 31 docs | Cross-tool AGENTS.md standard — deep dives, compatibility, enterprise |
 | [Spec-Driven Development](../04-Spec-Driven%20Development/) | 44 docs | Full SDD methodology — workflow, writing specs, tools, anti-patterns |
 | [MCP Server](../05-MCP%20Server/) | 44 docs | Model Context Protocol — architecture, building servers, security, ecosystem |
+| [AI Code Review & CI/CD](../06-AI%20Code%20Review%20%26%20CI-CD%20Integration/) | 43 docs | AI-powered reviews, CI/CD pipelines, quality gates, team workflows |
+| [Context Window Management](../07-Context%20Window%20Management/) | 44 docs | Tokens, compaction, memory, multi-window workflows, sub-agent architectures |
 
 ---
 
@@ -77,6 +79,7 @@ This documentation provides a **complete framework** for:
 6. **Learning SDD?** Start with [What Is SDD?](../04-Spec-Driven%20Development/01-fundamentals/what-is-sdd.md)
 7. **Understanding MCP?** Start with [What Is MCP?](../05-MCP%20Server/01-fundamentals/what-is-mcp.md)
 8. **AI Code Review & CI/CD?** Start with [What Is AI Code Review?](../06-AI%20Code%20Review%20%26%20CI-CD%20Integration/01-fundamentals/what-is-ai-code-review.md)
+9. **Context Management?** Start with [What Is a Context Window?](../07-Context%20Window%20Management/01-fundamentals/what-is-a-context-window.md)
 
 ---
 
