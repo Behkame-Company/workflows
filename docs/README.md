@@ -63,6 +63,7 @@ This documentation provides a **complete framework** for:
 | [Copilot Instructions](../Copilot%20instructions/) | 34 docs | Complete guide to copilot-instructions.md, path-specific, and prompt files |
 | [AGENTS.md](../03-AGENTS.md/) | 31 docs | Cross-tool AGENTS.md standard — deep dives, compatibility, enterprise |
 | [Spec-Driven Development](../04-Spec-Driven%20Development/) | 44 docs | Full SDD methodology — workflow, writing specs, tools, anti-patterns |
+| [MCP Server](../05-MCP%20Server/) | 44 docs | Model Context Protocol — architecture, building servers, security, ecosystem |
 
 ---
 
@@ -74,6 +75,8 @@ This documentation provides a **complete framework** for:
 4. **Want templates now?** Go to [Templates](07-templates/)
 5. **Building a full framework?** Follow [Building Your Framework](05-meta-prompting-framework/building-your-framework.md)
 6. **Learning SDD?** Start with [What Is SDD?](../04-Spec-Driven%20Development/01-fundamentals/what-is-sdd.md)
+7. **Understanding MCP?** Start with [What Is MCP?](../05-MCP%20Server/01-fundamentals/what-is-mcp.md)
+8. **AI Code Review & CI/CD?** Start with [What Is AI Code Review?](../06-AI%20Code%20Review%20%26%20CI-CD%20Integration/01-fundamentals/what-is-ai-code-review.md)
 
 ---
 
