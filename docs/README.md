@@ -66,6 +66,11 @@ This documentation provides a **complete framework** for:
 | [MCP Server](../05-MCP%20Server/) | 44 docs | Model Context Protocol — architecture, building servers, security, ecosystem |
 | [AI Code Review & CI/CD](../06-AI%20Code%20Review%20%26%20CI-CD%20Integration/) | 43 docs | AI-powered reviews, CI/CD pipelines, quality gates, team workflows |
 | [Context Window Management](../07-Context%20Window%20Management/) | 44 docs | Tokens, compaction, memory, multi-window workflows, sub-agent architectures |
+| [Prompt Engineering Patterns](../08-Prompt%20Engineering%20Patterns/) | 46 docs | Core techniques, advanced patterns, coding prompts, agentic patterns |
+| [Testing Strategy with AI](../09-Testing%20Strategy%20with%20AI/) | 43 docs | TDD with AI, test generation, eval suites, anti-patterns, CI integration |
+| [Security & Guardrails](../10-Security%20%26%20Guardrails/) | 44 docs | Prompt injection, OWASP LLM Top 10, secrets, sandboxing, MCP security |
+| [Agentic Coding Patterns](../11-Agentic%20Coding%20Patterns/) | 45 docs | Workflow patterns, multi-agent, tool use, skills, Copilot/Claude agents |
+| [Team Workflows & Governance](../12-Team%20Workflows%20%26%20Governance/) | 45 docs | Onboarding, standards, review processes, scaling, metrics, governance |
 
 ---
 
@@ -80,6 +85,11 @@ This documentation provides a **complete framework** for:
 7. **Understanding MCP?** Start with [What Is MCP?](../05-MCP%20Server/01-fundamentals/what-is-mcp.md)
 8. **AI Code Review & CI/CD?** Start with [What Is AI Code Review?](../06-AI%20Code%20Review%20%26%20CI-CD%20Integration/01-fundamentals/what-is-ai-code-review.md)
 9. **Context Management?** Start with [What Is a Context Window?](../07-Context%20Window%20Management/01-fundamentals/what-is-a-context-window.md)
+10. **Prompt Engineering?** Start with [What Is Prompt Engineering?](../08-Prompt%20Engineering%20Patterns/01-fundamentals/what-is-prompt-engineering.md)
+11. **Testing with AI?** Start with [Why Testing Matters More](../09-Testing%20Strategy%20with%20AI/01-fundamentals/why-testing-matters-more.md)
+12. **AI Security?** Start with [Why AI Security Is Different](../10-Security%20%26%20Guardrails/01-fundamentals/why-ai-security-is-different.md)
+13. **Agentic Patterns?** Start with [What Are Agentic Systems?](../11-Agentic%20Coding%20Patterns/01-fundamentals/what-are-agentic-systems.md)
+14. **Team Workflows?** Start with [Why Team Workflows Matter](../12-Team%20Workflows%20%26%20Governance/01-fundamentals/why-team-workflows-matter.md)
 
 ---
 
