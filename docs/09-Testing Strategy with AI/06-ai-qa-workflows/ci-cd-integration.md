@@ -357,9 +357,3 @@ Store test results over time to detect quality drift:
                     │  (matrix)    │     │  ✅ or ❌     │
                     └──────────────┘     └──────────────┘
 ```
-
-## Next Steps
-
-- 🔗 [AI Agent Verification Loops](agent-verification.md) — How agents self-verify during CI
-- 🔗 [Testing with GitHub Copilot](copilot-testing.md) — Copilot-specific CI configuration
-- 🔗 [Testing with Claude Code](claude-code-testing.md) — Claude Code CI integration with `--print`

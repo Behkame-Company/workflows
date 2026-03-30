@@ -241,10 +241,3 @@ your-repo/
 2. `copilot-setup-steps.yml` installs all dependencies
 3. Instructions cover your coding standards
 4. Issue templates guide contributors to write agent-friendly issues
-
-## Next Steps
-
-- [Custom Instructions for Copilot Agents](./custom-instructions.md) — configure agent behavior in detail
-- [Copilot CLI Agent Mode](./cli-agent-mode.md) — run agents locally instead of in the cloud
-- [Copilot Skills](./copilot-skills.md) — extend agent capabilities with reusable skills
-- [Start Simple](../09-best-practices/start-simple.md) — know when to use an agent vs. a simple prompt

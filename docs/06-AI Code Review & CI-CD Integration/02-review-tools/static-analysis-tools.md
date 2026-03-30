@@ -20,43 +20,13 @@ Static analysis tools find issues by analyzing source code without executing it.
 - **Languages**: JavaScript, TypeScript, Python, Java, C/C++, C#, Go, Ruby, Swift
 - **Integration**: Native GitHub Actions, free for open source
 
-```yaml
-# .github/workflows/codeql.yml
-name: CodeQL Analysis
-on: [push, pull_request]
-jobs:
-  analyze:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: github/codeql-action/init@v3
-        with:
-          languages: javascript, python
-      - uses: github/codeql-action/analyze@v3
-```
-
 ### Semgrep
 - **Type**: Pattern-matching static analysis
 - **Strengths**: Fast, customizable rules, wide language support
 - **Languages**: 30+ languages
 - **Integration**: GitHub Actions, GitLab CI, any CI platform
 
-```yaml
-# .github/workflows/semgrep.yml
-name: Semgrep
-on: [pull_request]
-jobs:
-  semgrep:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: semgrep/semgrep-action@v1
-        with:
-          config: >-
-            p/default
-            p/owasp-top-ten
-            p/typescript
-```
+> For CodeQL and Semgrep CI/CD workflow examples and SAST/DAST integration, see [Security Gates (SAST/DAST)](../05-quality-gates/security-gates-sast-dast.md).
 
 ### ESLint / Ruff / Biome
 - **Type**: Linter / code quality
@@ -99,10 +69,3 @@ jobs:
 3. **Semgrep for custom rules** — Fast, flexible pattern matching
 4. **Linters for hygiene** — Catch code smells before they reach reviewers
 5. **Layer everything** — Formatters → linters → SAST → AI → human
-
----
-
-## Next Steps
-
-- 🔗 [Security Gates](../05-quality-gates/security-gates-sast-dast.md) — SAST/DAST in pipelines
-- 🔗 [Quality Gates](../03-ci-cd-fundamentals/quality-gates.md) — Configuring gate policies

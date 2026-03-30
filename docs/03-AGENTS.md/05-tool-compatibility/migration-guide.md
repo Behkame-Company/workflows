@@ -275,7 +275,3 @@ Test each tool to confirm it reads both AGENTS.md and its specific file.
 - [ ] CODEOWNERS updated to include AGENTS.md
 - [ ] CI updated to validate AGENTS.md (optional)
 - [ ] Team notified of the new file structure
-
----
-
-*Next: [Monorepo Strategies](../06-advanced/monorepo-strategies.md) →*

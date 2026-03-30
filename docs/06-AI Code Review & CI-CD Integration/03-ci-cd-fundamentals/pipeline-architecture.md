@@ -1,6 +1,6 @@
 # Pipeline Architecture
 
-> Designing multi-stage CI/CD pipelines that integrate AI review, quality gates, and automated deployment.
+> Designing multi-stage CI/CD pipelines that integrate AI review, quality gates, and automated deployment. For core GitHub Actions concepts (workflows, jobs, steps, triggers), see [GitHub Actions Basics](github-actions-basics.md).
 
 ---
 
@@ -104,10 +104,3 @@ validate (2 min)
 3. **Gate between stages** — Don't scan if it doesn't build
 4. **Deploy only from main** — Use `if:` conditions
 5. **Keep total time under 15 minutes** — Faster feedback = better developer experience
-
----
-
-## Next Steps
-
-- 🔗 [Agentic Workflows](../04-ai-in-ci-cd/agentic-workflows.md) — AI-powered CI/CD
-- 🔗 [Templates](../11-practical/templates.md) — Ready-to-use pipeline configs

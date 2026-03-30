@@ -125,7 +125,3 @@ AGENTS.md takes effect immediately — any AI agent that reads your repo will us
 | Auto-loaded | Yes — by all supporting tools |
 | Max recommended size | ~300 lines / 1,000 words |
 | Governed by | Agentic AI Foundation (Linux Foundation) |
-
----
-
-*Next: [The Standard & AAIF](the-standard-and-aaif.md) →*

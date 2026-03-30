@@ -100,10 +100,3 @@ jobs:
 3. **Org-level scanning is essential** — Consistent security posture
 4. **Template repos standardize CI/CD** — New repos start correctly
 5. **Automate dependency awareness** — GitHub Dependency Graph + Dependabot
-
----
-
-## Next Steps
-
-- 🔗 [Custom Review Agents](custom-review-agents.md) — Building custom reviewers
-- 🔗 [Review + Meta-Prompting](review-plus-meta-prompting.md) — Integration

@@ -93,10 +93,3 @@ Over time, you learn the MVC for your common tasks.
 3. **Let the agent retrieve details** — MVC + on-demand retrieval
 4. **Audit unused context** — Remove what the model didn't reference
 5. **MVC varies by task** — Bug fixes need less than architecture decisions
-
----
-
-## Next Steps
-
-- 🔗 [Context Hygiene](context-hygiene.md) — Keeping context clean over time
-- 🔗 [Debugging Context Issues](debugging-context-issues.md) — When things go wrong

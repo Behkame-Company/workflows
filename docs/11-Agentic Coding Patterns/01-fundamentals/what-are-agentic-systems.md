@@ -152,9 +152,3 @@ This is the most important principle in agentic system design. The industry tend
 | Explain a code block        | Augmented LLM     | Needs file context, but single-turn          |
 | Migrate API from v2 to v3   | Workflow           | Predictable steps: find → plan → change → test |
 | "Fix all bugs in this repo" | Agent              | Unpredictable scope, needs exploration       |
-
-## Next Steps
-
-- [The Augmented LLM](./augmented-llm.md) — understand the fundamental building block
-- [When to Go Agentic](./when-to-go-agentic.md) — decision framework for choosing complexity
-- [Agent-Computer Interface Design](./agent-computer-interface.md) — design tools your agents can actually use

@@ -193,7 +193,3 @@ for Next.js dynamic import compatibility.
 | Only frontend code | `frontend.instructions.md` (applyTo: `src/components/**`) |
 | Only my personal style | Personal settings |
 | A specific workflow task | `.prompt.md` file (not an instruction file) |
-
----
-
-*Next: [How Copilot Reads Instructions](how-copilot-reads-instructions.md) →*

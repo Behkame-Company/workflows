@@ -22,7 +22,6 @@ applyTo: "**/*.{test,spec}.{ts,tsx}"
 - API tests: Vitest + supertest
 
 ## Test Structure
-- Follow Arrange → Act → Assert pattern
 - Use `describe` blocks for grouping by module/component
 - Use `it` blocks with behavior descriptions: `it('should [do X] when [Y]')`
 - One test per behavior — don't test multiple things in one `it` block
@@ -130,7 +129,3 @@ applyTo: "e2e/**/*.{ts,spec.ts}"
 - API mocking: use `page.route()` for controlling server responses
 - Assertions: use Playwright's auto-waiting assertions (`expect(locator).toBeVisible()`)
 ```
-
----
-
-*Next: [Security-Sensitive Code Guide](security-sensitive.md) →*

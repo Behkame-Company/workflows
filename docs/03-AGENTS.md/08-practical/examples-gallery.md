@@ -286,7 +286,3 @@ processes them, and publishes results.
 4. **Add boundaries**: What must agents NEVER do?
 5. **Test**: Have an agent try a task and see if it follows the rules
 6. **Iterate**: Add rules when you notice agent mistakes
-
----
-
-*Next: [Templates Library](templates-library.md) →*

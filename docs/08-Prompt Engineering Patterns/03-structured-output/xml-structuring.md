@@ -123,10 +123,3 @@ For each issue, respond using this format:
 | YAML | Configuration, metadata | ★ workable |
 
 Claude specifically recommends XML for prompt structuring. Other models handle it well too but may prefer markdown.
-
----
-
-## Next Steps
-
-- 🔗 [Schema Enforcement](schema-enforcement.md) — Constraining output to match schemas
-- 🔗 [Markdown Output](markdown-output.md) — Generating structured documentation

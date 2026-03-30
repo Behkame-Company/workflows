@@ -352,10 +352,3 @@ async function callMCPToolSafely(
   }
 }
 ```
-
-## Next Steps
-
-- [Custom Tool Development](./custom-tool-development.md) — building your own MCP servers
-- [Tool Design Principles](./tool-design-principles.md) — designing effective MCP tool interfaces
-- [Shell and File Tools](./shell-and-file-tools.md) — the built-in tools MCP extends
-- [Orchestrator-Workers](../02-workflow-patterns/orchestrator-workers.md) — multi-agent workflows using MCP tools

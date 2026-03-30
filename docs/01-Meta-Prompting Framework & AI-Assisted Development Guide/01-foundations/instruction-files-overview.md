@@ -160,7 +160,3 @@ User prompt (highest priority)
 - ❌ Include task-specific details in repo-wide instructions
 - ❌ Forget to test that instructions actually change AI behavior
 - ❌ Let instruction files go stale — schedule quarterly reviews
-
----
-
-*Next: [copilot-instructions.md Guide](../02-copilot-instructions/copilot-instructions-guide.md) →*

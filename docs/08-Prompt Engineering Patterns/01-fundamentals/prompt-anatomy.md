@@ -158,11 +158,3 @@ If no issues found, say "No security issues detected."
 | Refactoring | ★★ | ★★★ | ★★★ | ★★ | ★ |
 | Bug fixing | ★★★ | ★★★ | ★ | ★★ | ★★ |
 | Documentation | ★★ | ★★ | ★★★ | ★ | ★★★ |
-
----
-
-## Next Steps
-
-- 🔗 [Mental Models](mental-models.md) — How LLMs process these components
-- 🔗 [Zero-Shot Prompting](../02-core-techniques/zero-shot-prompting.md) — Instruction-only prompts
-- 🔗 [Few-Shot Prompting](../02-core-techniques/few-shot-prompting.md) — Adding examples

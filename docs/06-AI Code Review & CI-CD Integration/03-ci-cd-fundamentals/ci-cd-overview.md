@@ -61,10 +61,3 @@ AI tools generate code faster than ever. Without CI/CD:
 2. **CD ensures consistency** — Same deployment process every time
 3. **Essential for AI code** — Fast generation requires fast validation
 4. **Automate everything** — Build, test, scan, review, deploy
-
----
-
-## Next Steps
-
-- 🔗 [GitHub Actions Basics](github-actions-basics.md) — The most common CI/CD platform
-- 🔗 [Quality Gates](quality-gates.md) — Automated policy enforcement

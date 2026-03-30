@@ -318,10 +318,3 @@ function detectStuck(calls: ToolCall[]): string | null {
 4. **Log everything** — you'll need it for debugging
 5. **Prefer rollback over patching** — a clean slate beats accumulated fixes
 6. **Design for failure** — assume the agent will fail and plan the recovery path
-
-## Next Steps
-
-- [Testing Agentic Systems](./testing-agents.md) — catch failures before production
-- [Infinite Loops Anti-Pattern](../10-anti-patterns/infinite-loops.md) — detailed loop prevention
-- [Transparency](./transparency.md) — observable agents recover better
-- [Start Simple](./start-simple.md) — simpler systems have fewer failure modes

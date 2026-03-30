@@ -294,9 +294,3 @@ async function augmentedLLM(userMessage: string, projectMemory: string) {
   });
 }
 ```
-
-## Next Steps
-
-- [When to Go Agentic](./when-to-go-agentic.md) — decide if you need workflows or agents on top of your augmented LLM
-- [Agent-Computer Interface Design](./agent-computer-interface.md) — master the art of tool design
-- [Prompt Chaining](../02-workflow-patterns/prompt-chaining.md) — compose augmented LLMs into workflows

@@ -116,10 +116,3 @@ tools:
 3. **Compile and deploy** — `gh aw compile` generates standard Actions YAML
 4. **Audit everything** — Full transparency in Actions logs
 5. **Start small** — Begin with read-only tasks (triage, docs) before write tasks
-
----
-
-## Next Steps
-
-- 🔗 [Self-Healing CI](self-healing-ci.md) — AI that fixes CI failures
-- 🔗 [Continuous AI](continuous-ai.md) — The always-on AI paradigm

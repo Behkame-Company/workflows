@@ -221,7 +221,3 @@ When instructions aren't working:
 - [ ] Instructions are at the top or bottom of file (not buried in middle)
 - [ ] Tested by asking Copilot a question the instruction addresses
 - [ ] References panel shows the instruction file is loaded
-
----
-
-*Next: [FAQ](faq.md) →*

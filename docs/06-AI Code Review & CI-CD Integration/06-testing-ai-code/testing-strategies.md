@@ -25,11 +25,7 @@
 
 ## Strategy 1: Test Before You Trust
 
-**Treat AI-generated code like a junior developer's PR.** It may look correct but:
-- Logic might be subtly wrong
-- Edge cases may be missing
-- Error handling may be incomplete
-- It may duplicate existing utilities
+**Treat AI-generated code like a junior developer's PR** — AI excels at breadth and pattern detection but lacks business context and architectural understanding. For a detailed breakdown of AI vs human strengths, see [AI vs Human Review](../01-fundamentals/ai-vs-human-review.md).
 
 ### The Checklist
 1. ✅ Read the code line-by-line (don't just scan)
@@ -71,7 +67,7 @@ If AI writes both code and tests, add extra validation:
 
 ## Strategy 4: Test-First with AI Implementation
 
-The TDD approach works well with AI:
+TDD works well with AI — tests define the contract so AI can't deviate from the spec:
 
 ```
 1. Human writes failing tests first (defines the spec)
@@ -79,8 +75,6 @@ The TDD approach works well with AI:
 3. Human reviews the implementation
 4. Refactor if needed
 ```
-
-**Advantage**: Tests define the contract; AI can't deviate from the spec.
 
 ---
 
@@ -106,10 +100,3 @@ The TDD approach works well with AI:
 3. **TDD works great with AI** — Tests define the spec, AI implements
 4. **Mutation testing catches weak tests** — Especially for AI-generated tests
 5. **Test all levels** — Unit + integration + E2E + security
-
----
-
-## Next Steps
-
-- 🔗 [AI Test Generation](ai-test-generation.md) — Using AI to write tests
-- 🔗 [Validation Framework](validation-framework.md) — Structured validation pipeline

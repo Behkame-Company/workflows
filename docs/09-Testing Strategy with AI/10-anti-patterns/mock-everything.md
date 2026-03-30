@@ -267,16 +267,3 @@ When generating tests:
 - [ ] Integration tests exist for every mocked boundary
 - [ ] Mock return values are realistic (not just `true` or `{}`)
 ```
-
----
-
-## Next Steps
-
-- [Anti-Pattern: Testing to Pass](testing-to-pass.md) — another way tests verify nothing
-- [Anti-Pattern: Snapshot Abuse](snapshot-abuse.md) — when snapshots replace real assertions
-- [Integration Testing with AI](../04-test-types/integration-testing.md) — how to write real integration tests
-- [Test Quality Metrics](../05-coverage-and-quality/test-quality-metrics.md) — measuring whether tests actually test
-
----
-
-*Part of the [Testing Strategy with AI](../README.md) series.*

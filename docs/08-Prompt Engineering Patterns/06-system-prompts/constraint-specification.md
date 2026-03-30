@@ -120,10 +120,3 @@ Create an endpoint following these constraints:
 - Error handling with AppError
 - Response format: { data: T } for success, { error: string, code: string } for failure
 ```
-
----
-
-## Next Steps
-
-- 🔗 [System Prompt Design](system-prompt-design.md) — Where constraints live
-- 🔗 [Instruction Hierarchy](instruction-hierarchy.md) — How constraints are prioritized

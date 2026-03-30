@@ -534,14 +534,3 @@ The fix is not better instructions — it's **real enforcement**:
 
 Build your security model as if the AI will ignore every instruction you give it.
 If your system is still secure under that assumption, you have real security.
-
----
-
-## Next Steps
-
-- [Trusting AI Blindly](trusting-ai-blindly.md) — Why AI outputs need verification and how
-  to build review workflows that catch mistakes before they reach production
-- [Overpermissioned Agents](overpermissioned-agents.md) — How to apply the principle of
-  least privilege to AI agents and avoid giving them more access than they need
-- [Ignoring AI in Threat Models](ignoring-ai-in-threat-models.md) — How to update your
-  threat modeling process to account for AI-specific attack vectors and failure modes

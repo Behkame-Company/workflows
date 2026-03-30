@@ -287,7 +287,3 @@ AGENTS.md makes agents more capable, but capability without oversight is risk. A
 2. **Agents work in dev/staging** (never production)
 3. **Agents have minimum permissions** (read code, write PRs)
 4. **Humans review every agent PR** (especially security-sensitive changes)
-
----
-
-*Next: [Cross-Tool Matrix](../05-tool-compatibility/cross-tool-matrix.md) →*

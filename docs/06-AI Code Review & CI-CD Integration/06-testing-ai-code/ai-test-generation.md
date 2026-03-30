@@ -83,10 +83,3 @@ AI can generate tests from:
 3. **Mutation testing validates AI tests** — If mutating code doesn't fail tests, tests are weak
 4. **Spec-driven test generation is safest** — Tests from requirements, not from code
 5. **Always add negative tests** — AI defaults to happy paths
-
----
-
-## Next Steps
-
-- 🔗 [Validation Framework](validation-framework.md) — Structured validation pipeline
-- 🔗 [Metrics & Benchmarks](metrics-and-benchmarks.md) — Measuring quality

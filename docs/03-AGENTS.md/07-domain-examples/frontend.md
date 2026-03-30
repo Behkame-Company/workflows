@@ -188,7 +188,3 @@ public/        — Static assets
 | Inline styles | "NEVER use inline styles; use Tailwind classes" |
 | Client-side secrets | "NEVER import env vars without NEXT_PUBLIC_ prefix in client code" |
 | Missing accessibility | "All interactive elements must have aria attributes or labels" |
-
----
-
-*Next: [Backend AGENTS.md](backend.md) →*

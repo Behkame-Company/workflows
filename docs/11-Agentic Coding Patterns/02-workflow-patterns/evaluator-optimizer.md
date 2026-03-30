@@ -296,45 +296,24 @@ async function hybridEvaluator(code: string, spec: string): Promise<EvalResult> 
 
 ## Preventing Infinite Loops
 
-Always include safeguards:
+Always include safeguards: **max iterations**, **stagnation detection** (stop if score doesn't improve), and **timeouts**. For comprehensive loop prevention strategies, detection patterns, and escape mechanisms, see [Infinite Agent Loops](../10-anti-patterns/infinite-loops.md).
 
 ```typescript
-async function safeEvalOptLoop(
-  generate: (feedback: string) => Promise<string>,
-  evaluate: (output: string) => Promise<EvalResult>,
-  config: {
-    maxIterations: number;    // Hard cap on iterations
-    minImprovement: number;   // Minimum score improvement per iteration
-    timeout: number;          // Total time limit in ms
-  }
-) {
+// Minimal safeguard example
+async function safeEvalOptLoop(generate, evaluate, maxIter = 5) {
   let output = await generate("");
   let lastScore = 0;
-  const startTime = Date.now();
 
-  for (let i = 0; i < config.maxIterations; i++) {
-    // Timeout check
-    if (Date.now() - startTime > config.timeout) {
-      console.warn("Timeout reached — returning current best");
-      return output;
-    }
-
+  for (let i = 0; i < maxIter; i++) {
     const result = await evaluate(output);
-
     if (result.passed) return output;
-
-    // Stagnation check — if score isn't improving, stop
-    if (result.score <= lastScore + config.minImprovement) {
-      console.warn(`Score stagnated at ${result.score} — stopping`);
-      return output;
-    }
-
+    if (result.score <= lastScore + 0.5) return output; // Stagnation
     lastScore = result.score;
     output = await generate(result.issues.join("\n"));
   }
-
   return output;
 }
+```
 ```
 
 ## Design Guidelines
@@ -345,9 +324,3 @@ async function safeEvalOptLoop(
 4. **Track improvement across iterations** — stop if quality plateaus
 5. **Make feedback specific and actionable** — "improve the code" is useless; "line 42 doesn't handle null input" is actionable
 6. **Consider cost** — each iteration is another LLM call; ensure the improvement justifies the cost
-
-## Next Steps
-
-- [Orchestrator-Workers](./orchestrator-workers.md) — combine with evaluation loops for quality-assured delegation
-- [Prompt Chaining](./prompt-chaining.md) — use gates as lightweight evaluation between chain steps
-- [When to Go Agentic](../01-fundamentals/when-to-go-agentic.md) — understand when iterative refinement is worth the cost

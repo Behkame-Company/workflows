@@ -116,10 +116,3 @@ response = client.messages.create(
 ```
 
 The model may internally critique and revise before producing output. This is often more effective than manual reflection prompts.
-
----
-
-## Next Steps
-
-- 🔗 [Decomposition](decomposition.md) — Breaking complex tasks into manageable pieces
-- 🔗 [Self-Consistency](self-consistency.md) — Multiple independent paths for validation

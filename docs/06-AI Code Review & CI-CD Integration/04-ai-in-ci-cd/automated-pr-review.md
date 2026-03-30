@@ -107,10 +107,3 @@ jobs:
 3. **Run after deterministic checks** — AI reviews clean, passing code
 4. **Custom instructions matter** — Guide the AI to what your team cares about
 5. **Don't block on low-severity** — Only critical/high should prevent merge
-
----
-
-## Next Steps
-
-- 🔗 [Self-Healing CI](self-healing-ci.md) — AI that fixes failures
-- 🔗 [Review Instructions](../08-best-practices/review-instructions.md) — Writing effective rules

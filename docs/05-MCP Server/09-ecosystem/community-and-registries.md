@@ -92,10 +92,3 @@ Before installing a server, check:
 2. **Awesome MCP Servers is the best discovery tool** — Curated and categorized
 3. **Verify before installing** — Check source, popularity, and maintenance
 4. **Contribute back** — Share your servers with the community
-
----
-
-## Next Steps
-
-- 🔗 [MCP in Prompt Files](mcp-in-prompt-files.md) — Referencing tools in `.prompt.md`
-- 🔗 [Popular Servers](popular-servers.md) — Top 10 essential servers

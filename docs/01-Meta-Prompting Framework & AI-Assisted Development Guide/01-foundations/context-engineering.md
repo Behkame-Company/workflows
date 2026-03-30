@@ -165,7 +165,3 @@ Providing extensive instructions but no way for the AI to validate its own outpu
 - **Compress and prune** memory to prevent context rot
 - Layer context with **clear ownership** across team, repo, and path levels
 - Always include **verification mechanisms** in your context stack
-
----
-
-*Next: [Instruction Files Overview](instruction-files-overview.md) →*

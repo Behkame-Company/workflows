@@ -457,15 +457,3 @@ necessary but not sufficient.
    system and unaware of your threat model.
 6. **Update your threat model.** AI-assisted development is an attack vector. Document
    it and mitigate it like any other risk.
-
----
-
-## Next Steps
-
-- [Security by Obscurity](security-by-obscurity.md) — Another dangerous assumption:
-  that hiding implementation details is a substitute for real security controls.
-- [Overpermissioned Agents](overpermissioned-agents.md) — When AI agents operate with
-  more access than they need, blind trust becomes an even greater liability.
-- [Ignoring AI in Threat Models](ignoring-ai-in-threat-models.md) — If your threat
-  model doesn't account for AI-assisted development, you have a blind spot that
-  attackers will find before you do.

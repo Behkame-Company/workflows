@@ -12,58 +12,54 @@ Each template is complete and self-contained. Copy the code block, paste it into
 
 ---
 
+## Common Security Rules (Template Header)
+
+Templates 1–3 below share a core set of security rules. Define these once in your organization and reference them across instruction files. The common rules are:
+
+```markdown
+## Core Security Rules
+
+### Forbidden Actions
+- NEVER hardcode passwords, API keys, tokens, or secrets in source code
+- NEVER disable TLS/SSL verification, authentication, CSRF protection, or CORS policies
+- NEVER use `eval()`, `exec()`, `Function()`, or dynamic code execution on user input
+- NEVER read/write files outside the project directory or follow escaping symlinks
+- NEVER make outbound requests to unapproved domains
+
+### Required Practices
+- Use parameterized queries — no string concatenation in SQL
+- Validate and sanitize ALL user input at system boundaries
+- Encode output for its context (HTML, SQL, shell, URL)
+- Reference secrets via environment variables or a secrets manager
+- Handle errors explicitly — never expose stack traces to end users
+- Pin dependency versions — no ranges, no `latest`
+- Run `npm audit` / `pip audit` before committing new dependencies
+
+### Sensitive Paths — Never Read or Reference
+`.env`, `.env.*`, `secrets/`, `private/`, `*.pem`, `*.key`, `*.p12`,
+`~/.ssh/`, `~/.aws/`, `~/.config/gcloud/`, `credentials*`, `token*`
+```
+
+Adapt the wording to each file format below, but don't repeat the rules themselves.
+
+---
+
 ## Template 1 — Security-Focused `copilot-instructions.md`
 
-Place this file at `.github/copilot-instructions.md` in your repository root. It applies security rules to all GitHub Copilot interactions within the project.
+Place at `.github/copilot-instructions.md`. Applies to all GitHub Copilot interactions. Include the **Core Security Rules** above, plus these Copilot-specific additions:
 
 ```markdown
 # Copilot Instructions — Security Policy
 
-## Authentication & Authorization
-- NEVER hardcode passwords, API keys, tokens, or secrets in source code.
-- NEVER generate code that disables authentication or authorization checks.
-- Always use parameterized queries or prepared statements for database access.
-- Always validate and sanitize all user input before processing.
-- Use established authentication libraries — do not implement custom auth schemes.
+<!-- Include Core Security Rules from your organization's template -->
 
-## Secret Management
-- Reference secrets through environment variables or a secrets manager (e.g., Azure Key Vault, AWS Secrets Manager, HashiCorp Vault).
-- Use placeholder values like `<YOUR_API_KEY>` or `process.env.API_KEY` when examples require credentials.
-- Never log, print, or expose secrets in output, comments, or error messages.
-
-## Data Protection
-- Apply the principle of least privilege to all database queries and API calls.
-- Never return more data than the caller needs — avoid `SELECT *` in production code.
-- Encrypt sensitive data at rest and in transit.
-- Mask or redact PII in logs and error messages.
-
-## Dependency Security
-- Only suggest well-known, actively maintained packages.
-- Never suggest packages with known critical CVEs.
-- Pin dependency versions — avoid unversioned or `latest` tags.
-- Prefer packages with strong community adoption and security track records.
-
-## Code Quality & Safety
-- Always include error handling — never silently swallow exceptions.
-- Never disable TLS/SSL verification, even in examples.
-- Never suggest `eval()`, `exec()`, or other dynamic code execution on user input.
-- Use type-safe operations and avoid unsafe type casting.
-- Avoid deprecated functions and APIs.
-
-## Output Safety
-- Encode all output rendered in HTML to prevent XSS.
-- Set appropriate Content-Type and security headers (CSP, X-Frame-Options, etc.).
-- Sanitize data before including it in SQL, shell commands, or template strings.
-
-## File System & Network
-- Never construct file paths from raw user input — use path sanitization.
-- Validate URLs and restrict outbound network calls to allow-listed domains.
-- Never suggest disabling firewalls, CORS, or security middleware.
-
-## Compliance
-- Do not generate code that collects personal data without consent mechanisms.
-- Follow OWASP Top 10 guidelines in all generated code.
-- Include license-compatible dependencies only.
+## Copilot-Specific Rules
+- Use placeholder values like `<YOUR_API_KEY>` or `process.env.API_KEY` in examples
+- Never return more data than the caller needs — avoid `SELECT *` in production code
+- Set appropriate security headers (CSP, X-Frame-Options, HSTS)
+- Only suggest well-known, actively maintained packages
+- Follow OWASP Top 10 guidelines in all generated code
+- Include license-compatible dependencies only
 ```
 
 ---
@@ -82,91 +78,45 @@ Place this file at `.github/copilot-instructions.md` in your repository root. It
 
 ## Template 2 — `AGENTS.md` Security Section
 
-Add this section to your `AGENTS.md` file (or create one at the repository root) to govern autonomous AI agents operating on the codebase.
+Add to `AGENTS.md` at repo root to govern autonomous AI agents. Include the **Core Security Rules** above, plus these agent-specific additions:
 
 ```markdown
 # AGENTS.md — Security Rules
 
-## Mandatory Security Constraints
+<!-- Include Core Security Rules from your organization's template -->
 
-All AI agents operating in this repository MUST follow these rules without exception.
-
-### Forbidden Actions
-- **No secret exposure**: Never commit, log, print, or transmit API keys, tokens, passwords, certificates, or private keys.
-- **No security downgrades**: Never disable TLS verification, authentication checks, CSRF protection, input validation, or CORS policies.
-- **No arbitrary execution**: Never use `eval()`, `exec()`, `Function()`, `child_process.exec()` with unsanitized input, or equivalent dynamic execution in any language.
-- **No file system escapes**: Never read or write files outside the project directory. Never follow symlinks that escape the project root.
-- **No network exfiltration**: Never make outbound HTTP requests to domains not listed in the project's allow list.
-
-### Required Practices
-- **Input validation**: Validate and sanitize ALL external input before use — URL params, form data, headers, file uploads, environment variables.
-- **Output encoding**: Encode output for the correct context (HTML, SQL, shell, URL).
-- **Error handling**: Catch and handle errors explicitly. Never expose stack traces or internal paths to end users.
-- **Least privilege**: Request only the permissions, scopes, and data access needed for the task.
-- **Audit trail**: Log security-relevant actions (auth attempts, permission changes, data access) to structured logs.
+## Agent-Specific Rules
 
 ### Dependency Rules
-- Only add dependencies from the approved package registries.
-- Run `npm audit` / `pip audit` / equivalent before committing new dependencies.
-- Pin exact versions — no ranges, no `latest`.
-- New dependencies with fewer than 1,000 weekly downloads require manual security review.
-
-### File Restrictions
-Agents MUST NOT read, modify, or reference these paths:
-- `.env`, `.env.*` — environment secrets
-- `**/secrets/**`, `**/private/**` — sensitive directories
-- `**/*.pem`, `**/*.key`, `**/*.p12` — cryptographic material
-- `**/credentials*`, `**/token*` — credential files
+- New dependencies with fewer than 1,000 weekly downloads require manual security review
 
 ### Review Requirements
-- All agent-generated code MUST pass CI security checks before merge.
-- All agent-generated code MUST be reviewed by a human before deployment to production.
-- Agents MUST NOT approve their own pull requests.
+- All agent-generated code MUST pass CI security checks before merge
+- All agent-generated code MUST be reviewed by a human before deployment
+- Agents MUST NOT approve their own pull requests
 ```
 
 ---
 
 ## Template 3 — `CLAUDE.md` Security Rules
 
-Place this at the repository root as `CLAUDE.md` for projects using Anthropic's Claude (Claude Code, etc.).
+Place at repo root for Anthropic Claude (Claude Code, etc.). Include the **Core Security Rules** above, plus these Claude-specific additions:
 
 ```markdown
 # CLAUDE.md — Security Policy
 
-## Critical Rules
+<!-- Include Core Security Rules from your organization's template -->
 
-You are operating on a production codebase. Follow these rules absolutely.
-
-### Never Do These Things
-- NEVER commit, print, log, or include in comments: API keys, passwords, tokens, connection strings, private keys, or any credential material.
-- NEVER disable or weaken: SSL/TLS verification, authentication middleware, CSRF protection, input sanitization, rate limiting, or security headers.
-- NEVER execute: `eval()`, `exec()`, `subprocess.call()` with shell=True on user input, `os.system()` with unsanitized input, or any dynamic code execution.
-- NEVER access files outside the repository root. Do not follow symlinks to external paths.
-- NEVER install packages without explicit user approval. Check for known vulnerabilities before suggesting any dependency.
-
-### Always Do These Things
-- ALWAYS use parameterized queries for database access. No string concatenation in SQL.
-- ALWAYS validate and sanitize user input at the boundary where it enters the system.
-- ALWAYS encode output for its rendering context (HTML entities, URL encoding, shell escaping).
-- ALWAYS use secrets from environment variables or a secrets manager — never inline.
-- ALWAYS handle errors explicitly. Log errors to structured logging, not stdout.
-- ALWAYS apply least-privilege: request minimum scopes, query minimum data, expose minimum API surface.
+## Claude-Specific Rules
 
 ### When Generating Code
-- Include security-relevant comments explaining WHY a particular approach was chosen.
-- Flag any code that handles authentication, authorization, cryptography, or PII with a `// SECURITY:` comment.
-- If a task requires functionality that conflicts with these rules, STOP and explain the conflict. Do not silently work around security constraints.
+- Flag code handling auth, crypto, or PII with `// SECURITY:` comments
+- If a task conflicts with security rules, STOP and explain — don't silently work around
 
 ### When Reviewing Code
-- Check for: hardcoded secrets, SQL injection, XSS, CSRF, path traversal, insecure deserialization, open redirects, SSRF.
-- Verify that error messages do not leak internal details.
-- Confirm dependencies are pinned and free of known critical CVEs.
-
-### Sensitive Paths — Do Not Read or Reference
-- `.env`, `.env.local`, `.env.production`
-- `secrets/`, `private/`, `credentials/`
-- `*.pem`, `*.key`, `*.pfx`, `*.p12`
-- `~/.ssh/`, `~/.aws/`, `~/.config/gcloud/`
+- Check for: hardcoded secrets, SQL injection, XSS, CSRF, path traversal, SSRF
+- Verify error messages don't leak internal details
+- Confirm dependencies are pinned and free of known critical CVEs
 ```
 
 ---
@@ -1078,11 +1028,3 @@ Use this checklist when a new developer joins a team using AI-assisted developme
 | 9. MCP vetting checklist | Team wiki or security docs | Evaluate MCP servers |
 | 10. Incident playbook | Team wiki or runbook system | Respond to AI security events |
 | 11. Onboarding checklist | HR/onboarding system | Onboard developers securely |
-
----
-
-## Next Steps
-
-- [Troubleshooting](troubleshooting.md) — Solutions to common security configuration issues
-- [FAQ](faq.md) — Frequently asked questions about AI development security
-- [Resources](resources.md) — External tools, references, and further reading

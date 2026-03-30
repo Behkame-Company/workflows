@@ -17,7 +17,7 @@
 
 ## OAuth 2.1 Flow for MCP
 
-MCP uses OAuth 2.1 (not 2.0) with mandatory PKCE for remote server authentication:
+MCP's authorization specification is based on OAuth 2.1, which requires PKCE for all clients and deprecates the implicit grant flow. This replaces OAuth 2.0's optional PKCE and removes the implicit grant entirely.
 
 ```
 ┌────────┐     ┌─────────────────┐     ┌──────────┐     ┌──────────────┐
@@ -106,10 +106,3 @@ MCP uses OAuth 2.1 (not 2.0) with mandatory PKCE for remote server authenticatio
 3. **Tokens are secrets** — Never log, always encrypt at rest
 4. **Scope narrowly** — Request minimum necessary permissions
 5. **Dynamic registration** — New clients can register automatically
-
----
-
-## Next Steps
-
-- 🔗 [Threat Landscape](threat-landscape.md) — What can go wrong
-- 🔗 [Security Checklist](security-checklist.md) — Production audit checklist

@@ -245,16 +245,3 @@ Before merging any AI-generated code:
 - Do NOT update test expectations to match your implementation
 - Before modifying any function, find all callers first
 ```
-
----
-
-## Next Steps
-
-- [Test Maintenance](test-maintenance.md) — keeping tests healthy as code evolves
-- [Flaky Test Detection](flaky-test-detection.md) — identifying unreliable tests that mask regressions
-- [Anti-Pattern: Testing to Pass](../10-anti-patterns/testing-to-pass.md) — when AI writes tests designed to pass
-- [CI/CD Test Integration](../06-ai-qa-workflows/ci-cd-integration.md) — automating regression testing in pipelines
-
----
-
-*Part of the [Testing Strategy with AI](../README.md) series.*

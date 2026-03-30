@@ -80,10 +80,3 @@
 3. **Human reviewer sees pre-filtered PR** — Higher quality review in less time
 4. **Clear role separation** — AI handles breadth, humans handle depth
 5. **Incrementally reviews** — Each push re-triggers AI analysis
-
----
-
-## Next Steps
-
-- 🔗 [Escalation Protocols](escalation-protocols.md) — When things need human attention
-- 🔗 [Team Adoption](team-adoption.md) — Rolling out to your team

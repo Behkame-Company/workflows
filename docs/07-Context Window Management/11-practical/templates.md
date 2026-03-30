@@ -152,6 +152,8 @@ Read specific files when needed. Don't ask for file pastes.
 
 ## Template 6: Memory Bank (Minimal)
 
+These templates implement the [Memory Bank Pattern](../05-memory-and-persistence/memory-bank-pattern.md). The full pattern defines 6 core files; below is a minimal starting set — see the linked pattern for the complete structure.
+
 ```
 .github/memory-bank/
 ├── projectbrief.md        # 10 lines: what and why
@@ -159,10 +161,3 @@ Read specific files when needed. Don't ask for file pastes.
 ├── activeContext.md        # Current focus and recent changes
 └── progress.md            # Completed / in-progress / next
 ```
-
----
-
-## Next Steps
-
-- 🔗 [Troubleshooting](troubleshooting.md) — Common problems
-- 🔗 [FAQ](faq.md) — Quick answers

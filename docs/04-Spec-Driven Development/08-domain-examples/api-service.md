@@ -174,7 +174,3 @@ Update user notification preferences.
 3. **Concrete limits** — Rate limits, pagination, character counts all specified
 4. **Edge cases** — Every boundary condition has defined behavior
 5. **NFRs with numbers** — "1,000/second" not "must be scalable"
-
----
-
-*Next: [CLI Tool Spec →](cli-tool.md)*

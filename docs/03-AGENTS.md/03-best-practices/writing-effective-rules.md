@@ -202,7 +202,3 @@ Watch for what agents get wrong, then add targeted rules:
 | **Total AGENTS.md** | **50-100 lines** |
 
 Beyond ~100 lines, add more through per-directory AGENTS.md files rather than growing the root file.
-
----
-
-*Next: [Context Budget & Sizing](context-budget-and-sizing.md) →*

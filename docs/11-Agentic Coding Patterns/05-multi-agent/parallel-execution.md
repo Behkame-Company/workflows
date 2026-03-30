@@ -430,10 +430,3 @@ async def parallel_agents(tasks: list[ParallelTask]) -> list[dict]:
 4. **Always verify after merge** — parallel execution introduces subtle integration bugs
 5. **Have a sequential fallback** — if parallel fails, fall back to sequential execution
 6. **Limit parallelism** — 3-5 agents is the sweet spot; more adds diminishing returns and coordination cost
-
-## Next Steps
-
-- [Multi-Agent Patterns](./multi-agent-patterns.md) — the architectures that use parallel execution
-- [Initializer-Worker Pattern](./initializer-worker.md) — the pattern designed for parallel workers
-- [Agent Communication](./agent-communication.md) — coordinating between parallel agents
-- [Parallelization](../02-workflow-patterns/parallelization.md) — the workflow pattern for predefined parallel tasks

@@ -273,7 +273,3 @@ find . -path "./src/components/**/*.tsx" -type f
 # PowerShell equivalent
 Get-ChildItem -Path "src\components" -Recurse -Filter "*.tsx"
 ```
-
----
-
-*Next: [Prompt Files](prompt-files.md) →*

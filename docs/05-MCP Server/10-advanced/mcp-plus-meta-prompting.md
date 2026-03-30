@@ -163,10 +163,3 @@ description: "Complete bug fix workflow"
 3. **Scope in AGENTS.md** — different directories may use different servers
 4. **Automate with prompt files** — create reusable workflows combining tools
 5. **Verify with specs** — use MCP tools to validate requirements are met
-
----
-
-## Next Steps
-
-- 🔗 [Templates](../11-practical/templates.md) — Ready-to-use configuration templates
-- 🔗 [Building Your Framework](../../01-Meta-Prompting Framework & AI-Assisted Development Guide/05-meta-prompting-framework/building-your-framework.md) — Framework architecture

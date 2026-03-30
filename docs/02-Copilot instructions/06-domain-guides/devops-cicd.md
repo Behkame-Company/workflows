@@ -105,7 +105,3 @@ applyTo: "scripts/deploy*"
 | Cached dependencies | Faster CI runs |
 | Fail-fast pipeline | Quick feedback on errors |
 | Environment protection | Prevent accidental production deployments |
-
----
-
-*Next: [Real-World Examples Gallery](../07-practical/examples-gallery.md) →*

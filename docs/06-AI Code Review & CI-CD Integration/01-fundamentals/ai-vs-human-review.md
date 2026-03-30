@@ -77,10 +77,3 @@ Not all code changes need the same level of review:
 3. **The hybrid model wins** — AI filters the noise so humans focus on what matters
 4. **Route by risk** — Not every change needs the same review intensity
 5. **AI saves 30-50% of review time** — But never 100%
-
----
-
-## Next Steps
-
-- 🔗 [Terminology](terminology.md) — Key terms defined
-- 🔗 [Trust Framework](../07-human-ai-collaboration/trust-framework.md) — When to trust AI decisions

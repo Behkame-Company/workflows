@@ -83,10 +83,3 @@ Layer 5: HUMAN REVIEWERS                   → Architecture, business logic
 3. **Layered approach** — Combine formatters + linters + static analysis + AI + human review
 4. **Context-aware** — Unlike linters, AI understands intent and can reason about code
 5. **Time savings of 30-50%** — Teams report significant reduction in review cycles
-
----
-
-## Next Steps
-
-- 🔗 [Evolution of Code Review](evolution-of-code-review.md) — How we got here
-- 🔗 [AI vs Human Review](ai-vs-human-review.md) — When to use which

@@ -139,7 +139,3 @@ AGENTS.md is currently a **de facto standard** with a simple specification:
 - **Encoding**: UTF-8
 
 The AAIF may formalize a versioned specification in the future, but the current convention is intentionally minimal and flexible.
-
----
-
-*Next: [Anatomy of AGENTS.md](anatomy-of-agents-md.md) →*

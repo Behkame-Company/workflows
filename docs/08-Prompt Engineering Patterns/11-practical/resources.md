@@ -38,21 +38,3 @@
 | **Anthropic Console** | Prompt generator, templates, improver |
 | **PromptFoo** | Open-source prompt testing framework |
 | **LangSmith** | Prompt tracing and evaluation |
-
----
-
-## Related Documentation in This Project
-
-| Phase | Topic | Link |
-|-------|-------|------|
-| Phase 1 | Meta-Prompting Framework | [docs/01-Meta-Prompting Framework/](../../01-Meta-Prompting%20Framework%20%26%20AI-Assisted%20Development%20Guide/) |
-| Phase 2 | Copilot Instructions | [docs/Copilot instructions/](../../Copilot%20instructions/) |
-| Phase 3 | AGENTS.md | [docs/03-AGENTS.md/](../../03-AGENTS.md/) |
-| Phase 4 | Spec-Driven Development | [docs/04-Spec-Driven Development/](../../04-Spec-Driven%20Development/) |
-| Phase 5 | MCP Server | [docs/05-MCP Server/](../../05-MCP%20Server/) |
-| Phase 6 | AI Code Review & CI/CD | [docs/06-AI Code Review & CI-CD Integration/](../../06-AI%20Code%20Review%20%26%20CI-CD%20Integration/) |
-| Phase 7 | Context Window Management | [docs/07-Context Window Management/](../../07-Context%20Window%20Management/) |
-
----
-
-*Part of the [AI-Assisted Development Documentation](../README.md) series.*

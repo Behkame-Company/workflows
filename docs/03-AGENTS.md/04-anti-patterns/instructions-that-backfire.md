@@ -294,7 +294,3 @@ Before adding any rule to AGENTS.md, ask:
 | Does this rule conflict with any other rule? | Agent chooses randomly |
 
 If any answer is "no," refine the rule before adding it.
-
----
-
-*Next: [Security Risks](security-risks.md) →*

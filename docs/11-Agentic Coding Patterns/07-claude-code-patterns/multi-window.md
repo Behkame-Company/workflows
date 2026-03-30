@@ -276,10 +276,3 @@ Workers update their task status when done, and the integrator can check when de
 | Merge conflicts | Each worker gets its own file set |
 | Context bleed | Start fresh sessions; don't reuse |
 | Missing integration | Always have an integration step after workers finish |
-
-## Next Steps
-
-- [Claude Code Workflows](./workflows.md) — the core workflow patterns each window follows
-- [CLAUDE.md for Agentic Workflows](./claude-md-agents.md) — shared configuration all windows read
-- [Headless and CI Mode](./headless-ci.md) — automate multi-window patterns in CI
-- [Context Starvation](../10-anti-patterns/context-starvation.md) — why multi-window prevents context exhaustion

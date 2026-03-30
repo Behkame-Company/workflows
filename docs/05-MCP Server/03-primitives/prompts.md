@@ -145,10 +145,3 @@ Guides new developers through the codebase using resources and explanations.
 3. They can **embed resources** to provide context alongside instructions
 4. Use prompts for **repeatable workflows** that need consistency
 5. They complement tools and resources — shaping *how* the AI uses them
-
----
-
-## Next Steps
-
-- 🔗 [Sampling](sampling.md) — When the server needs the AI to think
-- 🔗 [Resource & Prompt Design](../05-building-servers/resource-prompt-design.md) — Building effective prompts

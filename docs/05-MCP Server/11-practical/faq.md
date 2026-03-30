@@ -67,8 +67,10 @@ Check: (1) Config file exists and has valid JSON, (2) Server command path is cor
 
 ## Security
 
+For a full treatment of trust boundaries, host mediation, and the consent framework, see [Security Model](../08-security/security-model.md).
+
 ### 16. Is MCP secure?
-MCP has a layered security model with host-mediated access, user consent, and server isolation. However, security depends on implementation — you must follow best practices (input validation, least privilege, TLS for remote).
+MCP has a layered security model with host-mediated access, user consent, and server isolation. Security depends on implementation — follow best practices (input validation, least privilege, TLS for remote). See [Security Model](../08-security/security-model.md) for details on trust layers and host responsibilities.
 
 ### 17. Can an MCP server access my private code?
 Only if you configure it to. Filesystem servers are scoped to directories you specify. The `roots` feature explicitly declares which paths a server can access.
@@ -86,10 +88,3 @@ Yes. Tool responses can contain content that tries to manipulate the AI. The hos
 
 ### 20. Can MCP servers talk to each other?
 No. Servers are isolated by design. They cannot see or communicate with other servers. Only the host can aggregate data across servers.
-
----
-
-## Next Steps
-
-- 🔗 [Resources & Further Reading](resources.md) — Links to learn more
-- 🔗 [What Is MCP?](../01-fundamentals/what-is-mcp.md) — Start from the beginning

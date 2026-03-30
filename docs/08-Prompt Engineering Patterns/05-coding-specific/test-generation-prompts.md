@@ -131,10 +131,3 @@ Each test should have ONE assertion concept (may use multiple expect() calls)
 | E2E test | Describe the user flow step by step |
 | Property-based | "Generate random inputs that satisfy [constraints]" |
 | Regression test | "Add a test that catches [specific bug] to prevent recurrence" |
-
----
-
-## Next Steps
-
-- 🔗 [Code Review Prompts](code-review-prompts.md) — AI-assisted code review
-- 🔗 [Debugging Prompts](debugging-prompts.md) — Finding bugs with AI

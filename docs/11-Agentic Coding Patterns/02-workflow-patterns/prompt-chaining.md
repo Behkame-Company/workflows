@@ -278,9 +278,3 @@ async function handleGateFailure(
 3. **Pass only relevant context forward** — don't dump the entire conversation into each step
 4. **Plan for failure** — every gate needs a failure path (retry, abort, or fallback)
 5. **Keep chains short** — 2-4 steps is typical; longer chains compound errors
-
-## Next Steps
-
-- [Routing](./routing.md) — direct different inputs to different chains
-- [Parallelization](./parallelization.md) — run independent chain steps simultaneously
-- [Evaluator-Optimizer](./evaluator-optimizer.md) — add iterative refinement loops

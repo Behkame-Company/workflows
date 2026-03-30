@@ -81,10 +81,3 @@ Track patterns (which rule types get dismissed), not individuals. Use this to tu
 
 ### Q: How often should I update review instructions?
 **Every 2 weeks** during first 3 months, then **monthly**. Review dismissed findings to find tuning opportunities.
-
----
-
-## Next Steps
-
-- 🔗 [Resources](resources.md) — Links and further reading
-- 🔗 [Templates](templates.md) — Ready-to-use configurations

@@ -307,7 +307,3 @@ Follow the pattern in #file:src/components/ExampleComponent.tsx
 5. **Leave placeholders** — `[User describes...]` for user-specific input
 6. **Use agent mode** — for multi-step tasks that need tool access
 7. **Keep focused** — one prompt = one workflow (don't combine unrelated tasks)
-
----
-
-*Next: [Organization-Level Instructions](organization-level-instructions.md) →*

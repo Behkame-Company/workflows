@@ -142,7 +142,3 @@ This took 2 minutes to write and would prevent at least 3 bugs.
 | **4 — Optimized** | Specs with quality gates and automation | "The spec drives the pipeline" |
 
 Most teams that start SDD jump from Level 0 to Level 2 within a month.
-
----
-
-*Next: [The 4-Phase Lifecycle →](../02-the-workflow/the-4-phase-lifecycle.md)*

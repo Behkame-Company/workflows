@@ -217,7 +217,3 @@ sql/
 | Logging PII | "NEVER log user email, name, or other PII" |
 | Missing validation | "All API input validated with [Zod/Pydantic/struct tags]" |
 | Sync in async | "NEVER use blocking I/O in async handlers" |
-
----
-
-*Next: [DevOps & Infrastructure](devops-infrastructure.md) →*

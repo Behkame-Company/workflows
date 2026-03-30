@@ -29,7 +29,7 @@
 
 | Date | Event |
 |------|-------|
-| **Q1 2026** | 10,000+ community MCP servers available |
+| **Q1 2026** | Thousands of community MCP servers available (estimated 10,000+ as of early 2026) |
 | **Q1 2026** | Enterprise gateway products emerge (Kong, MCPRelay, Storm MCP) |
 | **Ongoing** | Specification continues evolving (OAuth 2.1, elicitation, roots) |
 
@@ -86,7 +86,7 @@ MCP won because it offered:
 ## Ecosystem Growth
 
 ```
-MCP Servers Available (approximate):
+MCP Servers Available (rough estimates as of early 2026; exact counts unverified):
 2024 Q4:     ~50 servers
 2025 Q1:     ~500 servers
 2025 Q2:    ~2,000 servers
@@ -140,16 +140,9 @@ MCP is governed by the **Linux Foundation**, ensuring:
 
 1. MCP went from internal Anthropic project to industry standard in ~18 months
 2. Every major AI coding tool now supports MCP
-3. The ecosystem has grown to 10,000+ servers
+3. The ecosystem has grown to thousands of servers
 4. Linux Foundation governance ensures vendor neutrality
 5. The specification continues evolving with real-world needs
-
----
-
-## Next Steps
-
-- 🔗 [MCP vs Alternatives](mcp-vs-alternatives.md) — Detailed comparison with other approaches
-- 🔗 [Client Compatibility](../09-ecosystem/client-compatibility.md) — Which tools support what
 
 ---
 

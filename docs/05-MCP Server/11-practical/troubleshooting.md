@@ -130,10 +130,3 @@ Get-Process | Where-Object {$_.CommandLine -like "*mcp*"}  # Windows
 3. **Use MCP Inspector** — The official debugging tool
 4. **Check stderr** — That's where server logs go
 5. **Restart after config changes** — Clients don't always hot-reload
-
----
-
-## Next Steps
-
-- 🔗 [FAQ](faq.md) — Frequently asked questions
-- 🔗 [Testing & Debugging](../05-building-servers/testing-and-debugging.md) — Development debugging

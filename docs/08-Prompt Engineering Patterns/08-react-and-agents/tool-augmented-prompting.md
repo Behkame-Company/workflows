@@ -115,10 +115,3 @@ Don't read them sequentially — batch the reads.
 ```
 
 Anthropic notes Claude can sometimes "bottleneck system performance" with parallel bash commands — this is usually a good problem to have.
-
----
-
-## Next Steps
-
-- 🔗 [Agentic Prompting](agentic-prompting.md) — Autonomous agent patterns
-- 🔗 [ReAct Pattern](react-pattern.md) — Reasoning + Acting framework

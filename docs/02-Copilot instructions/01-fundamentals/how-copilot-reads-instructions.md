@@ -21,28 +21,9 @@ When you send a request to Copilot, it processes a **stacked prompt** with three
 └─────────────────────────────────────┘
 ```
 
-### Layer 1: System Prompt (You Can't Modify)
-
-GitHub's internal rules that govern Copilot's baseline behavior:
-- Communication style and safety policies
-- Output format constraints
-- Compliance and content filtering
-- Tool usage permissions
-
-### Layer 2: Workspace Context (Your Instruction Files)
-
-This is where your custom instructions live. Copilot assembles this from:
-
-1. **Organization instructions** (if set)
-2. **copilot-instructions.md** (always loaded for repo context)
-3. **Matching .instructions.md files** (loaded when applyTo matches current file)
-4. **Attached prompt files** (loaded when manually attached)
-5. **AGENTS.md** (loaded by Coding Agent)
-6. **Open files and workspace info** (IDE-reported context)
-
-### Layer 3: User Request (Your Prompt)
-
-Your actual question, command, or task description. This has the **highest weight** — it's the most recent and specific context.
+- **Layer 1 (System Prompt)**: GitHub's internal rules — safety, formatting, tool permissions. You can't modify this.
+- **Layer 2 (Workspace Context)**: Your instruction files — org instructions, copilot-instructions.md, matching .instructions.md, attached prompts, AGENTS.md, open files.
+- **Layer 3 (User Request)**: Your prompt. Has the **highest weight** as the most recent and specific context.
 
 ---
 
@@ -61,9 +42,9 @@ Your actual question, command, or task description. This has the **highest weigh
 
 ## The Attention Problem
 
-AI models use a mechanism called **attention** to decide which parts of their input to focus on. Key facts:
+AI models use a mechanism called **attention** to decide which parts of their input to focus on.
 
-### Primacy and Recency Bias
+### Evidence suggests: Primacy and Recency Effects
 
 ```
 [Start of context]  ← HIGH attention (primacy)
@@ -201,7 +182,3 @@ Ask Copilot to do something your instructions specifically address. Does the out
 ### Check 4: Setting Verification
 
 In VS Code: Settings → search "instruction file" → ensure "Code Generation: Use Instruction Files" is checked.
-
----
-
-*Next: [Repository-Wide Instructions](../02-file-types/repository-wide-instructions.md) →*

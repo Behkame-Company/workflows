@@ -188,12 +188,11 @@ Add 5-7 boundary rules. Start with the most dangerous actions:
 - Please try to avoid using console.log
 - It would be nice if you used TypeScript
 - We prefer named exports when possible
-- Consider adding tests for new features
 ```
 
 ### Why It Fails
 
-Agents interpret "try to," "nice if," "prefer," and "consider" as optional suggestions. Compliance drops to ~25-40%.
+Agents interpret hedging language ("try to," "prefer," "consider") as optional. Compliance drops to ~25-40%. See [Writing Effective Rules](../03-best-practices/writing-effective-rules.md) for the full compliance spectrum and high-compliance patterns.
 
 ### ✅ Fix
 
@@ -202,7 +201,6 @@ Use imperative language:
 - NEVER use console.log (use src/lib/logger)
 - Use TypeScript for all source files
 - Use named exports only
-- All new functions in src/ must have tests
 ```
 
 ---
@@ -357,7 +355,3 @@ Resolve conflicts before committing:
 | 10 | Tool-specific content | Universal rules; tool files for specifics |
 | 11 | External links | Inline the critical rules |
 | 12 | Contradictory rules | Review and resolve before committing |
-
----
-
-*Next: [Instructions That Backfire](instructions-that-backfire.md) →*

@@ -360,16 +360,3 @@ Mocking rules:
 4. **Ask for negative tests explicitly** — AI tends to generate happy paths unless you ask for errors
 5. **Specify the mock strategy** — without guidance, AI may over-mock or under-mock
 6. **Request boundary value analysis** — "test at exactly the boundary, one below, and one above"
-
----
-
-## Next Steps
-
-- [Integration Test Generation](integration-test-generation.md) — when unit tests aren't enough
-- [Edge Case Discovery](edge-case-discovery.md) — finding gaps in test coverage
-- [AI Test Generation Patterns](generation-patterns.md) — all five generation patterns
-- [Test Quality Metrics](../05-coverage-and-quality/test-quality-metrics.md) — measuring test effectiveness
-
----
-
-*Part of the [Testing Strategy with AI](../README.md) documentation series.*

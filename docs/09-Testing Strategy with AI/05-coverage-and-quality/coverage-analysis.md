@@ -259,9 +259,3 @@ it('should identify adults', () => {
 │ Verify improvement   │
 └──────────┴───────────┘
 ```
-
-## Next Steps
-
-- [Test Quality Metrics](./test-quality-metrics.md) — Go beyond coverage to measure if tests actually catch bugs
-- [Mutation Testing](./mutation-testing.md) — Test whether your assertions are strong enough to detect code changes
-- [AI-Generated Code Quality](./ai-code-quality.md) — Validate that AI code meets quality standards before it reaches production

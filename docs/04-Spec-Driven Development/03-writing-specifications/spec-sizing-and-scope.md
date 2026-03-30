@@ -175,7 +175,3 @@ Agent context budget:
 - A 200-line spec may use ~2,000 tokens alone
 - Include only relevant spec sections for each task
 - Break large specs into independently referenceable sections
-
----
-
-*Next: [The Iterative Spec →](../04-best-practices/the-iterative-spec.md)*

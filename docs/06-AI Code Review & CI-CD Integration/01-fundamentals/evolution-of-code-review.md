@@ -68,10 +68,3 @@ The modern code review pipeline:
 ## Key Takeaway
 
 Code review has evolved from a slow, manual, optional process to a fast, automated, mandatory quality gate. AI didn't replace human review — it elevated it by handling the mechanical work so humans can focus on what matters.
-
----
-
-## Next Steps
-
-- 🔗 [AI vs Human Review](ai-vs-human-review.md) — The complementary model
-- 🔗 [Review Tools](../02-review-tools/github-copilot-code-review.md) — Current tool landscape

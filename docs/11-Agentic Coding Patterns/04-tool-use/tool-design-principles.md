@@ -298,10 +298,3 @@ Use this checklist when designing or reviewing tools for coding agents:
 | **Constraints** | What mistakes are possible? Can any be prevented? | Add input validation, use absolute paths |
 | **Output size** | Can the tool flood the context window? | Add pagination, truncation |
 | **Idempotency** | Is calling the tool twice safe? | Use search-and-replace, not append |
-
-## Next Steps
-
-- [Shell and File Tools](./shell-and-file-tools.md) — applying these principles to fundamental tools
-- [Custom Tool Development](./custom-tool-development.md) — building your own tools from scratch
-- [Agent-Computer Interface](../01-fundamentals/agent-computer-interface.md) — the foundational ACI concepts
-- [MCP Tools Integration](./mcp-tools-integration.md) — extending agents with standardized tools

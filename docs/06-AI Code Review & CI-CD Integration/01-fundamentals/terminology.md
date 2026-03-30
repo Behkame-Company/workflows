@@ -65,10 +65,3 @@
 | **Continuous AI** | The paradigm of AI agents continuously monitoring and improving repositories |
 | **Self-Healing CI** | AI that diagnoses CI failures and proposes fixes automatically |
 | **Human-in-the-Loop (HITL)** | Requiring human approval for AI-proposed changes before execution |
-
----
-
-## Next Steps
-
-- 🔗 [GitHub Copilot Code Review](../02-review-tools/github-copilot-code-review.md) — The primary review tool
-- 🔗 [CI/CD Overview](../03-ci-cd-fundamentals/ci-cd-overview.md) — Pipeline fundamentals

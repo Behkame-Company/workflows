@@ -123,10 +123,3 @@ Whatever transport you use, you need reliable message framing:
 3. **Test thoroughly** — Use MCP Inspector for protocol compliance
 4. **Prefer standard transports** — Only build custom when necessary
 5. **stdio and HTTP cover 99% of cases** — Custom is for edge cases
-
----
-
-## Next Steps
-
-- 🔗 [MCP + Meta-Prompting](mcp-plus-meta-prompting.md) — Framework integration
-- 🔗 [Transport Overview](../04-transport/transport-overview.md) — Standard transports

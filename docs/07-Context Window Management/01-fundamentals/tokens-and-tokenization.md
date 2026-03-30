@@ -97,10 +97,3 @@ Different programming languages tokenize differently:
 3. **Tool outputs accumulate fast** — File reads, search results add up
 4. **Concise > verbose** — Shorter code means more room in context
 5. **Count before you send** — Use token counting APIs for precision
-
----
-
-## Next Steps
-
-- 🔗 [Context Rot](context-rot.md) — Why token count affects quality
-- 🔗 [Token Counting & Budgeting](../03-token-management/token-counting-and-budgeting.md) — Practical management

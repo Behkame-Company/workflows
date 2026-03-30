@@ -192,7 +192,3 @@ print(f"Tokens: {len(tokens)}")
 | Cursor | ~128K tokens | Keep under 400 tokens (~100 lines) |
 
 **General rule**: Keep AGENTS.md under 0.5% of the tool's context window.
-
----
-
-*Next: [Maintaining Over Time](maintaining-over-time.md) →*

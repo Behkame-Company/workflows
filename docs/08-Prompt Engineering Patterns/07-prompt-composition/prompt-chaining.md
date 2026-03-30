@@ -102,10 +102,3 @@ def generate_and_review(task: str) -> str:
 | Different expertise needed per step | Chain |
 | Task has clear sequential stages | Chain |
 | Steps are independent | Parallel prompts, not chain |
-
----
-
-## Next Steps
-
-- 🔗 [Prompt Routing](prompt-routing.md) — Directing tasks to specialized prompts
-- 🔗 [Dynamic Prompt Assembly](dynamic-prompt-assembly.md) — Building prompts from components

@@ -141,10 +141,3 @@ Workflow: Deploy updated API
 3. Both are **newer primitives** — not all clients/servers support them yet
 4. Roots prevent servers from accessing **unauthorized directories**
 5. Elicitation prevents AI from **guessing** when user choice is critical
-
----
-
-## Next Steps
-
-- 🔗 [Transport Overview](../04-transport/transport-overview.md) — How all these messages travel
-- 🔗 [Security Model](../08-security/security-model.md) — How roots enforce security boundaries

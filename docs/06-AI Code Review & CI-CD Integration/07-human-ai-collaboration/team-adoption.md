@@ -74,10 +74,3 @@ AI review is fully integrated into the workflow:
 3. **Tune continuously** — Custom instructions improve over time
 4. **Address objections proactively** — Have responses ready
 5. **Measure and share wins** — Data drives adoption
-
----
-
-## Next Steps
-
-- 🔗 [Review Instructions](../08-best-practices/review-instructions.md) — Writing custom rules
-- 🔗 [Metrics & KPIs](../08-best-practices/metrics-and-kpis.md) — Tracking effectiveness

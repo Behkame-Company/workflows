@@ -258,10 +258,3 @@ Track these metrics to ensure the human-AI balance is working:
 | Review cycle time | Decreasing | If increasing: AI creating more work than saving |
 | Post-merge bugs | Decreasing | If increasing: review depth insufficient |
 | Reviewer satisfaction | Stable/improving | If declining: review burden too high |
-
-## Next Steps
-
-- [Create PR templates for transparency →](pr-templates.md)
-- [Use detailed review checklists →](review-checklists.md)
-- [Return to the full review workflow →](ai-code-review-workflow.md)
-- [Set quality standards for AI output →](../03-standards-and-conventions/code-quality-standards.md)

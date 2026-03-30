@@ -332,16 +332,3 @@ for t in data['tests']:
             print(f\"  Error: {t['error']}\")
 "
 ```
-
----
-
-## Next Steps
-
-- [Testing Across Sessions](testing-across-sessions.md) — broader strategies for session persistence
-- [Test-First Development with AI](test-first-development.md) — the workflow that generates tests to track
-- [Coding Agent Test Verification](../06-ai-qa-workflows/agent-verification.md) — how agents use tracked test status
-- [Testing Templates](../11-practical/templates.md) — ready-to-use tests.json templates
-
----
-
-*Part of the [Testing Strategy with AI](../README.md) series.*

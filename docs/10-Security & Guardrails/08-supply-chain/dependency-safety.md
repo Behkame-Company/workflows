@@ -617,11 +617,3 @@ have confirmed it through the five-point checklist:
 Build these checks into your workflow, encode them in your instruction files, and automate
 them in your CI/CD pipeline. The few minutes spent verifying a dependency can save weeks
 of incident response.
-
----
-
-## Next Steps
-
-- [AI Supply Chain Risks](ai-supply-chain-risks.md) — Broader overview of supply chain attack vectors in AI-assisted development
-- [Model Provenance](model-provenance.md) — Understanding where AI models come from and how to verify their integrity
-- [Extension Safety](extension-safety.md) — Evaluating the security of AI-powered IDE extensions and plugins

@@ -393,10 +393,3 @@ npx tsc --noEmit
 3. **Edge case:** Run on an unusual scenario (empty input, large files)
 4. **Error case:** Introduce a deliberate error and see if the skill handles it
 5. **Team test:** Have a teammate use the skill without additional context
-
-## Next Steps
-
-- [Agent Skills Specification](./skills-spec.md) — the formal spec behind skills
-- [Custom Agent Design](./custom-agent-design.md) — design agents that use your skills
-- [Agent Composition](./agent-composition.md) — combine skills into workflows
-- [Copilot Skills](../06-copilot-agent-patterns/copilot-skills.md) — Copilot-specific skill patterns

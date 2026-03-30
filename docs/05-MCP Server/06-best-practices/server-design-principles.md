@@ -101,10 +101,3 @@ Each tool call should be independent. Don't rely on previous calls:
 | Right-size output | Don't waste the context window |
 | Be stateless | Each call is self-contained |
 | Respect security | Validate, limit, and require consent |
-
----
-
-## Next Steps
-
-- 🔗 [Tool Naming & Schemas](tool-naming-and-schemas.md) — Naming conventions
-- 🔗 [Error Handling](error-handling.md) — Advanced error patterns

@@ -243,16 +243,3 @@ pass with one of these bugs, the test is too weak.
 - After generating tests, explain what bug each test would catch
 - Never generate tests by reading the implementation and asserting its output
 ```
-
----
-
-## Next Steps
-
-- [Test-First Development with AI](../09-best-practices/test-first-development.md) — the primary fix for testing-to-pass
-- [Mutation Testing](../05-coverage-and-quality/mutation-testing.md) — automated detection of weak tests
-- [Anti-Pattern: Over-Mocking](mock-everything.md) — another way tests verify nothing
-- [Test Quality Metrics](../05-coverage-and-quality/test-quality-metrics.md) — measuring test effectiveness
-
----
-
-*Part of the [Testing Strategy with AI](../README.md) series.*

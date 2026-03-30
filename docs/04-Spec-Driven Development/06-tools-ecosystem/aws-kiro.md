@@ -111,7 +111,7 @@ Rules: Follow existing test patterns, use Vitest
 | **Task tracking** | Manual Markdown | Integrated checklist |
 | **Hooks/automation** | No | Yes (event-driven) |
 | **Steering/context** | Via copilot-instructions.md | Native steering files |
-| **Cost** | Free (open source) | Free preview, pricing TBA |
+| **Cost** | Free (open source) | Check [Kiro's official site](https://kiro.dev) for current pricing and availability |
 | **Model support** | Any AI model | Amazon Bedrock models |
 | **VS Code extensions** | N/A (editor-agnostic) | Full VS Code extension support |
 | **Maturity** | Production-ready | Preview/early access |
@@ -144,7 +144,3 @@ Rules: Follow existing test patterns, use Vitest
 4. Start a new feature: describe what you want to build
 5. Review generated specs, design, and tasks
 6. Approve and implement
-
----
-
-*Next: [Other SDD Tools →](other-tools.md)*

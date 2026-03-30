@@ -61,42 +61,7 @@ Poor state management manifests as agents that:
 
 ## The State Management Stack
 
-```
-Layer 1: Git History         → What changed and when
-Layer 2: Feature List        → What's done and what's not
-Layer 3: Progress Notes      → What happened each session
-Layer 4: Active Context      → Current working state
-Layer 5: Decision Log        → Why things were done this way
-```
-
-All five layers together give a new agent session complete state recovery.
-
----
-
-## Prevention: The State Protocol
-
-```markdown
-## Agent State Protocol
-
-### Start of Session
-1. Read progress.txt → Know what was done
-2. Read feature_list.json → Know the scope
-3. git log --oneline -20 → See recent changes
-4. Start dev server → Verify it works
-5. Run basic test → Catch regressions
-
-### During Session
-6. Work on ONE feature at a time
-7. Commit after each feature
-8. Update feature_list.json status
-9. Update progress.txt with notes
-
-### End of Session
-10. Finish or revert current work (never leave broken)
-11. Write handoff notes to progress.txt
-12. Final commit: "session-end: update progress"
-13. Verify app is in working state
-```
+Effective state management requires multiple layers — git history, feature lists, progress notes, active context, and decision logs. See [Cross-Session State](../05-memory-and-persistence/cross-session-state.md) for the full state management protocol.
 
 ---
 
@@ -107,10 +72,3 @@ All five layers together give a new agent session complete state recovery.
 3. **Clean commits are checkpoints** — Always recoverable
 4. **Handoff protocol is mandatory** — Never end a session without writing state
 5. **All 5 layers work together** — Git + features + progress + context + decisions
-
----
-
-## Next Steps
-
-- 🔗 [Templates](../11-practical/templates.md) — Ready-to-use state management files
-- 🔗 [State Handoff Strategies](../06-multi-window-workflows/state-handoff-strategies.md) — Clean transitions

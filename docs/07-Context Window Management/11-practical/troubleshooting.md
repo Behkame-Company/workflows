@@ -95,10 +95,3 @@
 3. **Persistent files are insurance** — Decisions and progress survive resets
 4. **New conversations are free** — Don't cling to polluted context
 5. **Monitor utilization** — Catch problems before they manifest
-
----
-
-## Next Steps
-
-- 🔗 [FAQ](faq.md) — Quick answers
-- 🔗 [Resources](resources.md) — Further reading

@@ -112,10 +112,3 @@ See .github/memory-bank/activeContext.md
 3. **Explicit > implicit** — Reference files explicitly, don't rely on auto-detection
 4. **New conversations are free** — Start fresh for new tasks
 5. **The principles are the same** — MVC, JIT retrieval, hygiene apply everywhere
-
----
-
-## Next Steps
-
-- 🔗 [Context Stuffing](../10-anti-patterns/context-stuffing.md) — The #1 anti-pattern
-- 🔗 [Templates](../11-practical/templates.md) — Ready-to-use configurations

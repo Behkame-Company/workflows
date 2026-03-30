@@ -461,10 +461,3 @@ if __name__ == "__main__":
 | **MCP servers** | Cross-tool capabilities, team sharing | Days | Any MCP client |
 
 **Rule of thumb**: Start with a shell script. If the agent uses it successfully but the setup is complex, upgrade to a skill or MCP server.
-
-## Next Steps
-
-- [Tool Design Principles](./tool-design-principles.md) — design principles for any custom tool
-- [MCP Tools Integration](./mcp-tools-integration.md) — using MCP tools in agent workflows
-- [Shell and File Tools](./shell-and-file-tools.md) — the built-in tools your custom tools extend
-- [Agent-Computer Interface](../01-fundamentals/agent-computer-interface.md) — the theory behind tool design

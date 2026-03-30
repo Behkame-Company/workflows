@@ -96,11 +96,3 @@ For streaming responses:
 3. **stdio for local, HTTP for remote** — Simple rule that covers 99% of cases
 4. **Always use TLS for HTTP** — Never expose MCP servers over unencrypted HTTP
 5. **Custom transports are allowed** — As long as they follow JSON-RPC lifecycle rules
-
----
-
-## Next Steps
-
-- 🔗 [STDIO Transport](stdio.md) — Local subprocess communication
-- 🔗 [Streamable HTTP](streamable-http.md) — The modern remote transport
-- 🔗 [SSE (Deprecated)](sse-deprecated.md) — Migration guide

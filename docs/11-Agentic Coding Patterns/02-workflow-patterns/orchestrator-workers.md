@@ -322,9 +322,3 @@ async function iterativeOrchestrator(task: string) {
 4. **Handle partial failure gracefully** — some workers may fail; the orchestrator decides how to proceed
 5. **Verify after synthesis** — run tests and checks after combining worker results
 6. **Limit worker count** — too many workers increases coordination cost and error probability
-
-## Next Steps
-
-- [Evaluator-Optimizer](./evaluator-optimizer.md) — add quality loops to orchestrated work
-- [Parallelization](./parallelization.md) — for when subtasks are known in advance
-- [When to Go Agentic](../01-fundamentals/when-to-go-agentic.md) — deciding between orchestrator and simpler patterns

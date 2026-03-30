@@ -250,7 +250,3 @@ values/
 | Unpinned actions | "Pin all GitHub Actions with SHA, never @main" |
 | Direct production changes | "NEVER modify production without review and approval" |
 | Local state files | "NEVER store Terraform state locally" |
-
----
-
-*Next: [Real-World Examples Gallery](../08-practical/examples-gallery.md) →*

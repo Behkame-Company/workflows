@@ -125,10 +125,3 @@ Step 3: Use code to delegate to Agent C → Returns test results
 3. **Parallelize independent work** — Explore agents are safe to parallelize
 4. **Keep iterative judgment tasks** — Don't delegate what needs ongoing decisions
 5. **Return summaries, not dumps** — Sub-agents compress, lead agent decides
-
----
-
-## Next Steps
-
-- 🔗 [Multi-Agent Context Coordination](multi-agent-context-coordination.md) — Orchestrating agents
-- 🔗 [Minimal Viable Context](../09-best-practices/minimal-viable-context.md) — The guiding principle

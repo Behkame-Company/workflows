@@ -97,10 +97,3 @@ Phase 4: Read related code → Root cause (500 tokens)
 3. **8x-10x token savings** — Compared to flat loading
 4. **Natural for agents** — Mirrors how humans investigate code
 5. **Combine with search** — glob/grep identify where to dive deep
-
----
-
-## Next Steps
-
-- 🔗 [Context Isolation with Sub-Agents](../08-sub-agent-architectures/context-isolation-with-subagents.md) — Per-task context
-- 🔗 [Minimal Viable Context](../09-best-practices/minimal-viable-context.md) — The guiding principle

@@ -282,7 +282,3 @@ Layer 4: CI checks (linting, testing, security scanning)
 Layer 5: No auto-merge for Coding Agent PRs
 Layer 6: Periodic security audits of instruction files
 ```
-
----
-
-*Next: [Coding Agent Instructions](../05-advanced/coding-agent-instructions.md) →*

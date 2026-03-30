@@ -247,7 +247,3 @@ As a [role], I want [goal], so that [benefit].
 2. **Adapt to your project** — Add sections for your domain (compliance, i18n, etc.)
 3. **Start with Template 5** — If new to SDD, use the lightweight template until comfortable.
 4. **Version your templates** — When you improve a template, update it in `.specify/templates/`.
-
----
-
-*Next: [Examples Gallery →](examples-gallery.md)*

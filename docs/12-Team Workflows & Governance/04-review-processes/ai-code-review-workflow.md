@@ -2,6 +2,8 @@
 
 > A modified review process for AI-generated code. Traditional review focuses on "what the developer intended." AI review focuses on "what was actually generated" — because AI code is often syntactically perfect but logically subtle.
 
+> For comprehensive AI code review tool guides and CI/CD integration, see [Section 06: AI Code Review](../../06-AI%20Code%20Review%20&%20CI-CD%20Integration/). This guide covers the **team workflow perspective**.
+
 ---
 
 ## Why AI Code Review Is Different
@@ -241,10 +243,3 @@ Developer creates PR with AI-generated code
 | Extra large (500+ lines) | Major feature | Split the PR |
 
 > **Tip:** AI-generated PRs larger than 500 lines should be split into smaller, reviewable chunks.
-
-## Next Steps
-
-- [Understand the human-AI review balance →](human-ai-review-balance.md)
-- [Use PR templates for AI-assisted work →](pr-templates.md)
-- [Apply review checklists →](review-checklists.md)
-- [Set code quality standards →](../03-standards-and-conventions/code-quality-standards.md)

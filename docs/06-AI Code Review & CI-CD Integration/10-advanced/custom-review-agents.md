@@ -117,10 +117,3 @@ reviewServer.setRequestHandler(CallToolRequestSchema, async (request) => {
 3. **GitHub Actions is the integration point** — PR events trigger your agent
 4. **MCP enables tool access** — Give AI reviewer access to internal systems
 5. **Start simple** — Comment-based review, then upgrade to inline suggestions
-
----
-
-## Next Steps
-
-- 🔗 [Review + Meta-Prompting](review-plus-meta-prompting.md) — Full integration
-- 🔗 [Enterprise at Scale](enterprise-review-at-scale.md) — Deploying custom agents org-wide

@@ -122,7 +122,3 @@ Even a personal project benefits from specs when you return to it after a week. 
 
 ### "AI can figure out what I mean"
 AI agents perform measurably better with explicit specs. A 2025 GitHub study showed **40% fewer revision cycles** when using spec-driven workflows.
-
----
-
-*Next: [SDD vs TDD vs BDD →](sdd-vs-tdd-vs-bdd.md)*

@@ -309,9 +309,3 @@ Boundaries to test:
 Use beforeAll for container setup, beforeEach for data cleanup.
 Include both happy path and error scenarios.
 ```
-
-## Next Steps
-
-- [E2E Testing](./e2e-testing.md) — Test complete user workflows through the full application stack
-- [Unit Testing](./unit-testing.md) — Complement integration tests with fast, focused unit tests
-- [Coverage Analysis](../05-coverage-and-quality/coverage-analysis.md) — Measure how well your integration tests cover real code paths

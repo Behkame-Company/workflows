@@ -37,13 +37,7 @@
 └─────────────────────────────────────────────┘
 ```
 
----
-
-## Org-Level Instruction Strategy
-
-### What to Put at Org Level
-
-Only rules that apply to **100% of repositories**:
+**Tier 1 — Org-level rules** should only cover what applies to **100% of repositories**:
 
 ```markdown
 ## Security (Universal)
@@ -57,12 +51,7 @@ Only rules that apply to **100% of repositories**:
 - All public APIs must have documentation
 ```
 
-### What NOT to Put at Org Level
-
-- Framework-specific rules (not all repos use React)
-- Package manager preferences (not all repos use pnpm)
-- Deployment commands (differ per repo)
-- Detailed coding conventions (vary by language/team)
+**Do not put at org level**: framework-specific rules, package manager preferences, deployment commands, or detailed coding conventions — these vary by language, team, and repo.
 
 ---
 
@@ -231,7 +220,3 @@ Support: #copilot-instructions Slack channel.
 
 Questions? Reach out to the platform team.
 ```
-
----
-
-*Next: [Frontend & React Domain Guide](../06-domain-guides/frontend-react.md) →*

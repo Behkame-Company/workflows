@@ -167,7 +167,3 @@ AGENTS.md                        ← All tools read this
 | Ask agent to modify protected directory | Should refuse per AGENTS.md boundary |
 
 Run these tests with each tool your team uses to verify consistent behavior.
-
----
-
-*Next: [AGENTS.md vs CLAUDE.md vs .cursorrules](comparison-guide.md) →*

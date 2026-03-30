@@ -77,10 +77,3 @@ Monthly exercise where a developer intentionally introduces subtle bugs:
 3. **Test AI coverage** — Red team exercises reveal gaps
 4. **Rotate reviewers** — Prevent rubber-stamping
 5. **"AI didn't flag it" is not an excuse** — Humans own the final decision
-
----
-
-## Next Steps
-
-- 🔗 [Review Theater](review-theater.md) — Reviews that look good but catch nothing
-- 🔗 [Trust Framework](../07-human-ai-collaboration/trust-framework.md) — Calibrating trust

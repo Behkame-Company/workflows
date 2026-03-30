@@ -10,21 +10,10 @@ Monorepos contain multiple projects, languages, and teams. A single copilot-inst
 
 ```
 monorepo/
-├── apps/
-│   ├── web/          # Next.js frontend
-│   ├── mobile/       # React Native app
-│   └── admin/        # Internal dashboard
-├── packages/
-│   ├── ui/           # Shared component library
-│   ├── api-client/   # Generated API client
-│   └── config/       # Shared configurations
-├── services/
-│   ├── api/          # Express.js API
-│   ├── workers/      # Background job processors
-│   └── gateway/      # API gateway
-└── infrastructure/
-    ├── terraform/    # Cloud infrastructure
-    └── k8s/          # Kubernetes configs
+├── apps/           # web, mobile, admin (frontend apps)
+├── packages/       # ui, api-client, config (shared libraries)
+├── services/       # api, workers, gateway (backend services)
+└── infrastructure/ # terraform, k8s (cloud/deploy configs)
 ```
 
 ---
@@ -134,15 +123,7 @@ Express.js, Prisma ORM, PostgreSQL.
 
 ## Glob Patterns for Monorepo Structures
 
-| Pattern | Matches |
-|---------|---------|
-| `"apps/web/**"` | Everything in the web app |
-| `"apps/**/*.tsx"` | React components in all apps |
-| `"services/**/*.ts"` | TypeScript files in all services |
-| `"packages/ui/src/**"` | UI library source code |
-| `"**/*.test.{ts,tsx}"` | Test files everywhere |
-| `"infrastructure/**"` | All infrastructure configs |
-| `"**/prisma/**"` | Prisma files in any package |
+For glob pattern syntax and examples, see [Path-Specific Instructions](../02-file-types/path-specific-instructions.md#glob-patterns).
 
 ---
 
@@ -197,7 +178,3 @@ to test all downstream consumers.
 | Cross-package import violations | Creates circular dependencies | Document import boundaries explicitly |
 | Global "Do Not" rules that are too broad | "Never use default exports" breaks Next.js pages | Make domain-specific exceptions |
 | No shared convention documentation | Each package reinvents patterns | Document shared conventions in root file |
-
----
-
-*Next: [Enterprise & Org Strategies](enterprise-strategies.md) →*

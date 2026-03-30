@@ -270,16 +270,3 @@ git log --oneline --name-only | head -20
 - Never change test expectations to match implementation
 - Run the full test suite after any change
 ```
-
----
-
-## Next Steps
-
-- [TDD Workflow with AI Agents](../02-tdd-with-ai/tdd-workflow.md) — the complete TDD cycle with AI
-- [Writing Tests First for AI](../02-tdd-with-ai/writing-tests-first.md) — detailed guide on writing tests AI can implement to
-- [Test Prompt Patterns](prompt-patterns.md) — effective prompts for test generation
-- [Anti-Pattern: Testing to Pass](../10-anti-patterns/testing-to-pass.md) — what happens without test-first
-
----
-
-*Part of the [Testing Strategy with AI](../README.md) series.*

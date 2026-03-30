@@ -228,9 +228,3 @@ Copilot-generated tests can have issues:
 │  confidence          │
 └─────────────────────┘
 ```
-
-## Next Steps
-
-- 🔗 [Testing with Claude Code](claude-code-testing.md) — Alternative AI testing workflows
-- 🔗 [CI/CD Integration](ci-cd-integration.md) — Running AI-generated tests in pipelines
-- 🔗 [AI Agent Verification Loops](agent-verification.md) — Ensuring agents verify their own changes

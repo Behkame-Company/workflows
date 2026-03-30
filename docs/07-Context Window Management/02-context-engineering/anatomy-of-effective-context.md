@@ -114,10 +114,3 @@ Think of the model's attention as a fixed budget:
 3. **Targeted retrieval** — Don't read entire files when snippets suffice
 4. **Structured over prose** — Tables and lists use fewer tokens
 5. **Reserve output budget** — Don't fill the window completely
-
----
-
-## Next Steps
-
-- 🔗 [System Prompt Optimization](system-prompt-optimization.md) — Deep dive on instructions
-- 🔗 [Tool Design for Context Efficiency](tool-design-for-context-efficiency.md) — Token-efficient tools

@@ -156,26 +156,7 @@ Before merging, verify:
 
 ## The Constitution (Phase 0)
 
-Before starting any specs, define your project's **constitution** — the invariant principles:
-
-```markdown
-## Project Constitution
-
-### Design Principles
-- Library-first: All features must work as standalone libraries
-- Mobile-first: Responsive design as default
-- Accessibility: WCAG 2.1 AA compliance required
-
-### Technology Constraints
-- Frontend: React 19 + TypeScript 5
-- Backend: Node.js 22 + Fastify
-- Database: PostgreSQL 16
-
-### Quality Standards
-- Test coverage: >80% for all new code
-- No `any` types in TypeScript
-- All API endpoints documented with OpenAPI
-```
+Before starting any specs, define your project's **constitution** — the invariant design principles, technology constraints, and quality standards that apply to every feature. See [The Constitution](the-constitution.md) for the full guide and template.
 
 ---
 
@@ -211,7 +192,3 @@ When implementation reveals new information:
 | Medium feature | 2 hours | 1 hour | 30 min | Days |
 | Large feature | 1 day | Half day | 2 hours | Weeks |
 | System redesign | Days | Days | 1 day | Months |
-
----
-
-*Next: [Phase 1: Specify →](phase-specify.md)*

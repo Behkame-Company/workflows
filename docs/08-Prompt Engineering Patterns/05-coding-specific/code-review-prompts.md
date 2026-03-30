@@ -120,10 +120,3 @@ When reviewing code:
 - Flag missing error handling on async operations as high severity
 - Flag unvalidated user input on API boundaries as critical
 ```
-
----
-
-## Next Steps
-
-- 🔗 [Code Generation Prompts](code-generation-prompts.md) — Writing code with AI
-- 🔗 [Clarity & Specificity](../09-best-practices/clarity-and-specificity.md) — Precision techniques

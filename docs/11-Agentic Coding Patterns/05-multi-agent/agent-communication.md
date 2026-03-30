@@ -426,10 +426,3 @@ async function readMessages(agentId: string): Promise<any[]> {
 4. **Design for idempotency** — agents may read the same file twice; ensure this is safe.
 5. **Keep messages small** — large messages eat into the receiving agent's context window.
 6. **Test the communication** — verify that Agent B can actually use what Agent A produces.
-
-## Next Steps
-
-- [Multi-Agent Patterns](./multi-agent-patterns.md) — the architectures these channels support
-- [Initializer-Worker Pattern](./initializer-worker.md) — the pattern that relies most on file-based communication
-- [Parallel Agent Execution](./parallel-execution.md) — coordinating concurrent agents
-- [Tool Design Principles](../04-tool-use/tool-design-principles.md) — designing the tools agents communicate through

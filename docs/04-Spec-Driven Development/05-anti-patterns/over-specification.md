@@ -153,7 +153,3 @@ Create a condensed version with only the critical information. Keep the full spe
 
 ### 3. Establish Size Guidelines
 Set team-wide limits on spec length. Make it a review criterion.
-
----
-
-*Next: [GitHub Spec Kit →](../06-tools-ecosystem/github-spec-kit.md)*

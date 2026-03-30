@@ -108,10 +108,3 @@ Spec (requirements.md)
 3. **Spec is the source of truth** — Generation, review, and testing all reference it
 4. **Memory bank captures patterns** — Cross-session learning for review tuning
 5. **This is the meta-prompting advantage** — Holistic framework, not isolated tools
-
----
-
-## Next Steps
-
-- 🔗 [Templates](../11-practical/templates.md) — Ready-to-use configurations
-- 🔗 [FAQ](../11-practical/faq.md) — Common questions answered

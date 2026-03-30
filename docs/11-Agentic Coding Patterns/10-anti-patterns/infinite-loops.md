@@ -296,10 +296,3 @@ Include this in your agent configuration:
    - If no different approach exists, report the issue
 5. Budget awareness: you have ~50 tool calls per task. Spend them wisely
 ```
-
-## Next Steps
-
-- [Over-Engineering](./over-engineering.md) — complexity that leads to harder-to-debug loops
-- [Context Starvation](./context-starvation.md) — loops that exhaust context windows
-- [Blind Delegation](./blind-delegation.md) — when loops go undetected due to lack of verification
-- [Evaluator-Optimizer Pattern](../02-workflow-patterns/evaluator-optimizer.md) — building loops that actually converge

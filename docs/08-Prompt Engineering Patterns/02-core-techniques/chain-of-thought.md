@@ -165,11 +165,3 @@ response = client.messages.create(
 | Copilot Chat / CLI | Manual CoT ("think step by step") |
 | Need to see reasoning | Manual CoT with `<thinking>` tags |
 | Quick simple tasks | Neither — just ask directly |
-
----
-
-## Next Steps
-
-- 🔗 [Role Prompting](role-prompting.md) — Combining CoT with expertise personas
-- 🔗 [Tree of Thought](../04-advanced-patterns/tree-of-thought.md) — Branching reasoning paths
-- 🔗 [Self-Consistency](../04-advanced-patterns/self-consistency.md) — Multiple CoT paths with voting

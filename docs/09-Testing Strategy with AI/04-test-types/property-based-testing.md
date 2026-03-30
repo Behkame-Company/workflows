@@ -259,9 +259,3 @@ def test_csv_round_trip(fields):
 | **Commutativity** | Order doesn't matter | `merge(a, b) === merge(b, a)` |
 | **Monotonicity** | Larger input → larger output | `if a ≤ b then f(a) ≤ f(b)` |
 | **Hard to compute, easy to verify** | Check the answer not the process | Verify sorted output is ordered |
-
-## Next Steps
-
-- [Unit Testing](./unit-testing.md) — Combine property tests with traditional example-based unit tests
-- [Mutation Testing](../05-coverage-and-quality/mutation-testing.md) — Verify that your property tests actually catch real bugs
-- [Test Quality Metrics](../05-coverage-and-quality/test-quality-metrics.md) — Measure the effectiveness of your property-based test suite

@@ -141,7 +141,3 @@ When using any AI tool, include constitution context:
 2. Team reviews (like any code change)
 3. Update all affected specs if necessary
 4. Communicate change to team
-
----
-
-*Next: [Quality Gates →](quality-gates.md)*

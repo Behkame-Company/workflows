@@ -239,10 +239,3 @@ Claude Code also builds **auto-memory** — preferences it deduces from your int
 3. **Use concrete examples** — "Follow the pattern in `src/services/OrderService.ts`"
 4. **Commit frequently** — ask Claude to commit at stable checkpoints
 5. **Break large tasks** — one feature per session keeps context focused
-
-## Next Steps
-
-- [CLAUDE.md for Agentic Workflows](./claude-md-agents.md) — optimize your CLAUDE.md for agent performance
-- [Multi-Window Development](./multi-window.md) — run parallel Claude Code sessions
-- [Headless and CI Mode](./headless-ci.md) — automate Claude Code in CI pipelines
-- [Start Simple](../09-best-practices/start-simple.md) — choose the right level of complexity

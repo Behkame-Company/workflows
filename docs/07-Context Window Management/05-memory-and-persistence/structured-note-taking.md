@@ -125,10 +125,3 @@ At the end of a session, write a handoff note summarizing:
 3. **Prompt for note-taking** — Models don't do this automatically
 4. **Update continuously** — Not just at session end
 5. **Notes enable multi-session work** — The bridge between context windows
-
----
-
-## Next Steps
-
-- 🔗 [Memory Bank Pattern](memory-bank-pattern.md) — Cline's approach
-- 🔗 [Cross-Session State](cross-session-state.md) — Full state management

@@ -121,7 +121,3 @@ Requires: Python 3.11+, Git, [uv](https://docs.astral.sh/uv/) package manager.
 - [Spec Kit Quick Start](https://github.github.com/spec-kit/quickstart.html)
 - [SDD Methodology (Full)](https://github.com/github/spec-kit/blob/main/spec-driven.md)
 - [Martin Fowler: Understanding SDD Tools](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html)
-
----
-
-*Next: [Templates](../07-templates/) →*

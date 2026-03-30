@@ -186,7 +186,3 @@ AGENTS.md should only be modified by humans through reviewed PRs.
 | Where to start? | Setup commands + 5 boundaries |
 | When to split? | When root file exceeds 150 lines (monorepo) |
 | What if it's not working? | See [Troubleshooting Guide](troubleshooting.md) |
-
----
-
-*Next: [Audit Checklist](audit-checklist.md) →*

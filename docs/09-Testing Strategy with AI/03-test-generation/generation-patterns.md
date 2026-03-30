@@ -424,16 +424,3 @@ For complex features, combine patterns for thorough coverage:
 4. Use Pattern 4 (Bug Report) as bugs surface
 5. Retrofit with Pattern 2 (Existing Code) for untested code
 ```
-
----
-
-## Next Steps
-
-- [Unit Test Generation](unit-test-generation.md) — deep dive into unit test generation
-- [Integration Test Generation](integration-test-generation.md) — generating tests across boundaries
-- [Edge Case Discovery](edge-case-discovery.md) — AI-powered edge case identification
-- [Spec-Driven Testing](../02-tdd-with-ai/spec-driven-testing.md) — full spec-to-test pipeline
-
----
-
-*Part of the [Testing Strategy with AI](../README.md) documentation series.*

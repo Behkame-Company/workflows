@@ -168,14 +168,13 @@ Found 142 results (showing 1-20). Use page=2 to see more.
 
 ## Anti-Patterns to Avoid
 
+For naming conventions and schema design principles, see [Tool Naming & Schemas](../06-best-practices/tool-naming-and-schemas.md).
+
 | Anti-Pattern | Problem | Fix |
 |-------------|---------|-----|
 | **Too many tools** | AI can't choose correctly with 50+ tools | Keep under 10-15; use multiple servers |
-| **Generic tool names** | `process`, `handle`, `do_thing` | Use specific verbs: `search_issues`, `deploy_service` |
-| **Deep nested schemas** | LLMs struggle with `config.output.format.type` | Flatten to top-level parameters |
 | **No error context** | `"Error: 400"` | `"Error: Repository not found. Check owner/repo format."` |
 | **Raw data dumps** | Returning 10,000-line JSON | Summarize, paginate, or filter |
-| **Boolean overload** | 5+ boolean flags | Use enum: `mode: "fast" | "thorough" | "quick-scan"` |
 
 ---
 
@@ -186,10 +185,3 @@ Found 142 results (showing 1-20). Use page=2 to see more.
 3. **Contextual errors** — Tell the AI what went wrong and what to try
 4. **Progressive disclosure** — Broad search → specific details
 5. **Under 10-15 tools** per server — keep focused
-
----
-
-## Next Steps
-
-- 🔗 [Resource & Prompt Design](resource-prompt-design.md) — Design resources and prompts
-- 🔗 [Tool Naming & Schemas](../06-best-practices/tool-naming-and-schemas.md) — Naming conventions

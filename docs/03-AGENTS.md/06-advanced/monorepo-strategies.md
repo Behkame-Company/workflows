@@ -223,7 +223,3 @@ packages/
 | Duplicate rules in every package | Maintenance nightmare; drift | Universal rules in root only |
 | Cross-package import rules missing | Agent imports between apps | Add boundary: "NEVER import between apps/" |
 | Wrong filter/scope in commands | Agent runs wrong package's tests | Use explicit `--filter` or `--scope` flags |
-
----
-
-*Next: [Specialized Agent Personas](specialized-personas.md) →*

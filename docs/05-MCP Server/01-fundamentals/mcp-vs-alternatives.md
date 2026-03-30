@@ -118,11 +118,4 @@ Decision Tree:
 
 ---
 
-## Next Steps
-
-- 🔗 [Key Terminology](terminology.md) — Learn the MCP vocabulary
-- 🔗 [The Client-Host-Server Model](../02-architecture/client-host-server.md) — Understand the architecture
-
----
-
 *"Function calling is a feature. MCP is a standard."*

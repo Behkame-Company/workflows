@@ -102,10 +102,3 @@ Do not comment on these.
 3. **Use "chill" mode** — Start conservative, add strictness as needed
 4. **Measure weekly** — Track false positive and acceptance rates
 5. **Tune continuously** — Instructions are living documents
-
----
-
-## Next Steps
-
-- 🔗 [Incremental Adoption](incremental-adoption.md) — Phased rollout plan
-- 🔗 [Metrics & KPIs](metrics-and-kpis.md) — Full KPI tracking

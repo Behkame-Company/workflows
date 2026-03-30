@@ -317,7 +317,3 @@ You create safe, reversible database migrations.
 3. **Shared base** — root AGENTS.md for universal rules, personas for role-specific
 4. **Test each persona** — verify it follows its constraints before deploying
 5. **Iterate** — refine personas based on observed behavior
-
----
-
-*Next: [Multi-Agent Architecture](multi-agent-architecture.md) →*

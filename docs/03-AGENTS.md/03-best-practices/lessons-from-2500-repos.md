@@ -158,7 +158,3 @@ Based on the study, the most effective AGENTS.md files include these sections (i
 3. **If your AGENTS.md is > 6 months old**: Audit and update
 4. **If you have no boundaries**: Add 5-7 "NEVER" rules immediately
 5. **If you have no code examples**: Add 1-2 showing your preferred patterns
-
----
-
-*Next: [Writing Effective Rules](writing-effective-rules.md) →*

@@ -116,10 +116,3 @@ Don't provide 50 tools when 10 will do:
 3. **Clear old results** — Tool outputs from 10 turns ago are rarely needed
 4. **Concise tool definitions** — Every tool schema costs tokens each turn
 5. **Fewer, better tools** — 10 clear tools > 50 overlapping tools
-
----
-
-## Next Steps
-
-- 🔗 [Token Counting & Budgeting](../03-token-management/token-counting-and-budgeting.md) — Measure and plan
-- 🔗 [Just-in-Time Retrieval](../07-context-retrieval/just-in-time-retrieval.md) — Load on demand

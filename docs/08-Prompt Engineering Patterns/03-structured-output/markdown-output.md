@@ -110,10 +110,3 @@ Write a changelog entry for version 2.3.0 in Keep a Changelog format:
 | Match prompt style to output style | Markdown-free prompt → less markdown in response |
 | Show the template | Filling a template is more reliable than generating from description |
 | Specify what to include AND exclude | "Include examples. Do not include installation for every OS." |
-
----
-
-## Next Steps
-
-- 🔗 [Templates](../11-practical/templates.md) — Ready-to-use prompt templates
-- 🔗 [JSON Output Patterns](json-output-patterns.md) — When you need structured data instead

@@ -544,38 +544,3 @@ more interesting and impactful — not to reduce our team.
 
 [Signed by engineering leadership]
 ```
-
----
-
-## Next Steps
-
-### Related Anti-Patterns
-
-- [Cowboy AI Development](./cowboy-ai-development.md) — What happens when you ignore the human side and just focus on speed
-- [AI Gatekeeping](./ai-gatekeeping.md) — Another way organizations fail people: by restricting instead of enabling
-- [Metrics Theater](./metrics-theater.md) — Measuring adoption rates instead of human experience
-
-### Culture & Onboarding
-
-- [Building an AI-First Culture](../01-fundamentals/ai-first-culture.md) — Building a healthy cultural foundation
-- [Developer Onboarding](../02-onboarding/developer-onboarding.md) — Human-centered onboarding to AI tools
-- [Role of the Team Lead](../01-fundamentals/role-of-team-lead.md) — Leading AI adoption with empathy
-- [Why Team Workflows Matter](../01-fundamentals/why-team-workflows-matter.md) — The team dimension of AI adoption
-
-### Adoption & Best Practices
-
-- [Gradual Adoption](../09-best-practices/gradual-adoption.md) — Starting small and scaling what works
-- [Champion Network](../05-scaling-ai-across-teams/champion-network.md) — Building internal advocates who support peers
-- [Feedback Loops](../09-best-practices/feedback-loops.md) — Continuous improvement based on team experience
-- [Community of Practice](../08-knowledge-sharing/community-of-practice.md) — Building an internal support community
-
-### Measurement & Governance
-
-- [Measuring AI Impact](../07-metrics-and-measurement/measuring-ai-impact.md) — Metrics that include the human dimension
-- [AI Usage Policy](../06-governance-and-policies/ai-usage-policy.md) — Policy that respects developer autonomy
-- [Troubleshooting](../11-practical/troubleshooting.md) — Common adoption issues and human-centered solutions
-- [FAQ](../11-practical/faq.md) — Frequently asked questions about AI and team dynamics
-
----
-
-*The most sophisticated AI tools in the world won't help a team that doesn't want to use them. Address the human side first — the technology adoption follows naturally.*

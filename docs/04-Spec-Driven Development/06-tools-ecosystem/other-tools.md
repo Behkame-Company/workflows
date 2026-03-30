@@ -117,7 +117,3 @@ The industry is converging on spec-driven approaches. Every major AI coding tool
 | Want maximum flexibility | DIY with Markdown |
 | Are just starting with SDD | intent-driven.dev philosophy + Spec Kit |
 | Use multiple AI tools | Spec Kit (tool-agnostic) |
-
----
-
-*Next: [Tool Comparison Matrix →](tool-comparison.md)*

@@ -275,16 +275,3 @@ Found a great resource? Help keep this list current:
 2. **Include:** Title, URL, one-line description, and recommended level (🟢/🔵/🟣)
 3. **Quality bar:** Only recommend resources you've personally used and found valuable
 4. **Remove stale resources:** If a link is broken or content is outdated, submit a removal PR
-
----
-
-## Next Steps
-
-- **[Templates Collection](./templates.md)** — Put these resources into action with ready-made templates
-- **[Troubleshooting Guide](./troubleshooting.md)** — When you need practical problem-solving, not more reading
-- **[FAQ](./faq.md)** — Quick answers to common questions before diving into deep resources
-- **[Why Team Workflows Matter](../01-fundamentals/why-team-workflows-matter.md)** — Start with the strategic context
-- **[Developer Onboarding](../02-onboarding/developer-onboarding.md)** — Onboard new team members with the right resources from day one
-- **[AI-First Culture](../01-fundamentals/ai-first-culture.md)** — Build the cultural foundation that makes these resources effective
-- **[Maturity Model](../01-fundamentals/maturity-model.md)** — Assess where your team is and which resources to prioritize
-- **[Gradual Adoption](../09-best-practices/gradual-adoption.md)** — Apply resources incrementally for sustainable adoption

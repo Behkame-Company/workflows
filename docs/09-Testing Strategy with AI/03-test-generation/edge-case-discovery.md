@@ -299,16 +299,3 @@ Analyze this function for concurrency edge cases:
 - Partial failure in multi-step operations
 - Stale cache reads
 ```
-
----
-
-## Next Steps
-
-- [AI Test Generation Patterns](generation-patterns.md) — complete set of generation patterns
-- [Unit Test Generation](unit-test-generation.md) — generating the tests themselves
-- [Integration Test Generation](integration-test-generation.md) — testing across boundaries
-- [Mutation Testing](../05-coverage-and-quality/mutation-testing.md) — testing the tests themselves
-
----
-
-*Part of the [Testing Strategy with AI](../README.md) documentation series.*

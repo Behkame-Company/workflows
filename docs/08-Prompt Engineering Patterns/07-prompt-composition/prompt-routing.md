@@ -107,10 +107,3 @@ Simple (1 file, clear task)  → Direct generation prompt
 Medium (2-5 files, some decisions) → Generation + review chain
 Complex (many files, architecture) → Plan → generate → review → test chain
 ```
-
----
-
-## Next Steps
-
-- 🔗 [Dynamic Prompt Assembly](dynamic-prompt-assembly.md) — Building prompts from components
-- 🔗 [Prompt Chaining](prompt-chaining.md) — Sequential multi-step workflows

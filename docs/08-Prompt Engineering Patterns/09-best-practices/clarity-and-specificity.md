@@ -109,10 +109,3 @@ Not every prompt needs maximum precision:
 - **Quick answers**: "What does this regex do?"
 
 Use precision for tasks with specific expected outputs.
-
----
-
-## Next Steps
-
-- 🔗 [Context Management in Prompts](context-management-in-prompts.md) — Right amount of context
-- 🔗 [Instruction Following](../02-core-techniques/instruction-following.md) — Clear instruction patterns

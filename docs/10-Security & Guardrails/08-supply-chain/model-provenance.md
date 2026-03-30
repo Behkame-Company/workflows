@@ -279,12 +279,3 @@ model_policy:
 > 💡 For security-critical code, pin a tested model version and require human review. Don't auto-adopt new models.
 
 > ⚠️ Everything in the context window flows to the model provider. Understand data retention policies before using AI with sensitive code.
-
----
-
-## Next Steps
-
-- [Extension Safety](extension-safety.md) — Vetting AI tool extensions
-- [AI Supply Chain Risks](ai-supply-chain-risks.md) — The broader supply chain picture
-- [Automated Security Gates](../09-best-practices/automated-security-gates.md) — CI/CD checks for AI code
-- [Security-First Instructions](../09-best-practices/security-first-instructions.md) — Writing security-aware instructions

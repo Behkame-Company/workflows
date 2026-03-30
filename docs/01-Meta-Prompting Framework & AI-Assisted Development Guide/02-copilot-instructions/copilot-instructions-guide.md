@@ -177,9 +177,3 @@ You can ask the Copilot Coding Agent to generate a `copilot-instructions.md` for
 - **Target**: 1–2 pages of Markdown (roughly 500–1000 words)
 - **Maximum**: Don't exceed 2 pages — diminishing returns past this point
 - **If you need more**: Split into path-specific `.instructions.md` files
-
----
-
-*📋 Template: [copilot-instructions.md Template](../07-templates/copilot-instructions-template.md)*
-
-*Next: [Path-Specific Instructions](path-specific-instructions.md) →*

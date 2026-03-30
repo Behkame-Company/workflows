@@ -197,7 +197,3 @@ AI:      [Generates structured spec draft]
 
 You:     [Review, refine, approve]
 ```
-
----
-
-*Next: [Phase 2: Plan →](phase-plan.md)*

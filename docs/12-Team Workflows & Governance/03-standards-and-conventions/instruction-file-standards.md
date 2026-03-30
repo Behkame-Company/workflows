@@ -257,10 +257,3 @@ After adding a new rule, test it:
 3. Verify the AI follows it
 4. If not, refine the rule's wording
 ```
-
-## Next Steps
-
-- [Build a shared prompt library →](prompt-library.md)
-- [Set code quality standards for AI output →](code-quality-standards.md)
-- [Define naming and style conventions →](naming-style-conventions.md)
-- [Design your AI code review workflow →](../04-review-processes/ai-code-review-workflow.md)

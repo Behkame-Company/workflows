@@ -97,10 +97,3 @@ Turns 5-15: "Implemented JWT auth, all tests passing"
 3. **Clear or update, don't keep** — Stale data is worse than no data
 4. **Re-read before referencing** — Prompt the model to verify current state
 5. **State files must stay current** — Update progress/decisions actively
-
----
-
-## Next Steps
-
-- 🔗 [The Large Window Fallacy](large-window-fallacy.md) — Big windows don't solve this
-- 🔗 [Context Hygiene](../09-best-practices/context-hygiene.md) — Prevention practices

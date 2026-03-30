@@ -455,37 +455,3 @@ AI Impact Dashboard
 | Set a measurement baseline before AI adoption | Start measuring only after tools are deployed |
 | Update dashboards weekly with trends | Update monthly with static snapshots |
 | Review and retire useless metrics quarterly | Keep adding metrics without pruning |
-
----
-
-## Next Steps
-
-### Related Anti-Patterns
-
-- [Cowboy AI Development](./cowboy-ai-development.md) — Bad metrics mask the quality problems cowboys create
-- [AI Gatekeeping](./ai-gatekeeping.md) — Gatekeepers often demand theater metrics to justify restrictions
-- [Ignoring the Human Side](./ignoring-human-side.md) — Metrics Theater ignores how developers actually experience AI tools
-
-### Metrics & Measurement
-
-- [Measuring AI Impact](../07-metrics-and-measurement/measuring-ai-impact.md) — Building meaningful AI impact metrics
-- [Developer Productivity Metrics](../07-metrics-and-measurement/productivity-metrics.md) — DORA, cycle time, and AI-specific metrics
-- [Quality Metrics](../07-metrics-and-measurement/quality-metrics.md) — Tracking code quality alongside velocity
-- [ROI Analysis](../07-metrics-and-measurement/roi-analysis.md) — Building an honest business case
-
-### Standards & Feedback
-
-- [Feedback Loops](../09-best-practices/feedback-loops.md) — Continuous improvement of AI workflows
-- [Retrospectives and Learning](../08-knowledge-sharing/retrospectives.md) — Learning from AI successes and failures
-- [Balancing Speed and Quality](../09-best-practices/speed-vs-quality.md) — The trade-off that metrics must capture
-
-### Governance & Adoption
-
-- [AI Usage Policy](../06-governance-and-policies/ai-usage-policy.md) — Policy that defines what to measure and why
-- [Gradual Adoption](../09-best-practices/gradual-adoption.md) — Adopting metrics alongside tools
-- [Building an AI-First Culture](../01-fundamentals/ai-first-culture.md) — Culture that values honest measurement
-- [Troubleshooting](../11-practical/troubleshooting.md) — Common measurement issues and solutions
-
----
-
-*The cure for Metrics Theater isn't more metrics — it's better questions. Start with "What do we want to learn?" instead of "What can we measure?" and the right metrics will follow.*

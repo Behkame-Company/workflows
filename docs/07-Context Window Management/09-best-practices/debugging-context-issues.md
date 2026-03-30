@@ -114,10 +114,3 @@ When context is hopelessly polluted:
 3. **Test recall periodically** — Catch degradation early
 4. **Persistent files are insurance** — Survive compaction and resets
 5. **When in doubt, start fresh** — Clean context beats polluted context
-
----
-
-## Next Steps
-
-- 🔗 [Tool-Specific Strategies](tool-specific-strategies.md) — Per-tool guidance
-- 🔗 [Context Stuffing](../10-anti-patterns/context-stuffing.md) — The #1 anti-pattern

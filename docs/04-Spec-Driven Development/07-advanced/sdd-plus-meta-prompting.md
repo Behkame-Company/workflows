@@ -160,7 +160,3 @@ project/
 | Code review with AI | | ✅ | |
 | Feature planning | ✅ | | |
 | Daily coding tasks | | ✅ | |
-
----
-
-*Next: [Enterprise SDD →](enterprise-sdd.md)*

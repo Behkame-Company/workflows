@@ -346,16 +346,3 @@ test('updates user profile', async () => {
 - [ ] Tests pass 10/10 times in repeated execution
 - [ ] External dependencies are mocked or containerized
 ```
-
----
-
-## Next Steps
-
-- [Regression Testing Strategy](regression-testing.md) — the broader regression prevention framework
-- [Test Maintenance](test-maintenance.md) — keeping tests healthy over time
-- [Anti-Pattern: Testing to Pass](../10-anti-patterns/testing-to-pass.md) — another common AI testing pitfall
-- [Troubleshooting AI Testing](../11-practical/troubleshooting.md) — fixing common AI test generation problems
-
----
-
-*Part of the [Testing Strategy with AI](../README.md) series.*

@@ -91,10 +91,3 @@ Track AI suggestion acceptance rate and false positive rate. If acceptance rate 
 3. **Measure and adjust** — Track acceptance and false positive rates
 4. **Human-only for irreversible changes** — Never auto-accept database migrations
 5. **Audit everything** — Even auto-accepted changes should be logged
-
----
-
-## Next Steps
-
-- 🔗 [Review Workflow Design](review-workflow-design.md) — Designing the handoff
-- 🔗 [Escalation Protocols](escalation-protocols.md) — When to escalate

@@ -95,10 +95,3 @@ If your server is over-engineered, simplify:
 3. **Simple tools, smart AI** — keep the server focused and composable
 4. **Business logic lives elsewhere** — not in the MCP server
 5. **If you're writing "if/else analysis" in a tool, you're doing it wrong**
-
----
-
-## Next Steps
-
-- 🔗 [Server Design Principles](../06-best-practices/server-design-principles.md) — The right approach
-- 🔗 [Security Model](../08-security/security-model.md) — Where complexity IS needed

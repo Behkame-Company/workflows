@@ -148,7 +148,3 @@ Valid values: `"code-review"`, `"coding-agent"`.
 2. Create `.github/copilot-instructions.md` with Copilot-specific additions
 3. Keep old files as thin redirects: "See AGENTS.md for conventions"
 4. See the [Migration Guide](migration-guide.md) for detailed steps
-
----
-
-*Next: [Instruction Audit Checklist](audit-checklist.md) →*

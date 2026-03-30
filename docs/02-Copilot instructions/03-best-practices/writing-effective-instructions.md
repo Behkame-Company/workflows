@@ -240,7 +240,3 @@ Research shows negative constraints are parsed and followed more reliably than p
 | Aspirational | "Aim for 100% test coverage" | "All new functions need at least one test" |
 | Duplicating defaults | "Write syntactically correct code" | Remove — Copilot does this anyway |
 | Hedging | "Try to use TypeScript when possible" | "Use TypeScript" |
-
----
-
-*Next: [Structuring & Organizing](structuring-and-organizing.md) →*

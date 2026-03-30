@@ -68,10 +68,3 @@ When a developer overrides an AI finding:
 3. **Override requires rationale** — Don't dismiss AI silently
 4. **Audit overrides** — Patterns reveal where AI needs tuning or humans need training
 5. **Regulated code always escalates** — No exceptions for compliance-sensitive code
-
----
-
-## Next Steps
-
-- 🔗 [Team Adoption](team-adoption.md) — Rolling out to your team
-- 🔗 [Over-Reliance on AI](../09-anti-patterns/over-reliance-on-ai.md) — The automation bias trap

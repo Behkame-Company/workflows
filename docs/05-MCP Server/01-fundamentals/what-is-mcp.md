@@ -1,6 +1,6 @@
 # What Is MCP (Model Context Protocol)?
 
-> The universal standard for connecting AI agents to tools, data sources, and external services — often called "the USB-C for AI."
+> The universal standard for connecting AI agents to tools, data sources, and external services.
 
 ---
 
@@ -20,6 +20,13 @@ Before MCP:
 ```
 
 This creates the **N×M integration problem**: every tool needs a custom connector for every service. Each connector is bespoke, brittle, and expensive to maintain.
+
+MCP is like **USB-C for AI** — just as USB-C replaced a dozen proprietary cables with one standard connector for charging, data, video, and audio, MCP replaces countless custom integrations with one standard protocol for:
+
+- **Tool execution** (actions the AI can take)
+- **Data access** (information the AI can read)
+- **Prompt templates** (reusable interaction patterns)
+- **Sampling** (requesting AI reasoning)
 
 ```
 With MCP:
@@ -46,22 +53,6 @@ MCP turns **N×M** into **N+M**: build one MCP server per service, one MCP clien
 4. **External services** to **request** AI reasoning when needed
 
 It's the communication layer that turns a text-generation model into a **tool-using agent**.
-
----
-
-## The USB-C Analogy
-
-Just as USB-C provides one standard connector for:
-- Charging
-- Data transfer
-- Video output
-- Audio
-
-MCP provides one standard protocol for:
-- **Tool execution** (actions the AI can take)
-- **Data access** (information the AI can read)
-- **Prompt templates** (reusable interaction patterns)
-- **Sampling** (requesting AI reasoning)
 
 ---
 
@@ -157,18 +148,9 @@ The developer never leaves their editor. The AI agent used the GitHub MCP server
 ## Key Takeaways
 
 1. **MCP is a protocol, not a product** — any tool can implement it
-2. **It solves the integration problem** — N+M instead of N×M
-3. **It's the "action layer"** in your AI framework — without it, AI can only talk
-4. **It's industry standard** — adopted by every major AI coding tool
-5. **It's composable** — add/remove servers like plugins, each doing one thing well
-
----
-
-## Next Steps
-
-- 🔗 [History & Adoption](history-and-adoption.md) — How MCP became the industry standard
-- 🔗 [The Client-Host-Server Model](../02-architecture/client-host-server.md) — Understand the architecture
-- 🔗 [Your First Server (Python)](../05-building-servers/first-server-python.md) — Build something in 10 minutes
+2. **It's the "action layer"** in your AI framework — without it, AI can only talk
+3. **It's industry standard** — adopted by every major AI coding tool
+4. **It's composable** — add/remove servers like plugins, each doing one thing well
 
 ---
 

@@ -334,16 +334,3 @@ npm test
 | `Expected X, received Y` | Wrong assertion or bug | Check spec, fix implementation |
 | `Cannot read property of undefined` | Missing setup | Add `beforeEach` initialization |
 | `Address in use` | Port conflict | Use dynamic ports |
-
----
-
-## Next Steps
-
-- [Testing with AI FAQ](faq.md) — answers to common questions
-- [Flaky Test Detection](../08-regression-and-maintenance/flaky-test-detection.md) — deep dive on flakiness
-- [Testing Templates](templates.md) — prevent problems with good templates
-- [Test Prompt Patterns](../09-best-practices/prompt-patterns.md) — write better prompts to get better tests
-
----
-
-*Part of the [Testing Strategy with AI](../README.md) series.*

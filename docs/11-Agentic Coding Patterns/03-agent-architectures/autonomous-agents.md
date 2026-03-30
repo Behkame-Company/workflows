@@ -289,10 +289,3 @@ async function autonomousWithCheckpoints(task: string) {
 | **Copilot CLI** | Agent mode with full tool access — reads, writes, executes, iterates |
 | **Claude Code** | Terminal agent that explores codebase, makes changes, runs tests in a loop |
 | **SWE-bench agents** | Read issue → explore → plan → implement → test → iterate until solved |
-
-## Next Steps
-
-- [ReAct Pattern](./react-pattern.md) — the core reasoning loop behind autonomous agents
-- [Plan-and-Execute](./plan-and-execute.md) — a more structured alternative with upfront planning
-- [Reflection and Self-Critique](./reflection.md) — agents that evaluate their own work quality
-- [When to Go Agentic](../01-fundamentals/when-to-go-agentic.md) — deciding if autonomous is the right level

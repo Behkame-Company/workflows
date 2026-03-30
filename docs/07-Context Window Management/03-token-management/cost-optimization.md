@@ -84,10 +84,3 @@ Track these metrics:
 3. **Read less, not more** — Targeted retrieval saves tokens and money
 4. **Route by complexity** — Cheap models for simple tasks
 5. **Measure waste** — Track and reduce low-signal tokens
-
----
-
-## Next Steps
-
-- 🔗 [Extended Thinking Tokens](extended-thinking-tokens.md) — Thinking budget
-- 🔗 [Context Awareness](context-awareness.md) — Self-managing models

@@ -124,10 +124,3 @@ The host **must** allow users to:
 3. Model selection is a **preference** — the host decides
 4. Use sampling when the server has data but needs **intelligent analysis**
 5. Always implement **human approval** for sampling in production
-
----
-
-## Next Steps
-
-- 🔗 [Roots & Elicitation](roots-and-elicitation.md) — Other advanced primitives
-- 🔗 [Security Model](../08-security/security-model.md) — How MCP protects against abuse

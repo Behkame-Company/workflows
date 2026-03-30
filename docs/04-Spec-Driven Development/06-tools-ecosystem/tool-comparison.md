@@ -109,7 +109,3 @@ Get AI to create tasks.md → Implement task by task
 3. Create steering files from constitution
 4. Set up hooks for automation
 ```
-
----
-
-*Next: [Integrating with AI Agents →](integrating-with-agents.md)*

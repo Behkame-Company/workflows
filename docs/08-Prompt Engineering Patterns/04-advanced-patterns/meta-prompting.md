@@ -106,10 +106,3 @@ Meta-prompting is **token-efficient** because abstract templates are smaller tha
 | Infinite recursion | "Write a prompt to write a prompt to write a prompt..." | Stop at one level of meta |
 | Over-abstraction | Template so abstract it's useless | Ground with one concrete example |
 | Trusting generated prompts blindly | Generated prompt may have gaps | Always test generated prompts |
-
----
-
-## Next Steps
-
-- 🔗 [Self-Consistency](self-consistency.md) — Multiple reasoning paths
-- 🔗 [Prompt Chaining](../07-prompt-composition/prompt-chaining.md) — Connecting prompts sequentially

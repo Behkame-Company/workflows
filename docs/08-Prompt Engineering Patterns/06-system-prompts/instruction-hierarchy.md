@@ -103,10 +103,3 @@ Create an API endpoint for {{resource}}.
 Follow our standard patterns. Override any default with 
 specific instructions from the user.
 ```
-
----
-
-## Next Steps
-
-- 🔗 [Persona Engineering](persona-engineering.md) — Creating effective AI personas
-- 🔗 [Constraint Specification](constraint-specification.md) — Defining boundaries

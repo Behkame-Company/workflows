@@ -284,7 +284,3 @@ Tools process AGENTS.md differently:
 □ Critical rules at top of file?
 □ Tested with the specific AI tool?
 ```
-
----
-
-*Next: [FAQ](faq.md) →*

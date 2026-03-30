@@ -194,7 +194,3 @@ could validate input using Zod, but other methods are acceptable too.
 | Recommended instruction file size | 500-1,000 words (1-2 pages) |
 
 ⚠️ Exceeding these limits means Copilot **silently ignores** content beyond the window. Put critical rules first.
-
----
-
-*Next: [Instruction Hierarchy](instruction-hierarchy.md) →*

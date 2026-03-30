@@ -668,17 +668,3 @@ Level 5 — Optimized:
   Continuous improvement is part of team DNA.
   Organization learns from every team's experience.
 ```
-
----
-
-## Next Steps
-
-- [Gradual Adoption Strategy](./gradual-adoption.md) — feedback loops should start from day one of adoption
-- [Standardize Before Scaling](./standardize-before-scaling.md) — feedback from the pilot team drives the standards you scale
-- [Balancing Speed and Quality](./speed-vs-quality.md) — feedback loops help you find and maintain the right balance
-- [AI-First Culture](../01-fundamentals/ai-first-culture.md) — a feedback-oriented culture accelerates AI adoption
-- [Role of the Team Lead](../01-fundamentals/role-of-team-lead.md) — leads are responsible for creating space for feedback
-- [AI Usage Policy](../06-governance-and-policies/ai-usage-policy.md) — policies should evolve based on feedback
-- [Measuring AI Impact](../07-metrics-and-measurement/measuring-ai-impact.md) — metrics are a quantitative form of feedback
-- [Knowledge Sharing](../08-knowledge-sharing/) — feedback loops are a primary knowledge-sharing mechanism
-- [Cowboy AI Development](../10-anti-patterns/cowboy-ai-development.md) — feedback loops catch cowboy behavior early

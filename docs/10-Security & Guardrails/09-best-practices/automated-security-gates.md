@@ -523,12 +523,3 @@ This ensures the Copilot coding agent has security scanning available in its env
 ❌ **Don't** rely on a single tool — layer defenses (secrets + SAST + deps + review)
 ❌ **Don't** forget to test your pipeline — intentionally commit a test secret to verify detection
 ❌ **Don't** make security checks optional — they should be required status checks
-
----
-
-## Next Steps
-
-- [Security-First Instructions](./security-first-instructions.md) — instruction files that complement automated gates
-- [Incident Response](./incident-response.md) — what to do when a gate fails to catch something
-- [Security Templates](../11-practical/templates.md) — ready-to-use workflow files
-- [Supply Chain Security](../08-supply-chain/) — deeper dive on dependency risks

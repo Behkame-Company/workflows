@@ -98,10 +98,3 @@ Before using a prompt pattern from the internet:
 4. ✅ Have you adapted it to **your** project's context?
 
 If any answer is "no," you're cargo-culting.
-
----
-
-## Next Steps
-
-- 🔗 [Iterative Refinement](../09-best-practices/iterative-refinement.md) — Building your own tested prompts
-- 🔗 [Vague Instructions](vague-instructions.md) — Another common anti-pattern

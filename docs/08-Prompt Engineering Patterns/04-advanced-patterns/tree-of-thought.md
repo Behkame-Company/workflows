@@ -115,10 +115,3 @@ ToT is expensive. Use it strategically:
 | Simplified ToT (prompt-based) | 2-3x | Good |
 | Breadth-first (evaluate all, expand best) | 3-5x | Good |
 | Human-guided (you pick which branch to expand) | 2x per step | Flexible |
-
----
-
-## Next Steps
-
-- 🔗 [Reflection & Critique](reflection-and-critique.md) — Evaluate and improve solutions
-- 🔗 [Decomposition](decomposition.md) — Breaking problems into parts

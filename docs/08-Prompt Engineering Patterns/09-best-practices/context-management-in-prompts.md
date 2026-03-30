@@ -90,10 +90,3 @@ Instead of the whole module, provide:
 > Every token in context should increase the probability of a correct response. If it doesn't, it's noise.
 
 Before including context, ask: **"Does the model need this to succeed?"**
-
----
-
-## Next Steps
-
-- 🔗 [Iterative Refinement](iterative-refinement.md) — Improving prompts over time
-- 🔗 [Clarity & Specificity](clarity-and-specificity.md) — Being precise in requests

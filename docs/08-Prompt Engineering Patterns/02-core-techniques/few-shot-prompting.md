@@ -153,10 +153,3 @@ Now convert this class component:
 | Too many examples | Wastes context budget | 3-5 is usually enough |
 | Examples contradict instructions | Model gets confused | Ensure consistency |
 | No edge cases shown | Model fails on unusual inputs | Include 1-2 edge cases |
-
----
-
-## Next Steps
-
-- 🔗 [Chain-of-Thought](chain-of-thought.md) — When examples alone aren't enough
-- 🔗 [XML Structuring](../03-structured-output/xml-structuring.md) — Structuring examples effectively

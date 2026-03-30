@@ -335,9 +335,3 @@ fi
 ```
 
 Each layer catches different categories of issues. Automated gates handle the mechanical checks so human reviewers can focus on the things only humans can evaluate: business correctness, architectural fit, and security implications.
-
-## Next Steps
-
-- [Coverage Analysis](./coverage-analysis.md) — Ensure AI-generated code is actually tested
-- [Test Quality Metrics](./test-quality-metrics.md) — Measure whether tests for AI code are strong enough
-- [Mutation Testing](./mutation-testing.md) — The ultimate validation that tests catch bugs in AI code

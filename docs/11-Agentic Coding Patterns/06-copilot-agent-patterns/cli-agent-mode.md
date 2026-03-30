@@ -268,10 +268,3 @@ MCP servers give the agent access to databases, APIs, documentation servers, and
 4. **Compact between tasks** — keep context fresh for each new objective
 5. **Leverage git** — the agent can commit checkpoints, making rollback easy
 6. **Chain related work** — complete one feature fully before moving to the next
-
-## Next Steps
-
-- [Custom Instructions for Copilot Agents](./custom-instructions.md) — configure how the agent behaves in your project
-- [Copilot Coding Agent](./coding-agent.md) — use the cloud-based agent for issue-to-PR automation
-- [Copilot Skills](./copilot-skills.md) — teach the agent project-specific workflows
-- [Context Starvation](../10-anti-patterns/context-starvation.md) — avoid running out of context during long sessions

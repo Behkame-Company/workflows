@@ -10,14 +10,7 @@ Instead of writing perfect instructions once, use the AI to iteratively improve 
 
 ### How It Works
 
-```
-Step 1: Write initial copilot-instructions.md
-Step 2: Use AI to complete a task
-Step 3: Evaluate the output quality
-Step 4: Ask the AI to identify what instructions would have prevented mistakes
-Step 5: Update instructions based on findings
-Step 6: Repeat
-```
+Write initial instructions, use AI to complete tasks, then ask it what instructions would have prevented any mistakes. Update your instruction files based on findings and repeat. Each failure makes the framework stronger.
 
 ### In Practice
 
@@ -113,7 +106,7 @@ try {
 
 ### Why This Works
 
-AI models respond strongly to contrastive examples. Showing both the desired and undesired pattern creates a stronger signal than either alone.
+AI models respond strongly to contrastive examples — showing both desired and undesired patterns creates a stronger signal than either alone.
 
 ---
 
@@ -217,16 +210,13 @@ DONE
 
 ### Why Checkpoints Matter
 
-- Prevent the AI from going too far down a wrong path
-- Create natural review points for the developer
-- Make it possible to roll back to a known-good state
-- Reduce the cost of mistakes (caught earlier)
+Checkpoints prevent the AI from going too far down a wrong path, create natural review points, and reduce the cost of mistakes by catching them earlier.
 
 ---
 
 ## Pattern 7: Meta-Prompt Audit Loop
 
-Periodically have the AI evaluate and improve the entire framework:
+Periodically have the AI evaluate and improve the entire framework by analyzing all instruction, prompt, and memory bank files for contradictions, gaps, and staleness.
 
 ### Audit Prompt
 
@@ -248,12 +238,11 @@ Provide specific, actionable recommendations.
 ```
 
 Schedule this monthly to prevent framework decay.
-
 ---
 
 ## Pattern 8: Team-Specific Instruction Variants
 
-For larger teams with specialized roles:
+For larger teams, tailor instructions by role using `applyTo` patterns that match directory structures different team roles work on:
 
 ```
 .github/
@@ -267,8 +256,6 @@ For larger teams with specialized roles:
     ├── senior-refactor.prompt.md     # Senior devs: refactoring workflow
     └── onboarding-task.prompt.md     # New team members: guided workflow
 ```
-
-The `applyTo` patterns can match not just file paths but entire directory structures, allowing you to tailor instructions for different parts of the codebase that different team roles work on.
 
 ---
 
@@ -284,7 +271,3 @@ The `applyTo` patterns can match not just file paths but entire directory struct
 | Checkpoint Workflows | Complex multi-step features; need review gates |
 | Audit Loop | Monthly maintenance; preventing framework decay |
 | Team Variants | Teams with different experience levels or roles |
-
----
-
-*Next: [Spec-Driven Development Overview](../06-spec-driven-development/spec-driven-overview.md) →*

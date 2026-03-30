@@ -214,7 +214,3 @@ Add to existing ceremonies:
 - **Sprint retro**: "Are our AI instructions working well? Any frustrations?"
 - **Architecture review**: "Do instructions need updating for this change?"
 - **Quarterly planning**: "Schedule instruction audit this quarter"
-
----
-
-*Next: [Common Mistakes](../04-anti-patterns/common-mistakes.md) →*

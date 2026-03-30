@@ -100,10 +100,3 @@ Remote (gateway):  — GitHub, database, monitoring, internal APIs
 3. **Scale horizontally** — Run multiple server instances behind a load balancer
 4. **Centralize audit** — Log all tool invocations through the gateway
 5. **Start simple** — Sidecar pattern first, add gateway as you grow
-
----
-
-## Next Steps
-
-- 🔗 [Multi-Server Orchestration](multi-server-orchestration.md) — Connecting multiple servers
-- 🔗 [Security Checklist](../08-security/security-checklist.md) — Enterprise security audit

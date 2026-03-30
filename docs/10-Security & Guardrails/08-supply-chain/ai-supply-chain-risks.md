@@ -273,12 +273,3 @@ The OWASP Top 10 for LLMs specifically calls out supply chain risks:
 > ⚠️ AI-suggested packages may be hallucinated, creating typosquatting opportunities that didn't exist before AI.
 
 > 💡 Treat every new AI supply chain node with the same rigor you apply to traditional dependencies: verify, audit, monitor.
-
----
-
-## Next Steps
-
-- [Dependency Safety](dependency-safety.md) — Verifying AI-suggested packages
-- [Model Provenance](model-provenance.md) — Verifying model integrity
-- [Extension Safety](extension-safety.md) — Vetting AI extensions
-- [MCP Threat Landscape](../07-mcp-security/mcp-threat-landscape.md) — MCP-specific attacks

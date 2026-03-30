@@ -289,8 +289,3 @@ Use BOTH when:
 ├── Code checks verify the minimum, LLM checks evaluate the ceiling
 └── You need a composite score across multiple dimensions
 ```
-
-## Next Steps
-
-- 🔗 [AI Output Evaluation Framework](evaluation-framework.md) — Overall framework and pipeline design
-- 🔗 [Building Evaluation Suites](building-eval-suites.md) — Creating comprehensive test sets for evaluations

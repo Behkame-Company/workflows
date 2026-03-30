@@ -371,11 +371,3 @@ AI generates code
 | Hardcoded secrets | `password = "`, `api_key = "`, `SECRET_KEY = "` | detect-secrets, git-secrets |
 | Weak crypto | `hashlib.md5`, `hashlib.sha1`, `random.` | Bandit, Semgrep |
 | Error leaks | `error.stack`, `traceback.format_exc()` in responses | Manual review, Semgrep |
-
----
-
-## Next Steps
-
-- 🔗 [Static Analysis for AI-Generated Code](static-analysis.md) — Automate detection of these vulnerabilities
-- 🔗 [Secure Coding Instructions for AI Agents](secure-coding-instructions.md) — Teach AI to avoid these patterns
-- 🔗 [Code Review Practices for AI-Generated Code](code-review-ai-output.md) — Review checklist for human reviewers

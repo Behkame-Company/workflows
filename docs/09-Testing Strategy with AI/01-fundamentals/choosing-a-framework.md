@@ -193,43 +193,17 @@ class UserServiceTest {
 
 ## AI Familiarity Ranking
 
-This ranking reflects how reliably AI generates correct, idiomatic tests:
+Framework popularity directly correlates with AI test generation quality — more training examples means fewer errors. Here's the practical tier list:
 
-```
-Tier 1 — AI generates excellent tests with minimal guidance:
-  ████████████████████  Jest (JavaScript)
-  ████████████████████  pytest (Python)
-  ████████████████████  JUnit 5 (Java)
-  ████████████████████  Go testing (stdlib)
+| Tier | Frameworks | AI Quality |
+|------|-----------|------------|
+| **Tier 1** — Excellent, minimal guidance | Jest, pytest, JUnit 5, Go `testing` | Autocompletes entire test cases correctly |
+| **Tier 2** — Good, occasional minor issues | Vitest, Mocha+Chai, testify, Mockito, unittest, Playwright | Reliable with light prompting |
+| **Tier 3** — Acceptable, needs more guidance | Cypress, hypothesis, gomock, TestNG, Spock, Rust `#[test]` | Needs framework examples in prompt |
+| **Tier 4** — Struggles, detailed prompting required | ginkgo, AVA, robot, proptest, rstest | Provide existing test patterns |
+| **Tier 5** — Limited support, expect corrections | uvu, nose2, custom/proprietary | Manual fixes likely needed |
 
-Tier 2 — AI generates good tests, occasional minor issues:
-  ████████████████      Vitest (JavaScript)
-  ████████████████      Mocha + Chai (JavaScript)
-  ████████████████      testify (Go)
-  ████████████████      Mockito (Java)
-  ████████████████      unittest (Python)
-  ████████████████      Playwright (JavaScript)
-
-Tier 3 — AI generates acceptable tests, needs more guidance:
-  ████████████          Cypress (JavaScript)
-  ████████████          hypothesis (Python)
-  ████████████          gomock (Go)
-  ████████████          TestNG (Java)
-  ████████████          Spock (Groovy)
-  ████████████          Rust #[test]
-
-Tier 4 — AI struggles, requires detailed prompting:
-  ████████              ginkgo (Go)
-  ████████              AVA (JavaScript)
-  ████████              robot (Python)
-  ████████              proptest (Rust)
-  ████████              rstest (Rust)
-
-Tier 5 — Limited AI support, expect manual corrections:
-  ████                  uvu (JavaScript)
-  ████                  nose2 (Python)
-  ████                  Custom/proprietary frameworks
-```
+**Rule of thumb:** If your framework isn't in Tier 1-2, include an example test in your prompt to compensate.
 
 ---
 
@@ -432,10 +406,3 @@ Providing examples compensates for lower AI familiarity with niche frameworks.
 3. **Clear assertions, good error messages, and built-in mocking** improve AI output
 4. **Keep configuration minimal** for AI agent compatibility
 5. **When in doubt, follow the ecosystem default** — it's what AI was trained on
-
----
-
-*Previous: [Test as Specification](test-as-specification.md)*
-*Next: [TDD Workflow with AI Agents](../02-tdd-with-ai/tdd-workflow.md) — Red-green-refactor with AI assistance*
-
-*Part of the [Testing Strategy with AI](../README.md) documentation series.*

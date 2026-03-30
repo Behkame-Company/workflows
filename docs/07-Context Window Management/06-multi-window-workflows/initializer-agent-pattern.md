@@ -57,26 +57,12 @@ echo "Server running on http://localhost:3000"
 This prevents each future window from having to figure out how to run the app.
 
 ### 3. Progress File (progress.txt)
-```
-=== Session 1 (Initializer) ===
-- Created project scaffolding
-- Set up feature_list.json with 45 features
-- Created init.sh for development server
-- Initial git commit: "feat: project scaffolding"
-- Next: Start implementing authentication features
-```
+The initializer creates the first progress entry noting scaffolding setup, feature count, and next steps.
 
 ### 4. Initial Git Commit
-```bash
-git init
-git add .
-git commit -m "feat: initial project scaffolding
+A clean initial commit captures the full scaffolding as a recoverable baseline.
 
-- Project structure with src/, tests/, config/
-- Feature list (45 features, all failing)
-- Init script for development server
-- Progress tracking file"
-```
+For detailed descriptions of these state artifacts (feature_list.json, progress.txt, init.sh) and how they interrelate, see [State Handoff Strategies](state-handoff-strategies.md).
 
 ---
 
@@ -113,10 +99,3 @@ Your job is to create the foundation for future work sessions.
 3. **Init script saves future time** — Don't rediscover how to run the app
 4. **Progress file is the handoff** — What was done, what's next
 5. **Git commit preserves the baseline** — Clean starting point
-
----
-
-## Next Steps
-
-- 🔗 [Incremental Progress Pattern](incremental-progress-pattern.md) — What subsequent windows do
-- 🔗 [State Handoff Strategies](state-handoff-strategies.md) — Clean transitions

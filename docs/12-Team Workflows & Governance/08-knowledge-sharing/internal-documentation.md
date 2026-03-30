@@ -684,21 +684,3 @@ Track these metrics to know if your documentation is working:
 | Doc freshness | % of docs updated within their review cycle | > 80% |
 | Usage | Page views or search hits (if wiki) | Trending up |
 | Satisfaction | Survey new hires after 30 days | > 4/5 rating |
-
----
-
-## Next Steps
-
-Continue building your team's knowledge-sharing practices:
-
-- [Prompt Sharing & Collaboration](./prompt-sharing.md) — Create systems for sharing effective prompts across your team
-- [AI Retrospectives](./retrospectives.md) — Learn from AI usage as a team through structured reflection
-- [Community of Practice](./community-of-practice.md) — Build an AI development community within your organization
-
-Explore related governance and measurement topics:
-
-- [AI-First Culture](../01-fundamentals/ai-first-culture.md) — Understand the cultural foundation for AI adoption
-- [Developer Onboarding](../02-onboarding/developer-onboarding.md) — Integrate documentation into your onboarding program
-- [Why Team Workflows Matter](../01-fundamentals/why-team-workflows-matter.md) — Connect documentation to broader team effectiveness
-- [Role of the Team Lead](../01-fundamentals/role-of-team-lead.md) — Leadership responsibilities for documentation culture
-- [Maturity Model](../01-fundamentals/maturity-model.md) — Assess where your documentation practices fall on the maturity spectrum

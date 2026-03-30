@@ -110,10 +110,3 @@ Is the task well-known? (classification, summarization, translation)
 │   └── Output wrong? → Add examples (few-shot)
 └── No → Use few-shot from the start
 ```
-
----
-
-## Next Steps
-
-- 🔗 [Few-Shot Prompting](few-shot-prompting.md) — When zero-shot isn't enough
-- 🔗 [Chain-of-Thought](chain-of-thought.md) — For complex reasoning tasks

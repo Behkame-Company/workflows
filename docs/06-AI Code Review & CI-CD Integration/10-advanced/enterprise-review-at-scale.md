@@ -80,10 +80,3 @@ Dashboard views:
 3. **Allow team autonomy** — For conventions and quality thresholds
 4. **Aggregate metrics** — Different views for different audiences
 5. **Budget management** — Monitor AI API costs across teams
-
----
-
-## Next Steps
-
-- 🔗 [Multi-Repo Review](multi-repo-review.md) — Cross-repository analysis
-- 🔗 [Custom Review Agents](custom-review-agents.md) — Building your own

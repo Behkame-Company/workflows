@@ -360,12 +360,3 @@ Points: 500
 ❌ **Don't** shame people for making mistakes — create a culture of reporting and learning
 ❌ **Don't** skip training for senior developers — everyone needs AI security awareness
 ❌ **Don't** use fear-based training — focus on practical skills and clear actions
-
----
-
-## Next Steps
-
-- [Security-First Instructions](./security-first-instructions.md) — the instruction files your team should know
-- [Incident Response](./incident-response.md) — what to do when training isn't enough
-- [Anti-Pattern: Trusting AI Blindly](../10-anti-patterns/trusting-ai-blindly.md) — the overreliance problem
-- [Security FAQ](../11-practical/faq.md) — quick answers to common team questions

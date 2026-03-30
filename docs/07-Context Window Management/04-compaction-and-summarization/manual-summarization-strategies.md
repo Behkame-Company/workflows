@@ -117,10 +117,3 @@ This snapshot replaces the entire conversation with a structured state.
 3. **Progressive tiers** — Most detail for recent, least for oldest
 4. **State snapshots** — Replace conversation with structured state
 5. **Preserve decisions and blockers** — Don't lose what matters
-
----
-
-## Next Steps
-
-- 🔗 [Compaction Tuning](compaction-tuning.md) — Fine-tuning what to keep
-- 🔗 [Structured Note-Taking](../05-memory-and-persistence/structured-note-taking.md) — External persistence

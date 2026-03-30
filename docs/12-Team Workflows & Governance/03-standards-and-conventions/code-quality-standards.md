@@ -2,6 +2,8 @@
 
 > Quality gates specific to AI-generated code. AI code often looks cleaner than human-written code but may contain subtle logic errors. These standards ensure AI output meets the same bar — or higher — as manually written code.
 
+> For detailed quality gate implementation, CI/CD pipeline configuration, and AI-specific gate patterns, see [Section 06: Quality Gates](../../06-AI%20Code%20Review%20&%20CI-CD%20Integration/05-quality-gates/). This guide covers **team standards and review expectations**.
+
 ---
 
 ## The Quality Paradox
@@ -272,10 +274,3 @@ Track these metrics monthly:
 | SAST findings in AI code | Security quality | Zero critical/high |
 | PR revision rounds | First-submission quality | Decreasing over time |
 | Time to review AI PRs | Review efficiency | Stable or decreasing |
-
-## Next Steps
-
-- [Define naming and style conventions for AI →](naming-style-conventions.md)
-- [Design the AI code review workflow →](../04-review-processes/ai-code-review-workflow.md)
-- [Create review checklists →](../04-review-processes/review-checklists.md)
-- [Set up PR templates →](../04-review-processes/pr-templates.md)

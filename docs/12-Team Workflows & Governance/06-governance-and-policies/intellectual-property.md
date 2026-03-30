@@ -557,28 +557,3 @@ A: No. Casual use of autocomplete doesn't require attribution. Significant AI co
 
 **Q: Is AI-generated test code also an IP concern?**
 A: Yes, the same principles apply. However, test code that is tightly coupled to your specific implementation and testing patterns carries lower risk than implementation code.
-
----
-
-## Next Steps
-
-### Related Governance Policies
-- [AI Usage Policy](ai-usage-policy.md) — The overarching policy framework that governs AI tool usage
-- [Data and Privacy Considerations](data-and-privacy.md) — Protecting data closely related to IP protection
-- [Compliance and Audit for AI Development](compliance-and-audit.md) — Audit trails that support IP claims
-
-### Metrics and Measurement
-- [Measuring AI Impact](../07-metrics-and-measurement/measuring-ai-impact.md) — Quantify AI contributions for IP documentation
-- [AI Quality Metrics](../07-metrics-and-measurement/ai-quality-metrics.md) — Quality signals that indicate IP risk levels
-
-### Knowledge Sharing
-- [Internal Documentation](../08-knowledge-sharing/internal-documentation.md) — Document IP decisions and guidelines for the team
-- [Training and Workshops](../08-knowledge-sharing/training-and-workshops.md) — IP awareness training for developers
-
-### Review Processes
-- [AI Code Review Standards](../04-review-processes/ai-code-review-standards.md) — Review practices that protect IP
-- [Code Review Checklists](../04-review-processes/code-review-checklists.md) — Checklists with IP verification steps
-
-### Best Practices and Anti-Patterns
-- [Prompt Engineering Best Practices](../09-best-practices/prompt-engineering-best-practices.md) — Prompting strategies that reduce IP risk
-- [Common Anti-Patterns](../10-anti-patterns/common-anti-patterns.md) — IP-related mistakes to avoid

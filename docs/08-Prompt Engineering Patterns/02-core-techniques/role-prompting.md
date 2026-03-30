@@ -140,10 +140,3 @@ When reviewing code, act as a senior TypeScript developer who:
 - Suggests generic alternatives where possible
 - Values readability over cleverness
 ```
-
----
-
-## Next Steps
-
-- 🔗 [Instruction Following](instruction-following.md) — Combining roles with clear instructions
-- 🔗 [Persona Engineering](../06-system-prompts/persona-engineering.md) — Deep dive into persona design

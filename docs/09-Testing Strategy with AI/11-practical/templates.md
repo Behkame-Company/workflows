@@ -375,16 +375,3 @@ Use during PR reviews:
 # Copy the relevant template section into your prompt:
 "Generate tests following this structure: [paste template]"
 ```
-
----
-
-## Next Steps
-
-- [Troubleshooting AI Testing](troubleshooting.md) — when things go wrong
-- [Test Prompt Patterns](../09-best-practices/prompt-patterns.md) — effective prompts for each test type
-- [Structured Test Tracking](../09-best-practices/structured-test-tracking.md) — the tests.json approach in depth
-- [CI/CD Test Integration](../06-ai-qa-workflows/ci-cd-integration.md) — using the workflow template
-
----
-
-*Part of the [Testing Strategy with AI](../README.md) series.*

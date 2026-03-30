@@ -109,10 +109,3 @@
 | Keep instructions under 15 rules | ✅ |
 | Provide success criteria | ✅ |
 | Test and iterate on prompts | ✅ |
-
----
-
-## Next Steps
-
-- 🔗 [System Prompt Design](../06-system-prompts/system-prompt-design.md) — Platform-agnostic design
-- 🔗 [Iterative Refinement](iterative-refinement.md) — Improving prompts for any tool

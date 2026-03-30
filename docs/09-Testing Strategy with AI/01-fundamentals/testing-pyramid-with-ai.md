@@ -312,10 +312,3 @@ The tests pass because they make the same wrong assumptions as the code.
 3. **E2E tests**: AI agents are emerging but need human-defined success criteria
 4. **Invest human time** in test design, not test implementation
 5. **The pyramid still applies** — don't let easy AI generation invert it
-
----
-
-*Previous: [Why Testing Matters More with AI](why-testing-matters-more.md)*
-*Next: [Test as Specification](test-as-specification.md) — Using tests to constrain AI behavior*
-
-*Part of the [Testing Strategy with AI](../README.md) documentation series.*

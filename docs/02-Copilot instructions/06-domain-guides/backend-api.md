@@ -112,7 +112,3 @@ applyTo: "src/services/**/*.ts"
 | Auth pattern | Every endpoint has clear auth requirements |
 | Validation approach | Prevents invalid data from reaching business logic |
 | Logging strategy | Consistent observability across services |
-
----
-
-*Next: [Database & Migrations Domain Guide](database-migrations.md) →*

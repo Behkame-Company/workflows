@@ -278,9 +278,3 @@ Use this checklist for every AI agent task:
 - [ ] New code has corresponding new tests
 - [ ] Edge cases are covered
 - [ ] Test output was reviewed (not just pass/fail)
-
-## Next Steps
-
-- 🔗 [Testing with GitHub Copilot](copilot-testing.md) — Copilot-specific verification setup
-- 🔗 [Testing with Claude Code](claude-code-testing.md) — Claude Code verification workflow
-- 🔗 [CI/CD Integration](ci-cd-integration.md) — Automated verification in pipelines

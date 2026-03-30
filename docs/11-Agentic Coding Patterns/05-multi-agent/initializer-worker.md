@@ -335,10 +335,3 @@ await Promise.all([
 | Refactor with many similar files | ✅ Yes — same interface, many workers |
 | Exploratory debugging | ❌ No — need iterative exploration |
 | API + frontend + tests | ✅ Yes — natural separation by domain |
-
-## Next Steps
-
-- [Multi-Agent Patterns](./multi-agent-patterns.md) — the four primary multi-agent architectures
-- [Agent Communication](./agent-communication.md) — how initializer and workers share context
-- [Parallel Agent Execution](./parallel-execution.md) — running workers concurrently
-- [Orchestrator-Workers](../02-workflow-patterns/orchestrator-workers.md) — the related workflow pattern

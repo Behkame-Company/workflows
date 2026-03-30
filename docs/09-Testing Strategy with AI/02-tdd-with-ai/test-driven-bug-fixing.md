@@ -36,20 +36,7 @@ When you give the AI a **failing test + the code**, you're giving it:
 
 ## The Four-Step Workflow
 
-```
-┌─────────────────────────────────────────────────────┐
-│            Test-Driven Bug Fixing                    │
-│                                                      │
-│  1. REPRODUCE  ──▶  2. GIVE TO AI  ──▶  3. AI FIXES │
-│  Write failing      Failing test +      Code change  │
-│  test               source code         to pass test │
-│                                              │       │
-│                                              ▼       │
-│                                         4. VERIFY    │
-│                                         Run full     │
-│                                         test suite   │
-└─────────────────────────────────────────────────────┘
-```
+This applies the Red-Green-Refactor cycle from [TDD Workflow](tdd-workflow.md) to bug fixing: reproduce → fix → verify.
 
 ### Step 1: Reproduce the Bug as a Failing Test
 
@@ -262,16 +249,3 @@ npx jest discount-calculator.test.ts
 - **Name the test after the bug** — `it('should not return NaN for bulk quantities (BUG-1234)')` makes the test traceable
 - **Keep existing tests** — never remove or modify passing tests; only add new ones
 - **Test the fix, not the implementation** — assert the correct output, not that a specific line changed
-
----
-
-## Next Steps
-
-- [TDD Workflow with AI Agents](tdd-workflow.md) — the full Red-Green-Refactor cycle
-- [Writing Tests First for AI](writing-tests-first.md) — techniques for constraint-rich tests
-- [Regression Testing Strategy](../08-regression-and-maintenance/regression-testing.md) — preventing bugs from recurring
-- [Edge Case Discovery](../03-test-generation/edge-case-discovery.md) — finding bugs before users do
-
----
-
-*Part of the [Testing Strategy with AI](../README.md) documentation series.*

@@ -127,10 +127,3 @@ Recall Accuracy
 - Following ambiguous or contradictory instructions
 
 **Implication**: Play to strengths. Use step-by-step for math. Use examples for format. Don't trust counts without verification.
-
----
-
-## Next Steps
-
-- 🔗 [Prompt vs Context Engineering](prompt-vs-context-engineering.md) — The bigger picture
-- 🔗 [Chain-of-Thought](../02-core-techniques/chain-of-thought.md) — Working around reasoning limits

@@ -189,7 +189,3 @@ Repo copilot-instructions.md:
 ```
 
 **Total: 12 rules, ~150 words** — compact and universally applicable.
-
----
-
-*Next: [AGENTS.md for Copilot Users](agents-md-for-copilot.md) →*

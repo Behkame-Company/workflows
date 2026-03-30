@@ -86,10 +86,6 @@
 | [04-Spec-Driven Development](../../04-Spec-Driven Development/README.md) | Requirements-first development |
 | **05-MCP Server** (this section) | Model Context Protocol |
 
----
-
-## Next Steps
-
 Start building! Pick a path:
 
 1. 🚀 **Quick start** → [First Server (Python)](../05-building-servers/first-server-python.md)

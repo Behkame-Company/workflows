@@ -85,10 +85,3 @@ This "U-shaped" recall curve means:
 3. **Don't dump everything in** — Curate what the model sees
 4. **Smaller, focused context wins** — 10K relevant tokens > 100K mixed tokens
 5. **Engineer around it** — Compaction, retrieval, sub-agents are your tools
-
----
-
-## Next Steps
-
-- 🔗 [Context Window Comparison](context-window-comparison.md) — Model capacities
-- 🔗 [Minimal Viable Context](../09-best-practices/minimal-viable-context.md) — The solution

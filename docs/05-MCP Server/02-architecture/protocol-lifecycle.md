@@ -263,10 +263,3 @@ Sessions end through:
 3. **Operations are JSON-RPC** — standard request/response/notification patterns
 4. **Sampling inverts the flow** — servers can ask the AI to think
 5. **Sessions are stateful** — state persists across messages within a session
-
----
-
-## Next Steps
-
-- 🔗 [Message Format & JSON-RPC](message-format.md) — The wire format in detail
-- 🔗 [Tools](../03-primitives/tools.md) — The most used operational primitive

@@ -170,7 +170,3 @@ HTTP Status Codes:
 - 429: Rate limit exceeded
 - 500: Server error (log, alert, retry where safe)
 ```
-
----
-
-*Next: [Writing for AI Agents →](writing-for-ai-agents.md)*

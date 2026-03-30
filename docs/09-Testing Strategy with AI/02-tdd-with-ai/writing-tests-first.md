@@ -22,6 +22,8 @@ Tests-first prompt: "Make these 5 tests pass"
 
 **Tests are executable specifications.** Unlike prose requirements that AI can misinterpret, tests have a binary pass/fail result.
 
+Follow the Red-Green-Refactor cycle described in [TDD Workflow](tdd-workflow.md) — this document focuses on the **test-writing** side of that cycle.
+
 ---
 
 ## Principles of Test-First for AI
@@ -308,16 +310,3 @@ it('should accept valid email with subdomain', () => {
   });
 });
 ```
-
----
-
-## Next Steps
-
-- [TDD Workflow with AI Agents](tdd-workflow.md) — the full Red-Green-Refactor cycle with AI
-- [Test-Driven Bug Fixing](test-driven-bug-fixing.md) — applying test-first to debugging
-- [AI Test Generation Patterns](../03-test-generation/generation-patterns.md) — when AI writes the tests instead
-- [Test as Specification](../01-fundamentals/test-as-specification.md) — the philosophy behind tests as constraints
-
----
-
-*Part of the [Testing Strategy with AI](../README.md) documentation series.*

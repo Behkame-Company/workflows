@@ -305,10 +305,3 @@ All instructions are merged and sent to the agent together. Write them to comple
 3. **Specify exact commands** — `npm test -- --coverage` beats "run tests with coverage"
 4. **Include examples** — a code snippet is worth a hundred words of description
 5. **Update regularly** — instructions should evolve with your codebase
-
-## Next Steps
-
-- [Copilot Coding Agent](./coding-agent.md) — the cloud agent that uses these instructions
-- [Copilot CLI Agent Mode](./cli-agent-mode.md) — local agent that also reads instructions
-- [Copilot Skills](./copilot-skills.md) — extend instructions with reusable skill packs
-- [CLAUDE.md for Agentic Workflows](../07-claude-code-patterns/claude-md-agents.md) — similar configuration for Claude Code

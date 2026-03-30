@@ -252,10 +252,3 @@ Month 11+:   OPTIMIZE
              └── Custom tooling
              └── Continuous evolution
 ```
-
-## Next Steps
-
-- [Build a champion network →](champion-network.md)
-- [Maintain cross-team consistency →](cross-team-consistency.md)
-- [Address enterprise governance →](enterprise-considerations.md)
-- [Assess your team's maturity →](../01-fundamentals/maturity-model.md)

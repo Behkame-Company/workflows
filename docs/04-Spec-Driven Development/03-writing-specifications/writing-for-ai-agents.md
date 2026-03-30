@@ -193,7 +193,3 @@ Example 3: ""  (empty string)
 ❌  "When it fails, show them the error"
 ✅  "When the API request fails, show the user an error toast with the message"
 ```
-
----
-
-*Next: [Spec Sizing & Scope →](spec-sizing-and-scope.md)*

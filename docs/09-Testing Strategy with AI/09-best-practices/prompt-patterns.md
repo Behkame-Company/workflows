@@ -382,16 +382,3 @@ Before sending any test generation prompt to AI, verify:
 | Property-based | "Write property-based tests verifying..." | Pure functions, serialization |
 | Regression | "Write a regression test for bug: [description]" | Bug fixes |
 | E2E | "Write E2E tests for [user flow]..." | User journeys |
-
----
-
-## Next Steps
-
-- [Test-First Development with AI](test-first-development.md) — the workflow these prompts support
-- [AI Test Generation Patterns](../03-test-generation/generation-patterns.md) — broader generation strategies
-- [Edge Case Discovery](../03-test-generation/edge-case-discovery.md) — finding what's missing
-- [Testing Templates](../11-practical/templates.md) — ready-to-use templates for these patterns
-
----
-
-*Part of the [Testing Strategy with AI](../README.md) series.*

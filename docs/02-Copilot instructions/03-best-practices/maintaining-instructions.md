@@ -192,7 +192,3 @@ When removing or changing a rule:
 # Step 3: Remove deprecated rule after migration complete
 - Use Tailwind CSS for all styling
 ```
-
----
-
-*Next: [Team Collaboration](team-collaboration.md) →*

@@ -175,7 +175,3 @@ Is SDD working for your team?
         → Expand to more feature types
         → Refine templates based on experience
 ```
-
----
-
-*Next: [FAQ →](faq.md)*

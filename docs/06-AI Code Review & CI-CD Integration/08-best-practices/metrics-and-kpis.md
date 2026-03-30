@@ -54,10 +54,3 @@ W12    | 16        | 58%        | 12%     | 2%            | 85%
 3. **Quality AND velocity** — Both should improve, not trade off
 4. **Weekly reviews for first 3 months** — Tune based on trends
 5. **Share dashboard with team** — Transparency drives improvement
-
----
-
-## Next Steps
-
-- 🔗 [Common Mistakes](../09-anti-patterns/common-mistakes.md) — What to avoid
-- 🔗 [Enterprise at Scale](../10-advanced/enterprise-review-at-scale.md) — Scaling metrics

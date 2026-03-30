@@ -206,11 +206,3 @@ my-mcp-server/
 3. **Tools need clear descriptions** — the AI reads them to decide when to use each tool
 4. **Handle errors gracefully** — return error messages, don't crash the server
 5. **Start simple, iterate** — get basic tools working, then add complexity
-
----
-
-## Next Steps
-
-- 🔗 [Your First Server (TypeScript)](first-server-typescript.md) — The TypeScript equivalent
-- 🔗 [Tool Design Patterns](tool-design-patterns.md) — Design tools AI agents love
-- 🔗 [Testing & Debugging](testing-and-debugging.md) — Thorough testing strategies

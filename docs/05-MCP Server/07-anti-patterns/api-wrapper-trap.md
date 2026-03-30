@@ -117,10 +117,3 @@ Not every case requires task-oriented tools. CRUD is acceptable when:
 3. **Less is more** — 5 task-oriented tools beats 25 CRUD endpoints
 4. **The AI isn't an API client** — It thinks in tasks, not request sequences
 5. **Save context** — Fewer, richer tool definitions
-
----
-
-## Next Steps
-
-- 🔗 [Over-Engineering Servers](over-engineering.md) — The flip side of the coin
-- 🔗 [Tool Design Patterns](../05-building-servers/tool-design-patterns.md) — How to design correctly

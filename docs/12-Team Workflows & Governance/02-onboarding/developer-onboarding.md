@@ -60,43 +60,10 @@ The new developer should be able to:
 
 **Goal:** Developer understands AI tool patterns and team standards through hands-on practice.
 
-### Day 2: Instruction Files and Context
-
-- Understand how instruction files shape AI behavior
-- Experiment: same prompt with and without instruction file
-- Learn context management (what to include, what to exclude)
-- Try prompt patterns from the team library
-
-**Exercise:** Generate a function using a prompt library template. Compare the output with and without the instruction file loaded.
-
-### Day 3: Pair Programming with AI
-
-- Shadow onboarding buddy during an AI-assisted task
-- Learn when AI helps vs. when it hinders
-- Practice the review-and-refine cycle
-- Understand the difference between accepting and adapting AI output
-
-**Exercise:** Pair with buddy on a real task. Buddy drives first, then new developer drives.
-
-### Day 4: Testing with AI
-
-- Learn TDD workflow with AI
-- Generate tests for existing code
-- Understand test quality assessment
-- Learn verification patterns (boundary testing, error paths)
-
-**Exercise:** Pick an existing function, generate tests with AI, evaluate coverage, and identify gaps.
-
-### Day 5: Independent Task and Retrospective
-
-- Complete a small, well-defined task using AI tools independently
-- Submit a PR following team AI review process
-- Review with onboarding buddy
-- Week 1 retrospective
-
-**Exercise:** Implement a feature from the backlog using AI assistance. Focus on process, not speed.
-
-### Week 1 Daily Exercise List
+- **Day 2 — Instruction Files & Context:** Experiment with same prompt with/without instruction file. Learn context management and prompt patterns.
+- **Day 3 — Pair Programming with AI:** Shadow buddy on an AI-assisted task, then drive. Learn the review-and-refine cycle.
+- **Day 4 — Testing with AI:** TDD workflow, generate tests for existing code, evaluate coverage gaps, verify boundary cases.
+- **Day 5 — Independent Task:** Complete a small backlog feature with AI, submit PR following team process, retrospective with buddy.
 
 | Day | Exercise | Expected outcome |
 |---|---|---|
@@ -112,57 +79,25 @@ The new developer should be able to:
 
 **Goal:** Developer uses AI tools independently with appropriate judgment.
 
-### Week 2-4 Activities
+**Week 2-4 activities:** Daily AI-assisted development, PR feedback on AI aspects, contribute ≥1 prompt to library, propose ≥1 instruction file improvement, progress from simple generation → refactoring → complex features → workflow optimization.
 
-- Use AI tools for daily development work
-- Receive focused feedback on AI-related aspects during PR reviews
-- Contribute at least one prompt to the team library
-- Identify one improvement for the instruction file
-- Practice progressively more complex AI-assisted tasks
-
-### Skill Progression
-
-```
-Week 1: Simple code generation, test writing
-Week 2: Refactoring, debugging assistance, documentation
-Week 3: Complex features, multi-file changes, architecture discussion
-Week 4: Workflow optimization, custom prompts, mentoring ability
-```
-
-### Monthly Checkpoint
-
-At the end of Month 1, the developer and their buddy assess:
-
-- [ ] Can independently use AI tools for common development tasks
+**Monthly checkpoint** — developer and buddy verify:
+- [ ] Independently uses AI tools for common tasks
 - [ ] Knows when to use AI and when not to
-- [ ] Reviews AI output critically (doesn't accept blindly)
-- [ ] Follows team AI review process consistently
-- [ ] Has contributed to the prompt library or instruction file
-- [ ] Can explain team AI standards to another person
+- [ ] Reviews AI output critically
+- [ ] Follows team AI review process
+- [ ] Has contributed to prompt library or instruction file
 
 ---
 
 ## Phase 4: Ongoing Growth
 
-**Goal:** Developer continuously improves their AI-assisted development skills and helps others.
+**Goal:** Continuously improve AI skills and help others.
 
-### Activities
+- Explore advanced patterns, experiment with new features, mentor newer team members
+- Contribute to prompt library, instruction files, and quarterly reviews
 
-- Explore advanced patterns (multi-step prompts, custom skills)
-- Experiment with new AI tool features as they're released
-- Mentor newer team members on AI workflows
-- Contribute regularly to prompt library and instruction files
-- Share learnings in team meetings and channels
-- Participate in instruction file quarterly reviews
-
-### Growth Path
-
-```
-Month 1-3:  Proficient user — follows team standards, works independently
-Month 3-6:  Advanced user — creates prompts, improves processes
-Month 6-12: Champion — mentors others, drives innovation
-Month 12+:  Expert — designs workflows, builds custom tools
-```
+**Growth path:** Proficient user (month 1-3) → Advanced user (3-6) → Champion (6-12) → Expert (12+)
 
 ---
 
@@ -216,10 +151,3 @@ Collect this feedback at the end of Week 1 and Month 1:
 ### Suggestions
 <!-- How would you improve the onboarding for the next person? -->
 ```
-
-## Next Steps
-
-- [Complete the tool setup checklist →](tool-setup-checklist.md)
-- [Follow the first week learning path →](first-week.md)
-- [Avoid common beginner mistakes →](beginner-mistakes.md)
-- [Explore the team prompt library →](../03-standards-and-conventions/prompt-library.md)

@@ -180,7 +180,3 @@ compliance-check:
 | Implement | Follow secure coding guidelines | Code review with security checklist |
 | Verify | Run compliance acceptance tests | Test results in CI artifacts |
 | Archive | Store all artifacts with retention | Git tags + archive policy |
-
----
-
-*Next: [Full-Stack Web App Spec →](../08-domain-examples/fullstack-web-app.md)*

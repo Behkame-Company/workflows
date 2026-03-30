@@ -133,32 +133,7 @@ After making changes:
 
 ## Sizing Guidelines
 
-| Size | Rating | Notes |
-|------|--------|-------|
-| 200-500 words | ✅ Ideal | Fits comfortably in context |
-| 500-1,000 words | ⚠️ Acceptable | Test that all sections are read |
-| 1,000-2,000 words | ⛔ Too long | Middle content likely ignored |
-| 2,000+ words | 🚫 Counterproductive | Move content to path-specific files |
-
-### How to Stay Under Budget
-
-If your instructions keep growing, extract domain-specific rules:
-
-```
-Before (all in copilot-instructions.md):
-  - 15 universal rules
-  - 10 frontend rules
-  - 10 backend rules
-  - 5 database rules
-  = 40 rules (too many)
-
-After:
-  copilot-instructions.md: 15 universal rules
-  frontend.instructions.md: 10 frontend rules
-  backend.instructions.md: 10 backend rules
-  database.instructions.md: 5 database rules
-  = 15 rules in any given context (much better)
-```
+See [Context Budget Management](../03-best-practices/context-budget-management.md) for detailed token limits, sizing strategies, and optimization techniques.
 
 ---
 
@@ -209,7 +184,3 @@ Never throw errors in API routes — catch and return error responses.
 | Not loaded for inline completions | Only affects Chat, Coding Agent, Code Review |
 | Content after ~4,000 chars truncated | For code review specifically |
 | Empty or commented-out instructions | Copilot ignores them silently |
-
----
-
-*Next: [Path-Specific Instructions](path-specific-instructions.md) →*

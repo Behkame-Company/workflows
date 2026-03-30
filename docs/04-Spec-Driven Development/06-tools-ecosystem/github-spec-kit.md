@@ -214,7 +214,3 @@ If a spec exists, validate your implementation against its acceptance criteria.
 - ⚠️ No GUI — CLI and Markdown only
 - ⚠️ Limited automation (manual quality gates)
 - ⚠️ Templates may need significant customization
-
----
-
-*Next: [AWS Kiro →](aws-kiro.md)*

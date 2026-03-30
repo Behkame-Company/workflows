@@ -298,9 +298,3 @@ memory-bank/
 └── decisions/
     └── 2024-q4-decisions.md  # Historical decision log
 ```
-
----
-
-*📋 Template: [Memory Bank Template](../07-templates/memory-bank-template.md)*
-
-*Next: [Framework Architecture](../05-meta-prompting-framework/framework-architecture.md) →*

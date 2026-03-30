@@ -1,6 +1,6 @@
 # Common Mistakes with Copilot Instructions
 
-> The top 15 mistakes teams make — and how to fix each one.
+> The top 14 mistakes teams make — and how to fix each one.
 
 ---
 
@@ -28,9 +28,9 @@ Next.js 15, TypeScript, Tailwind CSS.
 
 **What happens**: copilot-instructions.md is 3,000+ words with detailed explanations, history, and rationale for every decision.
 
-**Impact**: Middle content gets ignored. Context budget is consumed by instructions, leaving less room for actual code.
+**Impact**: Middle content gets ignored due to the "lost middle" attention effect. Context budget is consumed by instructions, leaving less room for actual code. Copilot Code Review silently truncates instructions beyond ~4,000 characters.
 
-**Fix**: Cut to 500-1,000 words. Move domain-specific content to path-specific files. Save explanations for the team wiki, not the instruction file.
+**Fix**: Cut to 500-1,000 words. Move domain-specific content to path-specific files. Save explanations for the team wiki, not the instruction file. For Code Review specifically, keep instructions under 4,000 characters or use `excludeAgent: "code-review"` for instructions that only apply to chat/agent.
 
 ---
 
@@ -40,14 +40,7 @@ Next.js 15, TypeScript, Tailwind CSS.
 
 **Impact**: These instructions are too vague for Copilot to act on. They change nothing.
 
-**Fix**: Replace with specific, actionable rules:
-
-| ❌ Vague | ✅ Specific |
-|---------|------------|
-| Write clean code | Use named exports; never use `any` |
-| Follow best practices | Validate API input with Zod |
-| Use proper error handling | Catch errors in try/catch; return `{ error, code }` |
-| Be secure | Never log tokens; hash passwords with bcrypt |
+**Fix**: Replace with specific, actionable rules. See [Writing Effective Instructions](../03-best-practices/writing-effective-instructions.md) for detailed vague-vs-specific comparisons.
 
 ---
 
@@ -208,17 +201,7 @@ find . -path "./src/components/**/*.tsx" -type f | head -10
 
 ---
 
-## Mistake #14: Ignoring Copilot Code Review Limits
-
-**What happens**: Instructions exceed ~4,000 characters. You expect Code Review to follow all of them.
-
-**Impact**: Code Review silently truncates instructions beyond the limit.
-
-**Fix**: For code review instructions, keep under 4,000 characters. If you need more, use the `excludeAgent: "code-review"` field for instructions that only apply to chat/agent.
-
----
-
-## Mistake #15: Not Testing Instructions
+## Mistake #14: Not Testing Instructions
 
 **What happens**: Instructions are written, committed, and never verified.
 
@@ -254,7 +237,3 @@ Score your instruction setup:
 **8-10 Yes**: Excellent! You're in the top tier.
 **5-7 Yes**: Good foundation. Address the gaps.
 **0-4 Yes**: Significant room for improvement.
-
----
-
-*Next: [Instructions That Backfire](instructions-that-backfire.md) →*

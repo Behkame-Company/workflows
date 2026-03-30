@@ -223,10 +223,3 @@ Monitor your own context usage:
 4. For each new sub-task, state what you know and what you need — 
    if you can't state what you know, context is stale
 ```
-
-## Next Steps
-
-- [Infinite Agent Loops](./infinite-loops.md) — loops that rapidly exhaust context
-- [Blind Delegation](./blind-delegation.md) — when context loss leads to unverified claims
-- [Over-Engineering](./over-engineering.md) — complexity that consumes more context
-- [Context Window Optimization](../09-best-practices/context-window-optimization.md) — proactive context management techniques

@@ -330,9 +330,3 @@ Use this checklist when designing or reviewing agent tools:
 □ Output format is natural and includes context for reasoning
 □ Tested with actual model usage and iterated on failures
 ```
-
-## Next Steps
-
-- [Prompt Chaining](../02-workflow-patterns/prompt-chaining.md) — compose well-designed tools into workflows
-- [Routing](../02-workflow-patterns/routing.md) — direct tasks to the right specialized tools
-- [Orchestrator-Workers](../02-workflow-patterns/orchestrator-workers.md) — dynamic tool selection at scale

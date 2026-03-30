@@ -96,11 +96,4 @@
 
 ---
 
-## Next Steps
-
-- 🔗 [The Client-Host-Server Model](../02-architecture/client-host-server.md) — See these terms in action
-- 🔗 [Tools](../03-primitives/tools.md) — Deep dive on the most important primitive
-
----
-
 *Bookmark this page — you'll reference it often as you learn MCP.*

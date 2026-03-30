@@ -295,16 +295,3 @@ Verification is always cheaper than production bugs.
 | **Standard** | Run tests + check coverage | Feature PRs |
 | **Thorough** | Tests + coverage + mutation testing | Critical paths |
 | **Maximum** | All above + manual smoke test | Security, payments, auth |
-
----
-
-## Next Steps
-
-- [Anti-Pattern: Testing to Pass](testing-to-pass.md) — even verified tests can be worthless
-- [Anti-Pattern: Over-Mocking](mock-everything.md) — verification that doesn't verify
-- [Coding Agent Test Verification](../06-ai-qa-workflows/agent-verification.md) — automating AI self-verification
-- [CI/CD Test Integration](../06-ai-qa-workflows/ci-cd-integration.md) — enforcing verification in pipelines
-
----
-
-*Part of the [Testing Strategy with AI](../README.md) series.*

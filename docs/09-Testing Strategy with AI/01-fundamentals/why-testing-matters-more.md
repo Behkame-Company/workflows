@@ -291,9 +291,3 @@ Without tests, you're moving 5-10x faster toward production bugs.
 3. Speed without testing is just faster failure
 4. Tests constrain AI behavior and serve as specifications
 5. Invest MORE in testing when using AI, not less
-
----
-
-*Next: [Testing Pyramid with AI](testing-pyramid-with-ai.md) — How AI changes the traditional testing pyramid*
-
-*Part of the [Testing Strategy with AI](../README.md) documentation series.*

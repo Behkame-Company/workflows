@@ -21,59 +21,23 @@ PR Created → Lint ✅ → Test ✅ → Security ❌ (BLOCKED) → Review → D
 
 | Gate | What It Checks | Threshold Example |
 |------|---------------|-------------------|
-| **Lint** | Code style, formatting | Zero lint errors |
-| **Type Check** | Type safety | Zero type errors |
-| **Unit Tests** | Functionality | All tests pass |
-| **Test Coverage** | Code coverage | ≥80% line coverage for new code |
-| **Security (SAST)** | Vulnerabilities | Zero critical/high findings |
-| **Dependency Check** | Known CVEs | No high-severity CVEs in deps |
+| **Lint / Type Check** | Style, formatting, type safety | Zero errors |
+| **Tests / Coverage** | Functionality, code coverage | All pass, ≥80% new code |
+| **Security (SAST)** | Vulnerabilities, CVEs | Zero critical/high findings |
 | **AI Review** | Code quality | No critical AI findings |
-| **Build** | Compilation | Successful build |
-| **Performance** | Response times | No regression >10% |
+| **Build / Performance** | Compilation, response times | Successful build, no regression >10% |
 
----
-
-## Implementing in GitHub Actions
-
-### Branch Protection Rules
-
-```
-Repository → Settings → Branches → Branch protection rules
-
-✅ Require status checks to pass before merging
-  ✅ lint
-  ✅ test
-  ✅ security-scan
-  ✅ copilot-review
-
-✅ Require pull request reviews before merging
-  - Required approvals: 1
-  
-✅ Require conversation resolution before merging
-```
-
-### Status Checks as Gates
-
-```yaml
-jobs:
-  quality-gate:
-    runs-on: ubuntu-latest
-    needs: [lint, test, security, ai-review]
-    steps:
-      - name: All gates passed
-        run: echo "All quality gates passed ✅"
-```
+> For detailed implementation of each gate type, see the [Quality Gates section](../05-quality-gates/). For CI/CD implementation patterns, see [GitHub Actions Basics](github-actions-basics.md) and [Pipeline Architecture](pipeline-architecture.md).
 
 ---
 
 ## Gate Severity Levels
 
-| Finding Severity | Gate Action | Rationale |
-|-----------------|-------------|-----------|
-| 🔴 Critical | **Block merge** | Security vulnerability, data loss risk |
-| 🟠 High | **Block merge** | Significant bug, performance regression |
-| 🟡 Medium | **Warn** (don't block) | Code smell, minor improvement |
-| 🟢 Low | **Inform** only | Style preference, optional enhancement |
+| Severity | Action | Example |
+|----------|--------|---------|
+| 🔴 Critical / 🟠 High | **Block merge** | Security vuln, data loss, significant bug |
+| 🟡 Medium | **Warn** | Code smell, minor improvement |
+| 🟢 Low | **Inform** | Style preference, optional enhancement |
 
 ---
 
@@ -84,10 +48,3 @@ jobs:
 3. **Warn on medium** — Don't block the pipeline for code smells
 4. **Enforce via branch protection** — Make gates mandatory for merge
 5. **Review gate thresholds regularly** — Adjust as team matures
-
----
-
-## Next Steps
-
-- 🔗 [Pipeline Architecture](pipeline-architecture.md) — Full pipeline design
-- 🔗 [Security Gates](../05-quality-gates/security-gates-sast-dast.md) — SAST/DAST specifics

@@ -102,10 +102,3 @@
 3. Use self-consistency (run 3 times, pick majority)
 4. Temperature 0 for maximum consistency
 5. Test with diverse inputs and refine for failures
-
----
-
-## Next Steps
-
-- 🔗 [FAQ](faq.md) — Quick answers to common questions
-- 🔗 [Iterative Refinement](../09-best-practices/iterative-refinement.md) — Systematic improvement

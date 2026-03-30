@@ -163,7 +163,3 @@ gsd-verify-work    → Review Agent equivalent
 | Error propagation | Quality gates between every phase |
 | Over-delegation to AI | Human reviews at every gate |
 | Token/cost management | Right-size context per agent (load only relevant sections) |
-
----
-
-*Next: [Compliance & Audit Trails →](compliance-and-audit.md)*

@@ -33,63 +33,27 @@ A single agent works well for focused tasks. But complex coding work — large f
 
 ## Pattern 1: Coordinator
 
-A **central agent** receives the task, analyzes it, delegates subtasks to specialist agents, and synthesizes results.
+The Coordinator pattern is implemented as the [Orchestrator-Workers](../02-workflow-patterns/orchestrator-workers.md) workflow. Key additions for multi-agent scenarios:
 
-```
-┌────────────────────────────────────────────────────────────────┐
-│                      COORDINATOR                                │
-│                                                                │
-│                  ┌──────────────┐                              │
-│                  │ COORDINATOR  │                              │
-│                  │              │                              │
-│                  │ Analyzes     │                              │
-│                  │ Delegates    │                              │
-│                  │ Synthesizes  │                              │
-│                  └──────┬───────┘                              │
-│                         │                                      │
-│           ┌─────────────┼─────────────┐                       │
-│           ▼             ▼             ▼                       │
-│     ┌──────────┐  ┌──────────┐  ┌──────────┐                 │
-│     │ Frontend │  │ Backend  │  │  Testing  │                 │
-│     │ Agent    │  │ Agent    │  │  Agent    │                 │
-│     └──────────┘  └──────────┘  └──────────┘                 │
-│           │             │             │                       │
-│           └─────────────┼─────────────┘                       │
-│                         ▼                                      │
-│                  ┌──────────────┐                              │
-│                  │  SYNTHESIZE  │                              │
-│                  │  Merge +     │                              │
-│                  │  Verify      │                              │
-│                  └──────────────┘                              │
-│                                                                │
-│  When to use:                                                  │
-│  • Complex features spanning multiple domains                  │
-│  • Agent specialization improves quality                       │
-│  • Dynamic — coordinator decides how many agents needed        │
-└────────────────────────────────────────────────────────────────┘
-```
+- **Agent specialization**: Each worker is a specialist (frontend agent, backend agent, testing agent) rather than a generic worker
+- **Parallel delegation**: Coordinator can dispatch to multiple specialists simultaneously
+- **Cross-domain synthesis**: Results from different domains must be merged and verified for consistency
 
 ```typescript
-// Coordinator pattern implementation
+// Coordinator pattern — multi-agent extension of orchestrator-workers
 async function coordinatorPattern(task: string) {
-  // Coordinator analyzes and delegates
   const analysis = await coordinator.analyze(task);
-  
   const subtasks = analysis.decompose();
-  // [
-  //   { domain: "frontend", task: "Build login form component" },
-  //   { domain: "backend",  task: "Create auth API endpoint" },
-  //   { domain: "testing",  task: "Write integration tests for auth" },
-  // ]
 
-  // Delegate to specialist agents
+  // Delegate to specialist agents in parallel
   const results = await Promise.all(
     subtasks.map(sub => specialists[sub.domain].execute(sub.task))
   );
 
-  // Coordinator synthesizes and verifies
+  // Coordinator synthesizes and verifies cross-domain consistency
   return await coordinator.synthesize(results);
 }
+```
 ```
 
 ## Pattern 2: Pipeline
@@ -343,10 +307,3 @@ async function swarmPattern(tasks: SubTask[]) {
 │  A single capable agent is often enough.                       │
 └────────────────────────────────────────────────────────────────┘
 ```
-
-## Next Steps
-
-- [Initializer-Worker Pattern](./initializer-worker.md) — a powerful coordinator variant for code generation
-- [Agent Communication](./agent-communication.md) — how agents share context and coordinate
-- [Parallel Agent Execution](./parallel-execution.md) — running agents concurrently
-- [Orchestrator-Workers](../02-workflow-patterns/orchestrator-workers.md) — the workflow pattern that inspired coordinators

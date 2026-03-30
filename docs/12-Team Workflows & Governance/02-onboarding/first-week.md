@@ -295,10 +295,3 @@ Your buddy assigns a small, well-defined task from the backlog.
 | 3 | Pair Programming | Review-and-refine cycle | Feature implemented with buddy |
 | 4 | Testing | TDD with AI, test quality assessment | Test suite with manual edge cases |
 | 5 | Independence | Solo task + PR | Merged PR, completed retrospective |
-
-## Next Steps
-
-- [Learn common beginner mistakes to avoid →](beginner-mistakes.md)
-- [Review the full onboarding program →](developer-onboarding.md)
-- [Explore the team prompt library →](../03-standards-and-conventions/prompt-library.md)
-- [Understand code quality standards →](../03-standards-and-conventions/code-quality-standards.md)

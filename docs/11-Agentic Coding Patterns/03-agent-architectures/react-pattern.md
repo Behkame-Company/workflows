@@ -329,20 +329,7 @@ const observation = await readFile("src/index.ts", { startLine: 42, endLine: 60 
 
 ### 2. Thought Loops
 
-The agent keeps reasoning about the same thing without making progress:
-
-```typescript
-// Detect thought loops
-function isStuck(history: ReActStep[]): boolean {
-  if (history.length < 3) return false;
-  
-  const lastThree = history.slice(-3);
-  const thoughts = lastThree.map(s => s.thought);
-  
-  // If recent thoughts are too similar, the agent is stuck
-  return similarity(thoughts[0], thoughts[2]) > 0.9;
-}
-```
+The agent keeps reasoning about the same thing without making progress. For comprehensive loop detection strategies, see [Infinite Agent Loops](../10-anti-patterns/infinite-loops.md) and [Autonomous Agents — Stopping Conditions](./autonomous-agents.md#stopping-conditions).
 
 ### 3. Missing the Forest for the Trees
 
@@ -365,10 +352,3 @@ Every major coding agent uses ReAct at its core:
 - **Devin/OpenHands**: Multi-step coding tasks with observation-grounded reasoning
 
 The explicit "Thought → Action → Observation" framing is what makes these tools work reliably on complex tasks.
-
-## Next Steps
-
-- [Autonomous Agents](./autonomous-agents.md) — full autonomous loop built on ReAct
-- [Plan-and-Execute](./plan-and-execute.md) — separating planning from execution
-- [Reflection and Self-Critique](./reflection.md) — adding self-evaluation to the loop
-- [Shell and File Tools](../04-tool-use/shell-and-file-tools.md) — the tools agents act with

@@ -1,6 +1,6 @@
 # Section-by-Section Guide
 
-> Exhaustive reference for every recommended section in an AGENTS.md file, with examples and anti-patterns for each.
+> Exhaustive reference for every recommended section in an AGENTS.md file.
 
 ---
 
@@ -49,13 +49,7 @@
 - **Explicit package manager** — prevents `npm install` when you use pnpm
 - **All common operations** — build, test, lint, format, type check, DB
 
-### Anti-Patterns
-
-```markdown
-❌ "You can run tests with the usual command."
-❌ "Install dependencies and start the server."
-❌ "Test: npm test" (but project uses pnpm)
-```
+> For anti-patterns, see [Common Mistakes](../04-anti-patterns/common-mistakes.md).
 
 ---
 
@@ -78,14 +72,6 @@ NOT used: Redux, Webpack, Jest, Enzyme, CSS Modules.
 - **Single concise line** — not a verbose bulleted list
 - **Versions included** — prevents agents from generating deprecated APIs
 - **Negative list** — explicitly excludes similar technologies that agents might default to
-
-### Anti-Patterns
-
-```markdown
-❌ No version numbers: "React, Node, Express"
-❌ Excessive detail: Listing every npm package
-❌ Missing negatives: Not mentioning what you DON'T use
-```
 
 ---
 
@@ -112,14 +98,6 @@ scripts/         — Dev tooling and automation scripts
 - **Top-level directories only** — doesn't list individual files
 - **Purpose annotations** — explains what goes in each directory
 - **Stays current** — easy to update, hard to go stale
-
-### Anti-Patterns
-
-```markdown
-❌ Listing every file: "src/components/Button.tsx, src/components/Card.tsx..."
-❌ No annotations: Just listing directory names without purpose
-❌ Including generated directories: "node_modules/, .next/, dist/"
-```
 
 ---
 
@@ -149,15 +127,6 @@ scripts/         — Dev tooling and automation scripts
 | 5-10 | ✅ Sweet spot — focused and followable |
 | 10-15 | Getting diluted — prioritize |
 | 20+ | Agent ignores most of them |
-
-### Anti-Patterns
-
-```markdown
-❌ Vague: "Write clean, readable code"
-❌ Contradictory: "Use named exports" + later "Export default from components"
-❌ Duplicating language defaults: "Use semicolons in TypeScript"
-❌ Too many rules: 25 conventions = agent follows 5
-```
 
 ---
 
@@ -328,7 +297,3 @@ If you can only include N sections, prioritize:
 | 50 lines | + Testing + Structure |
 | 100 lines | + Code Patterns + Git |
 | 200 lines | + Architecture + Safety |
-
----
-
-*Next: [Lessons from 2,500 Repos](../03-best-practices/lessons-from-2500-repos.md) →*

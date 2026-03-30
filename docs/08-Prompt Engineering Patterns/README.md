@@ -112,7 +112,3 @@ The difference between a useful AI response and a useless one is almost always t
 3. **Need structured data?** → [JSON Output Patterns](03-structured-output/json-output-patterns.md)
 4. **Writing code prompts?** → [Code Generation Prompts](05-coding-specific/code-generation-prompts.md)
 5. **Building agents?** → [Agentic Prompting](08-react-and-agents/agentic-prompting.md)
-
----
-
-*Part of the [AI-Assisted Development Documentation](../README.md) series.*

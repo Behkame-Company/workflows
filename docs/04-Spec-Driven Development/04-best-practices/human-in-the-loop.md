@@ -141,7 +141,3 @@ Reason: Premature optimization
 - Reviews are conversations, not gatekeeping
 - "What if...?" questions improve specs
 - Disagreements are resolved by clarifying the spec, not by hierarchy
-
----
-
-*Next: [Keeping Specs Alive →](keeping-specs-alive.md)*

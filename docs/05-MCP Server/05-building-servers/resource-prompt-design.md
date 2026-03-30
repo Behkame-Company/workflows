@@ -164,10 +164,3 @@ async def migration_review(migration_file: str) -> list:
 3. **Combine them**: Prompts that reference resources create powerful workflows
 4. **Version your prompts**: As team practices evolve, update templates
 5. **Test with real AI**: Verify the AI produces the expected output format
-
----
-
-## Next Steps
-
-- 🔗 [Testing & Debugging](testing-and-debugging.md) — Validate your implementations
-- 🔗 [Server Design Principles](../06-best-practices/server-design-principles.md) — Overarching design rules

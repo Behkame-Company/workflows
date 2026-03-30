@@ -63,7 +63,9 @@ At each turn, you decide:
 
 > **Find the smallest possible set of high-signal tokens that maximize the likelihood of the desired outcome.**
 
-This is Anthropic's guiding principle. It means:
+This principle is formalized as Minimal Viable Context — see [MVC](../09-best-practices/minimal-viable-context.md).
+
+It means:
 1. **Every token should earn its place** — If it doesn't help, it hurts
 2. **Context is a finite resource with diminishing returns** — More isn't better
 3. **Curation is continuous** — Not just at the start, but every turn
@@ -78,10 +80,3 @@ This is Anthropic's guiding principle. It means:
 3. **Smallest viable context** — Only what's needed, nothing more
 4. **Dynamic, not static** — Context changes as the task evolves
 5. **This is the meta-skill** — Master this to master AI-assisted development
-
----
-
-## Next Steps
-
-- 🔗 [Anatomy of Effective Context](anatomy-of-effective-context.md) — What good context looks like
-- 🔗 [System Prompt Optimization](system-prompt-optimization.md) — The instruction layer

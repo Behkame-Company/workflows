@@ -84,10 +84,3 @@ This gives the agent a **map** — the actual **territory** is explored on deman
 3. **On-demand: targeted retrieval** — Specific files, specific lines
 4. **The decision rule** — Needed for every task? Upfront. Specific task? On-demand.
 5. **As models improve, more autonomy** — Smarter models need less upfront
-
----
-
-## Next Steps
-
-- 🔗 [Agentic Search](agentic-search.md) — AI discovers what it needs
-- 🔗 [Progressive Disclosure](progressive-disclosure.md) — Layer-by-layer building

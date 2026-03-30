@@ -305,10 +305,3 @@ Over time, build a library of skills that encode your team's knowledge:
 ```
 
 Each skill captures institutional knowledge that would otherwise live only in team members' heads.
-
-## Next Steps
-
-- [Agent Skills Specification](../08-skills-and-custom-agents/skills-spec.md) — deep dive into the agentskills spec
-- [Building Custom Skills](../08-skills-and-custom-agents/building-skills.md) — step-by-step skill creation guide
-- [Custom Instructions](./custom-instructions.md) — the instruction files that complement skills
-- [Agent Composition](../08-skills-and-custom-agents/agent-composition.md) — combining skills into complex workflows

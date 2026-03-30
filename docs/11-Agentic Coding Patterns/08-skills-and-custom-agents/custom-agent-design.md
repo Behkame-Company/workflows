@@ -283,10 +283,3 @@ After every task, run:
 - [Verification command 2]
 - [Verification command 3]
 ```
-
-## Next Steps
-
-- [Agent Composition](./agent-composition.md) — combine agents into powerful workflows
-- [Building Custom Skills](./building-skills.md) — create skills that agents use
-- [Agent Skills Specification](./skills-spec.md) — the standard for portable agent capabilities
-- [Testing Agentic Systems](../09-best-practices/testing-agents.md) — evaluate your custom agents

@@ -82,10 +82,3 @@
 | **Design** | Figma, Sketch | Design systems |
 | **Communication** | Slack, Discord, Email | Team communication |
 | **AI & Search** | Exa, Brave Search, Tavily | Web search |
-
----
-
-## Next Steps
-
-- 🔗 [Client Compatibility](client-compatibility.md) — Which clients support which features
-- 🔗 [Community & Registries](community-and-registries.md) — Finding more servers

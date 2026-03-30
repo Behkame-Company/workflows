@@ -20,39 +20,13 @@ Draft 5:  Approval → "this is what we're building"
 
 ## The Spec Iteration Lifecycle
 
-### Phase 1: Discovery Draft (Author, 15 min)
-Write the minimum viable spec:
-- Summary (what and why)
-- 3–5 user stories
-- Initial acceptance criteria
-- Known edge cases
-
-### Phase 2: Clarification Round (Author + Stakeholders, 30 min)
-Identify and fill gaps:
-- Ask "What if...?" questions
-- Resolve ambiguities
-- Add missing scenarios
-- Define boundaries
-
-### Phase 3: Technical Review (Author + Engineers, 30 min)
-Validate feasibility:
-- Are requirements technically achievable?
-- Are there architectural implications?
-- What's the estimated effort?
-- Are there dependency risks?
-
-### Phase 4: Refinement (Author, 15 min)
-Incorporate feedback:
-- Tighten language for AI clarity
-- Add specific values and boundaries
-- Update acceptance criteria
-- Finalize scope
-
-### Phase 5: Approval (Stakeholders, 10 min)
-Final sign-off:
-- All reviewers approve
-- Spec status changes to "Approved"
-- Ready for Plan phase
+| Phase | Time | Owner | Deliverables |
+|-------|------|-------|-------------|
+| 1. Discovery Draft | 15 min | Author | Summary, 3–5 user stories, initial ACs, known edge cases |
+| 2. Clarification | 30 min | Author + Stakeholders | Gap analysis, resolved ambiguities, boundary definitions |
+| 3. Technical Review | 30 min | Author + Engineers | Feasibility validation, effort estimate, dependency risks |
+| 4. Refinement | 15 min | Author | Tightened language, specific values, finalized scope |
+| 5. Approval | 10 min | Stakeholders | All reviewers approve, status → "Approved", ready for Plan |
 
 ---
 
@@ -152,7 +126,3 @@ Iteration 3:  Full spec with edge cases, error handling, performance criteria
 ❌  Author writes and rewrites in isolation
 ✅  Each iteration involves different perspectives (product, engineering, QA)
 ```
-
----
-
-*Next: [Version Control for Specs →](version-control-for-specs.md)*

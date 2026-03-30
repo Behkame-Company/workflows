@@ -6,57 +6,7 @@
 
 ## The 4S Principle
 
-Microsoft's recommended framework for Copilot prompts:
-
-### 1. Single — One Task at a Time
-
-```markdown
-# ❌ Multi-task prompt
-Create a user registration form with validation, hook it up to the API,
-add error handling, write tests, and update the documentation.
-
-# ✅ Single task
-Create a user registration form component with email and password fields.
-Use Zod for client-side validation.
-```
-
-Break complex requests into sequential steps.
-
-### 2. Specific — Name Technologies and Patterns
-
-```markdown
-# ❌ Generic
-Create a form with validation
-
-# ✅ Specific
-Create a React form component using react-hook-form with Zod resolver.
-Fields: email (string, valid email format), password (string, min 8 chars).
-On submit, call `registerUser()` from `src/lib/api/auth.ts`.
-```
-
-### 3. Short — Concise Instructions
-
-```markdown
-# ❌ Verbose (72 words)
-I would like you to please create a utility function that takes in a date
-string in various formats and converts it to our standard ISO 8601 format.
-The function should handle edge cases like null, undefined, and invalid
-date strings gracefully, and it should return null for invalid inputs
-rather than throwing an error.
-
-# ✅ Concise (24 words)
-Create `parseDate(input: string | null): string | null` in `src/lib/date.ts`.
-Convert to ISO 8601. Return null for invalid inputs.
-```
-
-### 4. Surround — Provide Context Files
-
-Open relevant files in your editor before prompting. Copilot uses open files as context:
-
-- Open the file where code will be added
-- Open related files with similar patterns
-- Open type definitions that the new code should use
-- Open test files to show expected test patterns
+The 4S Framework (Single, Specific, Short, Surrounded) is Microsoft's recommended approach for structuring Copilot prompts. See [Writing Effective Instructions](../03-best-practices/writing-effective-instructions.md) for the full framework and examples.
 
 ---
 
@@ -251,7 +201,3 @@ Return paginated results with cursor-based navigation.
 ### Combined Effect
 
 Instructions set the **guardrails** (TypeScript, Zod). The prompt sets the **direction** (product search, pagination). Together, they produce focused, compliant code.
-
----
-
-*Next: [Monorepo Strategies](monorepo-strategies.md) →*

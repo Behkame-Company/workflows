@@ -203,10 +203,3 @@ Step 5: Measure again — did it actually help?
 - Debugging requires understanding 5+ interacting agents
 
 > *"The best agent is the one you don't build. Use the simplest solution that reliably solves your problem."*
-
-## Next Steps
-
-- [Infinite Agent Loops](./infinite-loops.md) — another complexity-related anti-pattern
-- [Context Starvation](./context-starvation.md) — when complexity fills your context window
-- [When to Go Agentic](../01-fundamentals/when-to-go-agentic.md) — the decision framework for choosing complexity
-- [Workflow Patterns](../02-workflow-patterns/prompt-chaining.md) — start with simpler patterns first

@@ -280,9 +280,3 @@ export default defineConfig({
   },
 });
 ```
-
-## Next Steps
-
-- [Integration Testing](./integration-testing.md) — Test service boundaries without the overhead of full browser automation
-- [Snapshot and Visual Testing](./snapshot-testing.md) — Catch visual regressions in UI components
-- [Coverage Analysis](../05-coverage-and-quality/coverage-analysis.md) — Understand which code paths your E2E tests exercise

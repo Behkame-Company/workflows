@@ -200,7 +200,3 @@ Epic:     Decompose into multiple medium specs
 ```
 
 The examples above demonstrate this scaling in practice.
-
----
-
-*Next: [Troubleshooting →](troubleshooting.md)*

@@ -338,10 +338,3 @@ reporting:
     - average_cost
     - regression_count
 ```
-
-## Next Steps
-
-- [Start Simple](./start-simple.md) — simpler agents are easier to test
-- [Transparency](./transparency.md) — observable agents produce better trajectories
-- [Error Recovery](./error-recovery.md) — test failure handling explicitly
-- [Agentic Workflow Troubleshooting](../11-practical/troubleshooting.md) — debug common issues

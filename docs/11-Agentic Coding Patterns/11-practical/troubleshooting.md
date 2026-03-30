@@ -303,10 +303,3 @@ This task is NOT complete until ALL of the following are true:
 | Agent conflicts | File ownership | Partition by module |
 | Rate limits | Concurrent agent count | Reduce parallelism |
 | Stops early | Success criteria | Add explicit checklist |
-
-## Next Steps
-
-- [FAQ](./faq.md) — answers to common questions about agentic workflows
-- [Templates](./templates.md) — ready-to-use configurations that prevent common issues
-- [Anti-Patterns](../10-anti-patterns/over-engineering.md) — deeper dives into what goes wrong
-- [Testing Strategy](../09-best-practices/testing-strategy.md) — building robust verification

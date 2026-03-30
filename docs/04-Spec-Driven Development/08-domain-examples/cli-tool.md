@@ -183,7 +183,3 @@ tsk config --show            # Show current config (token masked)
 | Error display | Toast/modal | Stderr + exit code |
 | Configuration | .env, UI settings | Config file, env vars |
 | Testing | E2E with browser | Integration with process spawning |
-
----
-
-*Next: [Templates Library →](../09-practical/templates-library.md)*

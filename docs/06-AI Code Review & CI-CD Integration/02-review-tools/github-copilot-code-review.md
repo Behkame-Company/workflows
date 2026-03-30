@@ -111,10 +111,3 @@ Copilot posts review comments with:
 3. **Combines AI + deterministic** — LLM reasoning plus CodeQL/linter findings
 4. **One-click fixes** — Suggestions can be applied directly in the PR
 5. **Organization-wide enforcement** — Business/Enterprise plans for teams
-
----
-
-## Next Steps
-
-- 🔗 [CodeRabbit](coderabbit.md) — Alternative AI reviewer
-- 🔗 [Review Instructions](../08-best-practices/review-instructions.md) — Writing effective review rules

@@ -289,7 +289,3 @@ Before committing a new instruction, ask:
 - [ ] Does this instruction match **current codebase reality**?
 - [ ] Have you **tested** it on both simple and complex tasks?
 - [ ] Would a new developer **understand** the intent without extra context?
-
----
-
-*Next: [Security Risks](security-risks.md) →*

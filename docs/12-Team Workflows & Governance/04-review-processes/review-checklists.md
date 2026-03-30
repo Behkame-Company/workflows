@@ -250,10 +250,3 @@ When logging review findings, categorize by severity:
 □ Security threat model     □ Integration points verified
 □ Performance profiled      □ Rollback plan exists
 ```
-
-## Next Steps
-
-- [Return to the full review workflow →](ai-code-review-workflow.md)
-- [Understand the human-AI review balance →](human-ai-review-balance.md)
-- [Use PR templates for disclosure →](pr-templates.md)
-- [Plan your AI tool rollout →](../05-scaling-ai-across-teams/rollout-strategy.md)

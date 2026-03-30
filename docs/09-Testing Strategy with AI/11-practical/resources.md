@@ -197,7 +197,3 @@
 2. [Regression Testing Strategy](../08-regression-and-maintenance/regression-testing.md)
 3. [Templates](templates.md)
 4. All four [Anti-Patterns](../10-anti-patterns/testing-to-pass.md)
-
----
-
-*Part of the [Testing Strategy with AI](../README.md) series.*

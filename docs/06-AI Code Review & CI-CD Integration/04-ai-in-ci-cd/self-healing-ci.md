@@ -108,10 +108,3 @@ When the CI pipeline fails:
 3. **Best for mechanical fixes** — Lint, type, and simple test failures
 4. **Not for complex bugs** — Business logic still needs human debugging
 5. **Guardrails are essential** — Rate limits, escalation, no auto-merge
-
----
-
-## Next Steps
-
-- 🔗 [Continuous AI](continuous-ai.md) — The broader always-on AI paradigm
-- 🔗 [Agentic Workflows](agentic-workflows.md) — The underlying platform

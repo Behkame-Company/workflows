@@ -110,10 +110,3 @@ Keep memories organized and up-to-date.
 3. **Organized > comprehensive** — Keep files focused and current
 4. **Update continuously** — Not just at start/end of session
 5. **Pair with compaction** — Memory survives context resets
-
----
-
-## Next Steps
-
-- 🔗 [Structured Note-Taking](structured-note-taking.md) — Agent self-documentation
-- 🔗 [Memory Bank Pattern](memory-bank-pattern.md) — The Cline approach

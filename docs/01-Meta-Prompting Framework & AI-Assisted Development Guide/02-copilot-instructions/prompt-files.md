@@ -220,9 +220,3 @@ Review the changes against these criteria:
 
 GitHub maintains a collection of community-contributed prompt files:
 [Awesome GitHub Copilot Customizations](https://github.com/github/awesome-copilot/blob/main/docs/README.prompts.md)
-
----
-
-*📋 Template: [Prompt File Template](../07-templates/prompt-file-template.md)*
-
-*Next: [AGENTS.md Guide](../03-agents-md/agents-md-guide.md) →*

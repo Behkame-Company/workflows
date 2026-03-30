@@ -104,13 +104,7 @@ Absolutely. SDD is valuable even without AI. Human developers benefit from clear
 ## Common Concerns
 
 ### Q18: Isn't SDD just waterfall?
-Not when practiced correctly. Key differences:
-- Specs are per-feature (not per-project)
-- Specs are living documents (not carved in stone)
-- Feedback flows backward (implementation can update specs)
-- Cycle time is days (not months)
-
-See [Waterfall in Disguise](../05-anti-patterns/waterfall-in-disguise.md) for details.
+No — SDD specs are per-feature, living documents with days-long cycles and backward feedback loops. See [SDD vs Vibe Coding](../01-fundamentals/sdd-vs-vibe-coding.md) and [Waterfall in Disguise](../05-anti-patterns/waterfall-in-disguise.md) for detailed comparisons.
 
 ### Q19: What metrics should I track?
 Start with these four:
@@ -126,7 +120,3 @@ SDD is becoming the standard for AI-assisted development. Trends:
 - Real-time drift detection
 - AI agents that can write, review, and maintain specs
 - Convergence of SDD with TDD/BDD in unified workflows
-
----
-
-*Next: [Audit Checklist →](audit-checklist.md)*

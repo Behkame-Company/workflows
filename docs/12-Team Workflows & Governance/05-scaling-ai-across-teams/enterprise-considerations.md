@@ -435,10 +435,3 @@ copilot_policies:
 - [ ] Exception process defined
 - [ ] Communication plan for policy changes
 ```
-
-## Next Steps
-
-- [Plan your rollout strategy →](rollout-strategy.md)
-- [Build a champion network →](champion-network.md)
-- [Maintain cross-team consistency →](cross-team-consistency.md)
-- [Return to maturity model assessment →](../01-fundamentals/maturity-model.md)

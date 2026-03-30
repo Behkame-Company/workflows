@@ -9,7 +9,7 @@
 CodeRabbit is a dedicated AI code review platform that automatically reviews every pull request, providing multi-layered feedback with line-by-line analysis, severity tagging, and one-click fixes.
 
 Key differentiators:
-- **46% bug detection rate** — among the highest in AI review tools
+- **46% bug detection rate** (reported by CodeRabbit; independent verification pending) — among the highest in AI review tools
 - **Full codebase context** — analyzes the whole repo, not just the diff
 - **40+ built-in linters/scanners** — combines AI with deterministic analysis
 - **Incremental reviews** — re-reviews on each new commit
@@ -93,10 +93,3 @@ CodeRabbit integrates into your merge workflow:
 3. **Customizable** — `.coderabbit.yaml` controls behavior per path
 4. **Multi-platform** — GitHub, GitLab, Bitbucket, Azure DevOps
 5. **Complements Copilot** — Use alongside Copilot for defense-in-depth
-
----
-
-## Next Steps
-
-- 🔗 [Other AI Reviewers](other-ai-reviewers.md) — More tool options
-- 🔗 [Signal-to-Noise](../08-best-practices/signal-to-noise.md) — Tuning AI review output

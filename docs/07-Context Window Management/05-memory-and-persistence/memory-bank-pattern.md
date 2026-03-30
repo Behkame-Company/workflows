@@ -140,10 +140,3 @@ to understand the current project state and context.
 3. **Read all files at session start** — Full context restoration
 4. **Update at natural breakpoints** — After each feature/task completion
 5. **Works with any AI tool** — Not specific to Cline
-
----
-
-## Next Steps
-
-- 🔗 [Cross-Session State](cross-session-state.md) — Broader state management
-- 🔗 [Multi-Context Window Design](../06-multi-window-workflows/multi-context-window-design.md) — Long-running tasks

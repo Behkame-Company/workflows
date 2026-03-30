@@ -524,11 +524,3 @@ git --no-pager diff HEAD -- .vscode/ .github/ *.json *.yaml
 | **Monitor behavior** | Watch for unexpected network or file system activity |
 | **Maintain an allowlist** | Curate approved extensions for your team |
 | **Respond quickly** | Have a plan for compromised extension incidents |
-
----
-
-## Next Steps
-
-- [AI Supply Chain Risks](ai-supply-chain-risks.md) — Understand the broader threat landscape of AI-specific supply chain attacks and how extensions fit into the overall risk picture
-- [Dependency Safety](dependency-safety.md) — Learn how to evaluate and secure the software dependencies your AI tools and extensions rely on
-- [Model Provenance](model-provenance.md) — Explore how to verify the origin and integrity of AI models used by your extensions and tools

@@ -429,38 +429,3 @@ NOT monitoring approach:
 ❌ Different access levels based on role or seniority
 ❌ Tool evaluation takes months with no clear timeline
 ❌ No training — just restrictions
-
----
-
-## Next Steps
-
-### Related Anti-Patterns
-
-- [Cowboy AI Development](./cowboy-ai-development.md) — The opposite extreme: no controls at all, often what triggers gatekeeping
-- [Metrics Theater](./metrics-theater.md) — Gatekeepers often demand metrics that lead to theater
-- [Ignoring the Human Side](./ignoring-human-side.md) — Gatekeeping ignores how developers feel about restrictions
-
-### Policy & Governance
-
-- [AI Usage Policy](../06-governance-and-policies/ai-usage-policy.md) — Building a sensible policy (guardrails, not gates)
-- [Data and Privacy](../06-governance-and-policies/data-and-privacy.md) — Addressing the real data concerns behind gatekeeping
-- [Intellectual Property](../06-governance-and-policies/intellectual-property.md) — IP guidelines that enable rather than restrict
-- [Compliance and Audit](../06-governance-and-policies/compliance-and-audit.md) — Meeting compliance requirements without gatekeeping
-
-### Adoption & Scaling
-
-- [Gradual Adoption](../09-best-practices/gradual-adoption.md) — Start small and scale what works
-- [Rollout Strategy](../05-scaling-ai-across-teams/rollout-strategy.md) — Phased adoption across an organization
-- [Developer Onboarding](../02-onboarding/developer-onboarding.md) — Getting new developers productive with AI tools
-- [Champion Network](../05-scaling-ai-across-teams/champion-network.md) — Building internal AI advocates
-
-### Culture & Support
-
-- [Building an AI-First Culture](../01-fundamentals/ai-first-culture.md) — The cultural foundation that makes guardrails work
-- [Standardize Before Scaling](../09-best-practices/standardize-before-scaling.md) — Getting conventions right first
-- [Troubleshooting](../11-practical/troubleshooting.md) — Common team adoption issues and solutions
-- [FAQ](../11-practical/faq.md) — Frequently asked questions about AI tool governance
-
----
-
-*The most effective AI governance enables developers rather than restricting them. When you provide good tools with smart guardrails, you solve the security problem AND the productivity problem — which is exactly what gates fail to do.*

@@ -259,8 +259,3 @@ quality_score = llm_grade(
 final_score = (code_results["score"] * 0.7) + (quality_score * 0.3)
 print(f"Auth-001: {final_score:.0%}")
 ```
-
-## Next Steps
-
-- 🔗 [LLM-Based Grading](llm-based-grading.md) — Deep dive into rubric design and LLM-as-judge
-- 🔗 [Building Evaluation Suites](building-eval-suites.md) — Creating comprehensive eval test sets

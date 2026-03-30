@@ -97,7 +97,3 @@ Safety rules:
 - Never drop or rename existing columns
 - Always add indexes for foreign keys
 ```
-
----
-
-*Next: [Testing Domain Guide](testing.md) →*

@@ -183,7 +183,3 @@ AGENTS.md changes should be reviewed with the same rigor as configuration change
 | Quarterly calendar reminder | Full audit (see checklist) |
 | New team member starts | Review with fresh eyes |
 | Agent consistently ignores rule | Rewrite rule with stronger phrasing |
-
----
-
-*Next: [Common Mistakes](../04-anti-patterns/common-mistakes.md) →*

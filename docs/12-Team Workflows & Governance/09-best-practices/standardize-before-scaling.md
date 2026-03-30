@@ -523,18 +523,3 @@ Fix:      Documentation is an explicit pilot deliverable, not an afterthought.
 - Feedback channel: ___
 - Evolution process: ___
 ```
-
----
-
-## Next Steps
-
-- [Gradual Adoption Strategy](./gradual-adoption.md) — the phased approach your pilot team should follow
-- [Feedback Loops](./feedback-loops.md) — how to collect and act on feedback during pilot and expansion
-- [Balancing Speed and Quality](./speed-vs-quality.md) — quality gates are a key standard to establish before scaling
-- [AI-First Culture](../01-fundamentals/ai-first-culture.md) — building the cultural foundation that makes standards stick
-- [Role of the Team Lead](../01-fundamentals/role-of-team-lead.md) — team leads are critical to both piloting and scaling
-- [Scaling AI Across Teams](../05-scaling-ai-across-teams/) — detailed playbooks for multi-team expansion
-- [AI Usage Policy](../06-governance-and-policies/ai-usage-policy.md) — organizational policies that complement team standards
-- [Measuring AI Impact](../07-metrics-and-measurement/measuring-ai-impact.md) — metrics that prove your pilot worked before scaling
-- [Knowledge Sharing](../08-knowledge-sharing/) — patterns for spreading practices across teams
-- [Cowboy AI Development](../10-anti-patterns/cowboy-ai-development.md) — the chaos that standardization prevents

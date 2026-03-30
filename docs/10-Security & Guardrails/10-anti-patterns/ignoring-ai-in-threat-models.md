@@ -460,11 +460,3 @@ All of this data is now in the context window and is transmitted to the LLM prov
 4. **The supply chain has expanded.** MCP servers, AI plugins, and instruction files are new links in the chain that attackers can target.
 
 5. **Threat models are living documents.** AI capabilities evolve rapidly, and your threat model must evolve with them.
-
----
-
-## Next Steps
-
-- [Trusting AI Blindly](trusting-ai-blindly.md) — Learn why treating AI output as authoritative without verification leads to security vulnerabilities and quality issues.
-- [Security by Obscurity](security-by-obscurity.md) — Understand why hiding AI usage or relying on secrecy instead of proper controls creates a false sense of security.
-- [Overpermissioned Agents](overpermissioned-agents.md) — Discover the risks of giving AI agents more access than they need and how to apply least-privilege principles.

@@ -104,10 +104,3 @@
 3. **stdio is the safest transport** — Works in every client
 4. **Config locations vary** — Check your client's documentation
 5. **Test across clients** — If your team uses multiple editors, verify compatibility
-
----
-
-## Next Steps
-
-- 🔗 [Community & Registries](community-and-registries.md) — Finding servers
-- 🔗 [MCP in Prompt Files](mcp-in-prompt-files.md) — Using tools in `.prompt.md`

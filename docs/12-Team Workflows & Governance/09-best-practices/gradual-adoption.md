@@ -517,17 +517,3 @@ Stage 4 → 5 Readiness:
   □ Agent mode guidelines are documented
   □ No agent-related incidents in production
 ```
-
----
-
-## Next Steps
-
-- [Standardize Before Scaling](./standardize-before-scaling.md) — once your pilot team succeeds, learn how to codify their practices before expanding
-- [Feedback Loops](./feedback-loops.md) — build the continuous improvement mechanisms that keep adoption healthy
-- [Balancing Speed and Quality](./speed-vs-quality.md) — ensure your adoption speed doesn't outpace your quality safeguards
-- [AI Adoption Maturity Model](../01-fundamentals/maturity-model.md) — understand the five stages of team AI maturity
-- [Developer Onboarding](../02-onboarding/developer-onboarding.md) — structure the onboarding experience for new team members joining mid-adoption
-- [Scaling AI Across Teams](../05-scaling-ai-across-teams/) — when you're ready to go beyond the pilot team
-- [AI Usage Policy](../06-governance-and-policies/ai-usage-policy.md) — governance guardrails that support gradual rollout
-- [Measuring AI Impact](../07-metrics-and-measurement/measuring-ai-impact.md) — quantify the value of each adoption stage
-- [Cowboy AI Development](../10-anti-patterns/cowboy-ai-development.md) — the anti-pattern that gradual adoption prevents

@@ -299,16 +299,3 @@ module.exports = {
 3. Keep only small, inline snapshots for stable, small components
 4. Add CI rule: reject new snapshot files > 50 lines
 ```
-
----
-
-## Next Steps
-
-- [Anti-Pattern: Testing to Pass](testing-to-pass.md) — another way tests provide false confidence
-- [Anti-Pattern: Skipping Verification](skipping-verification.md) — trusting without testing
-- [Snapshot and Visual Testing](../04-test-types/snapshot-testing.md) — when snapshots ARE the right approach
-- [Test Quality Metrics](../05-coverage-and-quality/test-quality-metrics.md) — measuring real test value
-
----
-
-*Part of the [Testing Strategy with AI](../README.md) series.*

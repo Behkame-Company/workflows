@@ -81,10 +81,3 @@ This avoids blocking PRs due to legacy untested code while ensuring all new code
 3. **Branch coverage catches edge cases** — More valuable than line coverage alone
 4. **Coverage ≠ quality** — High coverage with weak assertions is useless
 5. **Ratchet up over time** — Start at 60%, increase to 80% over months
-
----
-
-## Next Steps
-
-- 🔗 [AI-Specific Quality Gates](ai-specific-quality-gates.md) — Special considerations for AI code
-- 🔗 [Testing Strategies](../06-testing-ai-code/testing-strategies.md) — Comprehensive testing approaches

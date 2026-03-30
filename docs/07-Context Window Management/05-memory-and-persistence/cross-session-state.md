@@ -119,10 +119,3 @@ At the start of each session:
 3. **JSON for status, Markdown for prose** — Use the right format
 4. **Git is free state tracking** — Commit history is always available
 5. **Write state before ending** — Future you will thank current you
-
----
-
-## Next Steps
-
-- 🔗 [Multi-Context Window Design](../06-multi-window-workflows/multi-context-window-design.md) — Full architecture
-- 🔗 [Initializer Agent Pattern](../06-multi-window-workflows/initializer-agent-pattern.md) — First session setup

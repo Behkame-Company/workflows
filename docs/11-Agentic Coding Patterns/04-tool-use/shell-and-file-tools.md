@@ -434,10 +434,3 @@ await editFile({ path, oldText, newText });
 await shell("git add -A && git commit -m 'agent: update auth middleware'");
 // To undo: git revert HEAD
 ```
-
-## Next Steps
-
-- [Tool Design Principles](./tool-design-principles.md) — the principles behind effective tool design
-- [MCP Tools Integration](./mcp-tools-integration.md) — extending beyond built-in shell and file tools
-- [Custom Tool Development](./custom-tool-development.md) — building your own specialized tools
-- [Autonomous Agents](../03-agent-architectures/autonomous-agents.md) — agents that use these tools in a loop

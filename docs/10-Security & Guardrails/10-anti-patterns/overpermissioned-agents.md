@@ -522,13 +522,3 @@ Use this checklist before starting any AI-assisted session:
 □ Are my CI/CD pipeline files protected from AI modification?
 □ Am I using scoped, time-limited tokens for this session?
 ```
-
----
-
-## Next Steps
-
-Continue building your security knowledge with these related anti-patterns:
-
-- [Trusting AI Blindly](trusting-ai-blindly.md) — Why human review remains essential even with capable AI agents
-- [Security by Obscurity](security-by-obscurity.md) — Hidden prompts and secret instructions are not security controls
-- [Ignoring AI in Threat Models](ignoring-ai-in-threat-models.md) — Your threat model must account for AI agents as both tools and attack surfaces

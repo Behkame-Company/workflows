@@ -154,10 +154,3 @@ Do not use any other values.
 4. **Validate programmatically** — Never trust raw output; always parse and validate
 5. **Implement retry with error feedback** — Tell the model what went wrong
 6. **Keep schemas small** — Large schemas increase error rate; split if needed
-
----
-
-## Next Steps
-
-- 🔗 [JSON Output Patterns](json-output-patterns.md) — Core JSON techniques
-- 🔗 [Markdown Output](markdown-output.md) — When you need documentation format

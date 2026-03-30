@@ -75,10 +75,3 @@ Month 6: Coverage gate at 80%
 3. **Ratchet pattern** — Gradually tighten standards over time
 4. **Automate everything** — No manual quality checks
 5. **Block on critical, warn on nice-to-have** — Severity-based gating
-
----
-
-## Next Steps
-
-- 🔗 [Security Gates](security-gates-sast-dast.md) — SAST/DAST in pipelines
-- 🔗 [AI-Specific Quality Gates](ai-specific-quality-gates.md) — Gates for AI-generated code

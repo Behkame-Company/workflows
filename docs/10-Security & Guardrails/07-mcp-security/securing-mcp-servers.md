@@ -1239,11 +1239,3 @@ When reviewing an MCP server PR, check each item:
 │                                                          │
 └─────────────────────────────────────────────────────────┘
 ```
-
----
-
-## Next Steps
-
-- [MCP Client Security](mcp-client-security.md) — Securing the client side: tool approval UI, consent flows, and sandboxing LLM-initiated actions
-- [MCP Threat Landscape](mcp-threat-landscape.md) — Comprehensive overview of attack vectors targeting the MCP ecosystem
-- [Tool Shadowing Attacks](tool-shadowing.md) — How malicious servers can impersonate legitimate tools and intercept sensitive data

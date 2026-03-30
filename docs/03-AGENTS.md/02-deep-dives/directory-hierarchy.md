@@ -259,7 +259,3 @@ Q: Is my root AGENTS.md > 200 lines?
 Q: Am I in a polyglot monorepo?
   YES → Per-directory AGENTS.md (almost always)
 ```
-
----
-
-*Next: [Writing for Machines](writing-for-machines.md) →*

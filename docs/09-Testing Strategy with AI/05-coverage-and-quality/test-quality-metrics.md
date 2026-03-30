@@ -226,9 +226,3 @@ jobs:
         run: |
           npx stryker run --mutate "src/**/*.ts" --reporters clear-text
 ```
-
-## Next Steps
-
-- [Mutation Testing](./mutation-testing.md) — The most rigorous way to validate test assertion quality
-- [Coverage Analysis](./coverage-analysis.md) — Understand and improve which code paths are exercised
-- [AI-Generated Code Quality](./ai-code-quality.md) — Quality checks for the AI code itself, not just the tests

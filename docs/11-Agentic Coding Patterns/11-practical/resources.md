@@ -138,10 +138,3 @@ If you're new to agentic coding, follow this path:
 6. 11-Practical (templates, troubleshooting)
 7. Deep dives as needed: Multi-Agent, Skills, MCP
 ```
-
-## Next Steps
-
-- [Templates](./templates.md) — ready-to-use configurations to get started
-- [FAQ](./faq.md) — common questions answered
-- [Troubleshooting](./troubleshooting.md) — when things go wrong
-- [What Is Agentic Coding](../01-fundamentals/what-is-agentic-coding.md) — start from the beginning

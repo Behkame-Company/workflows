@@ -107,10 +107,3 @@ After making each change:
 2. **Encourage incremental progress**: "Make one change at a time and verify"
 3. **Set exploration boundaries**: "Only look at files in src/auth/"
 4. **Require evidence**: "Don't assume what a file contains — read it first"
-
----
-
-## Next Steps
-
-- 🔗 [Tool-Augmented Prompting](tool-augmented-prompting.md) — Prompting models to use tools
-- 🔗 [Agentic Prompting](agentic-prompting.md) — Autonomous agent patterns

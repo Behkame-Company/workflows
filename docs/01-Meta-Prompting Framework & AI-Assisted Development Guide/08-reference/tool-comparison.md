@@ -125,23 +125,6 @@ copilot-instructions.md            ← If maintainers use Copilot
 
 ---
 
-## Migration Paths
-
-### From .cursorrules to AGENTS.md + copilot-instructions.md
-
-1. Copy `.cursorrules` content to `AGENTS.md` (universal rules)
-2. Copy Copilot-specific content to `.github/copilot-instructions.md`
-3. Split domain-specific rules into `.github/instructions/*.instructions.md`
-4. Keep `.cursorrules` temporarily for Cursor users; migrate to `.cursor/rules/` or rely on AGENTS.md fallback
-
-### From CLAUDE.md to AGENTS.md + copilot-instructions.md
-
-1. Copy universal rules from `CLAUDE.md` to `AGENTS.md`
-2. Extract build/test commands to `.github/copilot-instructions.md`
-3. Keep `CLAUDE.md` for Claude-specific features (skills, hooks)
-
----
-
 ## Recommendation for Teams Starting Fresh
 
 1. **Start with `copilot-instructions.md`** — highest impact for Copilot users
@@ -151,7 +134,3 @@ copilot-instructions.md            ← If maintainers use Copilot
 5. **Add `memory-bank/`** — when session continuity becomes important
 
 This layered adoption lets you build incrementally without overwhelming the team.
-
----
-
-*Next: [Resources & Further Reading](resources.md) →*

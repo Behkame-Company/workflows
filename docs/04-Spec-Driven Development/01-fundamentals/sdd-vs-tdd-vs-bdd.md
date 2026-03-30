@@ -157,7 +157,3 @@ TDD:  Tests provide immediate feedback → AI can self-correct
 ```
 
 **All three together** create a self-reinforcing loop where the AI has maximum context, clear success criteria, and automated validation.
-
----
-
-*Next: [Core Principles →](core-principles.md)*

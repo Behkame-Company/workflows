@@ -188,19 +188,4 @@ Load spec.md, plan.md, and tasks.md as context files. Reference the current task
 
 ## Quality Gate: Implementation Review
 
-Before merging the feature:
-
-| Check | Status |
-|-------|--------|
-| All tasks marked complete | □ |
-| All acceptance criteria pass | □ |
-| All edge cases handled | □ |
-| Test coverage meets constitution | □ |
-| No regressions in existing tests | □ |
-| Code review completed | □ |
-| Spec updated with any deviations | □ |
-| Documentation updated | □ |
-
----
-
-*Next: [The Constitution →](the-constitution.md)*
+Verify all tasks complete, acceptance criteria pass, tests green, and spec updated with deviations. See [Quality Gates](quality-gates.md) for the full validation checklist for this phase.

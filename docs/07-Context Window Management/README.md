@@ -116,7 +116,3 @@ For AI-assisted development, this means:
 3. **Building long-running agents?** See [Multi-Window Workflows](06-multi-window-workflows/multi-context-window-design.md)
 4. **Optimizing existing workflows?** Check [Best Practices](09-best-practices/minimal-viable-context.md)
 5. **Debugging AI confusion?** Read [Context Hygiene](09-best-practices/context-hygiene.md) and [Anti-Patterns](10-anti-patterns/context-stuffing.md)
-
----
-
-*Part of the [AI-Assisted Development Documentation](../README.md) series.*

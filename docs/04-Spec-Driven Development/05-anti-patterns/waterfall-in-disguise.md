@@ -151,7 +151,3 @@ Ask these questions monthly:
 | Do developers bypass specs and code directly? | Specs aren't providing value — fix the process |
 | Are spec reviews a bottleneck? | Reduce ceremony, trust the team |
 | Has no spec changed after approval? | Specs may not be "living" enough |
-
----
-
-*Next: [Spec-Code Drift →](spec-code-drift.md)*

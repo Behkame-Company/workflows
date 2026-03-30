@@ -1,5 +1,7 @@
 # Memory Bank Template
 
+> These templates correspond to the Memory Bank pattern described in [Memory Bank for Teams](../04-memory-bank/memory-bank-for-teams.md).
+
 > Copy this structure to `memory-bank/` in your repository root and customize each file.
 
 ---
@@ -182,11 +184,3 @@ It [primary function/value proposition].
 - [Debt item 1]: [Impact and plan to address]
 - [Debt item 2]: [Impact and plan to address]
 ```
-
----
-
-## Usage Notes
-
-- **Update frequency**: `activeContext.md` changes most often (every session). `progress.md` updates at sprint boundaries. Other files change only when the project evolves significantly.
-- **Size target**: Keep each file under 2 pages. If a file grows too large, archive old content or split into sub-files.
-- **Version control**: Commit all memory bank files to Git. Treat changes as documentation — review in PRs.

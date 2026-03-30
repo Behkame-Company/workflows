@@ -122,10 +122,3 @@ Each agent gets a clean context with only the information it needs for its speci
 3. **Pipeline for dependent work** — Each step feeds the next
 4. **Files for shared state** — Disk is the shared context
 5. **Isolation prevents contamination** — Each agent stays focused
-
----
-
-## Next Steps
-
-- 🔗 [Minimal Viable Context](../09-best-practices/minimal-viable-context.md) — The guiding principle
-- 🔗 [Context Hygiene](../09-best-practices/context-hygiene.md) — Keeping context clean

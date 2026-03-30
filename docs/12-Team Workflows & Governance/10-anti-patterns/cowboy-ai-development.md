@@ -448,36 +448,3 @@ Use these questions in a team retrospective:
 4. "What's our bug trend over the last 3 months?"
 5. "If a developer left tomorrow, could someone else maintain their recent code?"
 6. "Are we measuring quality alongside velocity?"
-
----
-
-## Next Steps
-
-### Related Anti-Patterns
-
-- [AI Gatekeeping](./ai-gatekeeping.md) — The overcorrection: restricting AI tools too much in response to cowboy development
-- [Metrics Theater](./metrics-theater.md) — How bad metrics enable and mask cowboy development
-- [Ignoring the Human Side](./ignoring-human-side.md) — Why developers fall into cowboy patterns when human concerns go unaddressed
-
-### Prevention & Standards
-
-- [AI Usage Policy](../06-governance-and-policies/ai-usage-policy.md) — Organizational policy that sets boundaries
-- [Code Quality Standards](../03-standards-and-conventions/code-quality-standards.md) — Quality gates for AI-generated code
-- [AI Code Review Workflow](../04-review-processes/ai-code-review-workflow.md) — Review processes designed for AI-assisted work
-- [Review Checklists](../04-review-processes/review-checklists.md) — Structured review templates
-
-### Adoption & Culture
-
-- [Gradual Adoption](../09-best-practices/gradual-adoption.md) — How to adopt AI tools without losing discipline
-- [Balancing Speed and Quality](../09-best-practices/speed-vs-quality.md) — Finding the right trade-off
-- [Building an AI-First Culture](../01-fundamentals/ai-first-culture.md) — Healthy cultural foundation for AI development
-
-### Measurement & Improvement
-
-- [Measuring AI Impact](../07-metrics-and-measurement/measuring-ai-impact.md) — Metrics that actually track value
-- [Quality Metrics](../07-metrics-and-measurement/quality-metrics.md) — Tracking code quality alongside velocity
-- [Troubleshooting](../11-practical/troubleshooting.md) — Common team adoption issues and solutions
-
----
-
-*Cowboy AI development is the most common anti-pattern in AI-assisted teams — and the most damaging. The initial velocity gains are real and intoxicating, which makes it hard to intervene early. The best prevention is establishing standards before adoption, not after the damage is done.*

@@ -178,10 +178,3 @@ MCP servers should also use **custom error codes** for domain-specific errors.
 3. **Bidirectional**: Both client and server can send requests
 4. **Standard errors**: Use JSON-RPC error codes plus domain-specific codes
 5. **Transport-agnostic**: Same message format works over stdio, HTTP, or custom transports
-
----
-
-## Next Steps
-
-- 🔗 [Tools](../03-primitives/tools.md) — Deep dive into the most-used primitive
-- 🔗 [Transport Overview](../04-transport/transport-overview.md) — How messages are actually delivered

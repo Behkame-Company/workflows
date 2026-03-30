@@ -95,10 +95,3 @@
 | Verbose error messages | 🟡 Medium | Sanitize error output |
 | No audit logging | 🟡 Medium | Add logging before production |
 | Missing rate limits | 🟢 Low | Add for production scale |
-
----
-
-## Next Steps
-
-- 🔗 [Security Model](security-model.md) — Understanding the trust model
-- 🔗 [Enterprise Deployment](../10-advanced/enterprise-deployment.md) — Production-scale security

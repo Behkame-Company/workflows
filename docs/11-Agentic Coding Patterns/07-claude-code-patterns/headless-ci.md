@@ -316,10 +316,3 @@ Continue local Claude Code sessions from mobile or another device — useful for
 | **Cache installations** | Faster pipeline execution |
 | **Limit tool access** | CI should not modify infra |
 | **Review outputs** | Automated ≠ unsupervised |
-
-## Next Steps
-
-- [Claude Code Workflows](./workflows.md) — the patterns that headless mode automates
-- [CLAUDE.md for Agentic Workflows](./claude-md-agents.md) — configuration that applies in CI too
-- [Testing Agentic Systems](../09-best-practices/testing-agents.md) — evaluate agent performance
-- [Blind Delegation](../10-anti-patterns/blind-delegation.md) — why automation still needs verification

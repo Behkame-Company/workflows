@@ -185,65 +185,26 @@ org-standards/
 # .github/workflows/validate-agents-md.yml
 name: Validate AGENTS.md
 on: [push, pull_request]
-
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Check AGENTS.md exists
-        run: test -f AGENTS.md || (echo "ERROR: AGENTS.md required" && exit 1)
-
-      - name: Check required sections
+      - name: Validate AGENTS.md
         run: |
+          test -f AGENTS.md || (echo "ERROR: AGENTS.md required" && exit 1)
           for section in "Boundaries" "Security" "Setup"; do
-            if ! grep -q "## $section" AGENTS.md; then
-              echo "ERROR: Missing required section: $section"
-              exit 1
-            fi
+            grep -q "## $section" AGENTS.md || (echo "Missing: $section" && exit 1)
           done
-
-      - name: Check required NEVER rules
-        run: |
-          required_rules=("NEVER commit" "NEVER disable security")
-          for rule in "${required_rules[@]}"; do
-            if ! grep -qi "$rule" AGENTS.md; then
-              echo "WARNING: Missing recommended rule: $rule"
-            fi
-          done
-
-      - name: Check file size
-        run: |
-          lines=$(wc -l < AGENTS.md)
-          if [ "$lines" -gt 300 ]; then
-            echo "WARNING: AGENTS.md is $lines lines (recommended: < 300)"
-          fi
 ```
+
+See [Templates Library](../../08-practical/templates-library.md) for full validation scripts including NEVER-rule checks and file size warnings.
 
 ### Pattern: Automated Sync
 
-For orgs that want to push updates to all repos:
+Use a GitHub Action triggered on changes to `org-standards/` to push updates to all repos. The action iterates over a repo matrix, updating the org-policy sections of each repo's AGENTS.md while preserving project-specific sections.
 
-```yaml
-# GitHub Action to update org policies in all repos
-name: Sync Org Policies
-on:
-  push:
-    paths: ['org-standards/sections/security.md']
-
-jobs:
-  sync:
-    strategy:
-      matrix:
-        repo: [web-app, api-service, mobile-app, admin-portal]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Update security section in ${{ matrix.repo }}
-        run: |
-          # Script to update the security section in each repo's AGENTS.md
-          # while preserving project-specific sections
-```
+See [Templates Library](../../08-practical/templates-library.md) for a complete sync workflow.
 
 ---
 
@@ -283,7 +244,3 @@ Security:    142/142 (100%)       ✅
 4. **Week 4**: Iterate on template based on feedback
 5. **Month 2**: Roll out to all active repos
 6. **Quarterly**: Audit compliance and update org policies
-
----
-
-*Next: [Frontend AGENTS.md](../07-domain-examples/frontend.md) →*

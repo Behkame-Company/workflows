@@ -104,7 +104,3 @@ applyTo: "src/app/**/{page,layout,loading,error,not-found}.tsx"
 - Error files must be `'use client'` and receive `error` and `reset` props
 - Metadata: export `metadata` object or `generateMetadata` function
 ```
-
----
-
-*Next: [Backend & API Domain Guide](backend-api.md) →*

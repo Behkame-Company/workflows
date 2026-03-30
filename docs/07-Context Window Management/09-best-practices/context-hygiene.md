@@ -109,10 +109,3 @@ If you see unhealthy indicators → compact, re-inject instructions, or start a 
 3. **Re-inject instructions periodically** — Combat the lost-middle effect
 4. **Watch for health indicators** — Catch drift early
 5. **Session end = state save** — Write notes before closing
-
----
-
-## Next Steps
-
-- 🔗 [Debugging Context Issues](debugging-context-issues.md) — When things go wrong
-- 🔗 [Tool-Specific Strategies](tool-specific-strategies.md) — Per-tool guidance

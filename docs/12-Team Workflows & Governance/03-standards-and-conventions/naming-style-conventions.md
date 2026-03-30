@@ -343,10 +343,3 @@ After updating your instruction file with style conventions, verify:
 ```
 
 If the output doesn't match, refine the instruction file wording until it does.
-
-## Next Steps
-
-- [Review instruction file standards →](instruction-file-standards.md)
-- [Build your prompt library →](prompt-library.md)
-- [Set up the AI code review workflow →](../04-review-processes/ai-code-review-workflow.md)
-- [Create review checklists for AI code →](../04-review-processes/review-checklists.md)

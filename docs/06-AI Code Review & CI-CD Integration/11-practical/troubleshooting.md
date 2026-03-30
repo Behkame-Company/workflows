@@ -99,10 +99,3 @@ permissions:
 3. **Isolate the problem** — Is it AI, CI, or integration?
 4. **Check permissions** — Most integration failures are permission issues
 5. **One AI reviewer is enough** — Multiple reviewers cause conflicts
-
----
-
-## Next Steps
-
-- 🔗 [FAQ](faq.md) — Quick answers to common questions
-- 🔗 [Resources](resources.md) — Further reading and tools

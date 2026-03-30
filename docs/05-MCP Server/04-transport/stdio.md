@@ -128,26 +128,15 @@ await server.connect(transport);
 
 ---
 
-## Advantages
+## Advantages & Limitations
 
-| Advantage | Why It Matters |
-|-----------|---------------|
-| **Zero network exposure** | No ports open, no attack surface |
-| **Lowest latency** | In-process pipe, no network RTT |
-| **Simplest setup** | Just a command + args, no HTTP server |
-| **Process isolation** | OS-level security boundary |
-| **Easy debugging** | stderr for logs, process lifecycle managed by host |
+See [Transport Overview](transport-overview.md) for a comparison of all transport types.
 
----
+**Key strengths**: Zero network exposure, lowest latency, simplest setup, process isolation.
 
-## Limitations
+**Key limitations**: Single client only, local only, no reconnection. Use Streamable HTTP for remote or multi-client scenarios.
 
-| Limitation | Workaround |
-|-----------|-----------|
-| **Single client only** | Use Streamable HTTP for multi-client |
-| **Local only** | Use Streamable HTTP for remote |
-| **No reconnection** | Process restarts start fresh |
-| **stdout pollution** | Never use `print()` — use stderr or MCP logging |
+> **Never** write non-MCP content to stdout — use stderr for logging.
 
 ---
 
@@ -184,10 +173,3 @@ print("Debug: processing request", file=sys.stderr)
 3. **Never** write non-MCP content to stdout — use stderr for logs
 4. Messages are **newline-delimited JSON** on stdin/stdout
 5. Best for **local tools** — use Streamable HTTP for remote/multi-client
-
----
-
-## Next Steps
-
-- 🔗 [Streamable HTTP](streamable-http.md) — For remote and multi-client scenarios
-- 🔗 [Your First Server (Python)](../05-building-servers/first-server-python.md) — Build a stdio server

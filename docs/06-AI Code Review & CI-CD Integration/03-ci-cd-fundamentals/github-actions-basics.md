@@ -117,10 +117,3 @@ jobs:
 3. **Jobs run on runners** — Parallel by default, use `needs:` for ordering
 4. **Actions are reusable** — Thousands available on GitHub Marketplace
 5. **Secrets for sensitive data** — Never hardcode credentials
-
----
-
-## Next Steps
-
-- 🔗 [Quality Gates](quality-gates.md) — Adding policy enforcement
-- 🔗 [Agentic Workflows](../04-ai-in-ci-cd/agentic-workflows.md) — AI-powered automation

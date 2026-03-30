@@ -179,7 +179,3 @@ When drift is detected, determine the source of truth:
 | Never caught | Unknown behavior in production |
 
 **Key insight**: The cost of fixing drift grows exponentially with time.
-
----
-
-*Next: [Over-Specification →](over-specification.md)*

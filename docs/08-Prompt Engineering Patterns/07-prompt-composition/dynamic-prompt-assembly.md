@@ -150,10 +150,3 @@ function assemblePrompt(task: {
 3. **Make blocks combinable** — No block should assume the presence of another
 4. **Version control blocks** — They're code artifacts, treat them like code
 5. **Test combinations** — Ensure common combinations produce good results
-
----
-
-## Next Steps
-
-- 🔗 [Prompt Routing](prompt-routing.md) — Selecting which components to assemble
-- 🔗 [Prompt Chaining](prompt-chaining.md) — Connecting assembled prompts in sequence

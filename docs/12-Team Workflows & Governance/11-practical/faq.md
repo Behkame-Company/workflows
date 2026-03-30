@@ -735,16 +735,3 @@ Simple rule: **whoever commits the code owns it.**
 
 ✅ **Good:** "I used AI to generate the initial structure, then customized the error handling and added edge case tests"
 ❌ **Bad:** "I don't know how this works — AI generated it"
-
----
-
-## Next Steps
-
-- **[Templates Collection](./templates.md)** — Ready-to-use templates referenced throughout this FAQ
-- **[Troubleshooting Guide](./troubleshooting.md)** — Detailed problem-solving for issues that need more than a quick answer
-- **[Resources & Further Reading](./resources.md)** — Courses, books, and communities for deeper learning
-- **[Why Team Workflows Matter](../01-fundamentals/why-team-workflows-matter.md)** — Understand the strategic importance of AI workflows
-- **[Developer Onboarding](../02-onboarding/developer-onboarding.md)** — Detailed onboarding process for new team members
-- **[AI-First Culture](../01-fundamentals/ai-first-culture.md)** — Building the cultural foundation for AI adoption
-- **[Maturity Model](../01-fundamentals/maturity-model.md)** — Understand where your team is on the AI adoption journey
-- **[Cowboy AI Development](../10-anti-patterns/cowboy-ai-development.md)** — Anti-patterns to avoid as your team adopts AI

@@ -279,9 +279,3 @@ Is the output small (< 20 lines)?
             └─ No  → Use assertion-based tests instead
                      or visual regression testing
 ```
-
-## Next Steps
-
-- [E2E Testing](./e2e-testing.md) — Combine visual testing with full workflow validation using Playwright
-- [Unit Testing](./unit-testing.md) — When assertion-based tests are better than snapshots
-- [Test Quality Metrics](../05-coverage-and-quality/test-quality-metrics.md) — Measure whether your snapshot tests provide real value

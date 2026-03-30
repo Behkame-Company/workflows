@@ -27,13 +27,7 @@ Actually needed: Error message + the auth function (~500 tokens)
 ## Why It Fails
 
 ### 1. Context Rot
-More tokens = less attention per token = worse recall:
-```
-25K tokens: Model scans through 24K irrelevant tokens
-  to find the 500 tokens that matter → 2% signal
-
-500 tokens: Model focuses entirely on the problem → 100% signal
-```
+Context rot degrades output quality well before hitting token limits. See [Context Rot](../01-fundamentals/context-rot.md) for details.
 
 ### 2. Distraction
 Irrelevant context creates false connections:
@@ -89,10 +83,3 @@ Same problem. Same fix. 50x less context. Better results.
 3. **Cost scales linearly** — You're paying for every irrelevant token
 4. **Distraction is real** — Irrelevant context creates false connections
 5. **Start minimal, add as needed** — Don't dump, curate
-
----
-
-## Next Steps
-
-- 🔗 [The Stale Context Trap](stale-context-trap.md) — Outdated information misleads
-- 🔗 [Minimal Viable Context](../09-best-practices/minimal-viable-context.md) — The solution

@@ -6,28 +6,10 @@
 
 ## Roles in SDD
 
-### Spec Author
-Writes the initial specification. Usually the product engineer or team lead closest to the feature.
-
-**Responsibilities**:
-- Draft the spec from requirements or product input
-- Facilitate clarification rounds
-- Incorporate review feedback
-- Keep spec updated during implementation
-
-### Spec Reviewer
-Reviews specifications for quality, completeness, and feasibility.
-
-**Best reviewers**:
-- Someone who will implement the feature (catches ambiguity)
-- Someone from a different team (catches assumptions)
-- QA engineer (catches missing test scenarios)
-
-### Plan Owner
-Creates the technical plan from the approved spec. Usually a senior engineer.
-
-### Implementer
-Executes the tasks, either manually or by directing AI agents.
+- **Spec Author** — Drafts and maintains the specification. Usually the product engineer or team lead closest to the feature.
+- **Spec Reviewer** — Reviews specs for quality, completeness, and feasibility. Best if someone who will implement or is from a different team.
+- **Plan Owner** — Creates the technical plan from the approved spec. Usually a senior engineer.
+- **Implementer** — Executes the tasks, either manually or by directing AI agents.
 
 ---
 
@@ -176,7 +158,3 @@ Provide templates so everyone writes specs the same way:
 | Spec review time | <1 day turnaround | Track PR review time |
 | Rework rate | <20% of tasks need rework | Track task reopens |
 | Spec accuracy | >90% at completion | Audit spec vs final implementation |
-
----
-
-*Next: [Common Mistakes →](../05-anti-patterns/common-mistakes.md)*

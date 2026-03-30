@@ -102,10 +102,3 @@ be needed to continue this work session.
 3. **Validate after compaction** — Ask recall questions to check
 4. **Custom prompts for dev sessions** — Default may miss technical details
 5. **Compact at natural breakpoints** — After completing a feature/task
-
----
-
-## Next Steps
-
-- 🔗 [Memory Tool Guide](../05-memory-and-persistence/memory-tool-guide.md) — Persist beyond compaction
-- 🔗 [Cross-Session State](../05-memory-and-persistence/cross-session-state.md) — Bridging windows

@@ -159,26 +159,4 @@ The Plan phase may produce additional artifacts alongside `plan.md`:
 
 ## Quality Gate: Plan Review
 
-Before proceeding to Tasks:
-
-### Coverage Check
-For each spec requirement, verify a plan section exists:
-```
-Spec Requirement 1  ──►  Plan §2.1 Architecture  ✅
-Spec Requirement 2  ──►  Plan §2.3 API Design    ✅
-Spec Requirement 3  ──►  ???                      ❌ Gap!
-```
-
-### Feasibility Check
-- Can the planned architecture handle the non-functional requirements?
-- Are all integration points available?
-- Are there any blocking dependencies?
-
-### Consistency Check
-- Does the plan contradict itself?
-- Are naming conventions consistent?
-- Does the data model support all the API operations?
-
----
-
-*Next: [Phase 3: Tasks →](phase-tasks.md)*
+Verify coverage, feasibility, and consistency of the plan against spec requirements. See [Quality Gates](quality-gates.md) for the full validation checklist for this phase.

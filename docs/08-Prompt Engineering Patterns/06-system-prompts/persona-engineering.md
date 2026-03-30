@@ -114,10 +114,3 @@ When working in this repository:
 ```
 
 This is a lightweight persona embedded in project instructions.
-
----
-
-## Next Steps
-
-- 🔗 [Constraint Specification](constraint-specification.md) — Defining boundaries
-- 🔗 [Role Prompting](../02-core-techniques/role-prompting.md) — Simpler role assignment

@@ -346,9 +346,3 @@ async function combineResults(results: SubtaskResult[]) {
 3. **Plan for partial failure** — if one parallel branch fails, decide whether to retry, skip, or abort all
 4. **Aggregate thoughtfully** — combining results is as important as generating them
 5. **Use focused prompts** — the whole point of parallelization is that each call focuses on one thing
-
-## Next Steps
-
-- [Orchestrator-Workers](./orchestrator-workers.md) — dynamic parallelization where subtasks are determined at runtime
-- [Prompt Chaining](./prompt-chaining.md) — for sequential dependencies between steps
-- [Evaluator-Optimizer](./evaluator-optimizer.md) — validate parallel results through evaluation

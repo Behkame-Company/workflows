@@ -110,10 +110,3 @@ For most development tasks, **fresh windows with state artifacts** outperform co
 3. **Clean commits between features** — Never leave half-done work
 4. **Verify before building** — Each window checks existing work first
 5. **Feature list prevents scope loss** — Models can't declare victory early
-
----
-
-## Next Steps
-
-- 🔗 [Initializer Agent Pattern](initializer-agent-pattern.md) — Setting up Window 1
-- 🔗 [Incremental Progress Pattern](incremental-progress-pattern.md) — Subsequent windows

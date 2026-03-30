@@ -119,10 +119,3 @@ Step 2: AI is tricked into posting them via slack-server
 3. **Consent is your last defense** — Always require approval for destructive actions
 4. **Defense in depth** — No single control is sufficient; layer protections
 5. **Monitor and audit** — Log all tool invocations for post-incident analysis
-
----
-
-## Next Steps
-
-- 🔗 [Security Checklist](security-checklist.md) — Production-ready audit
-- 🔗 [Security Model](security-model.md) — How the model prevents attacks

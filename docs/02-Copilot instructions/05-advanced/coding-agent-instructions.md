@@ -239,7 +239,3 @@ See AGENTS.md for project conventions.
 - Reference the GitHub issue: "Closes #123"
 - Flag any areas needing human review
 ```
-
----
-
-*Next: [Code Review Instructions](code-review-instructions.md) →*

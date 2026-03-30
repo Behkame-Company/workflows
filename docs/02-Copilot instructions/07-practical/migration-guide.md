@@ -230,7 +230,3 @@ git commit -m "chore: redirect tool-specific files to AGENTS.md"
 - [ ] Cleaned up or redirected old instruction files
 - [ ] Committed with clear message
 - [ ] Communicated change to team
-
----
-
-*← Back to [README](../README.md)*

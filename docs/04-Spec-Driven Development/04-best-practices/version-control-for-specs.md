@@ -194,7 +194,3 @@ Option C: Tag and clean
 ```
 
 **Recommendation**: Keep specs in place. They serve as documentation for anyone modifying the feature later.
-
----
-
-*Next: [Human-in-the-Loop Review →](human-in-the-loop.md)*

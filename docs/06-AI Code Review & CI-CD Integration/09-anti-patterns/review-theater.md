@@ -99,10 +99,3 @@ Monthly review of random sample of PRs:
 3. **Human must add value** — Not just click "approve"
 4. **Audit periodically** — Sample PRs monthly to check quality
 5. **Focus AI on substance** — Bugs over style
-
----
-
-## Next Steps
-
-- 🔗 [Enterprise at Scale](../10-advanced/enterprise-review-at-scale.md) — Scaling without theater
-- 🔗 [Common Mistakes](common-mistakes.md) — More anti-patterns

@@ -354,12 +354,3 @@ Copy this template for your team's use:
 ❌ **Don't** assume the fix only needs to cover the one instance — search broadly
 ❌ **Don't** wait to update instructions — fix the instruction gap immediately
 ❌ **Don't** keep incidents private — share learnings so other teams can check their code
-
----
-
-## Next Steps
-
-- [Automated Security Gates](./automated-security-gates.md) — prevent vulnerabilities from reaching production
-- [Security Training](./security-training.md) — build team awareness to catch issues earlier
-- [Security Troubleshooting](../11-practical/troubleshooting.md) — common problems and quick fixes
-- [OWASP LLM Top 10](../06-owasp-llm-top-10/) — understand the full AI threat landscape

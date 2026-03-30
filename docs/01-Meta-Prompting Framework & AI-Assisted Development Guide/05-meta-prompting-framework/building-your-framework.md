@@ -150,26 +150,18 @@ Enable prompt files in VS Code:
 mkdir -p memory-bank
 ```
 
-Create the core files. Start with the two most impactful:
+Create the core files — start with `projectbrief.md` and `activeContext.md`, then add others as needed:
 
-**`memory-bank/projectbrief.md`**:
-```markdown
-# Project Brief
-[One-page description of what this project is, its goals, and scope]
-```
+| File | Purpose |
+|------|---------|
+| `projectbrief.md` | Stable project scope and goals |
+| `activeContext.md` | Current sprint focus, recent decisions, next steps |
+| `systemPatterns.md` | Architecture decisions and design patterns |
+| `techContext.md` | Stack details and environment setup |
+| `productContext.md` | Problem statement and user personas |
+| `progress.md` | Milestone tracking and known issues |
 
-**`memory-bank/activeContext.md`**:
-```markdown
-# Active Context
-## Current Focus
-[What the team is working on right now]
-
-## Recent Decisions
-[Decisions made this sprint]
-
-## Next Up
-[What's coming next]
-```
+See [Memory Bank for Teams](../../04-memory-bank/memory-bank-for-teams.md) for detailed file descriptions and the [Memory Bank Template](../../07-templates/memory-bank-template.md) for ready-to-copy templates.
 
 ### Step 8: Link Memory to Instructions
 
@@ -293,7 +285,3 @@ your-project/
 | Not testing that instructions work | Verify after every change |
 | Everyone editing memory bank without coordination | Assign file ownership |
 | Trying to adopt everything at once | Follow the phased approach above |
-
----
-
-*Next: [Advanced Patterns](advanced-patterns.md) →*

@@ -224,10 +224,3 @@ Add to `package.json`:
 3. Log to **stderr** (`console.error`), never stdout
 4. Handle **unknown tools/resources** gracefully with error messages
 5. TypeScript's type system catches schema mismatches at compile time
-
----
-
-## Next Steps
-
-- 🔗 [Tool Design Patterns](tool-design-patterns.md) — Design tools AI agents love
-- 🔗 [Testing & Debugging](testing-and-debugging.md) — Validation strategies

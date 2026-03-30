@@ -255,7 +255,3 @@ Adjust instructions based on what the team actually needs.
 ```
 
 **Character count: ~1,200 — well under the 4,000 limit** ✅
-
----
-
-*Next: [Prompt Engineering Techniques](prompt-engineering-techniques.md) →*

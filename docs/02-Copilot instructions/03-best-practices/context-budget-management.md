@@ -195,7 +195,3 @@ API routes return `{ success: false, error: string }` on failure.
 - [ ] No obvious/default behaviors stated
 - [ ] Complex examples moved to prompt files
 - [ ] Total simultaneous load under 2,000 words
-
----
-
-*Next: [Maintaining Instructions](maintaining-instructions.md) →*

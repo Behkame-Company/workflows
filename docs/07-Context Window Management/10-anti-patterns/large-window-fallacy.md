@@ -19,14 +19,9 @@ The reasoning goes:
 ## Why Large Windows Don't Eliminate the Problem
 
 ### 1. Context Rot Scales with Size
-```
-At 10K tokens:   ~99% recall accuracy
-At 100K tokens:  ~85% recall accuracy
-At 500K tokens:  ~70% recall accuracy
-At 1M tokens:    ~65% recall accuracy
-```
+Recall accuracy drops significantly with window size — see [Context Rot](../01-fundamentals/context-rot.md) for the full data.
 
-A 1M window that's 100% full will miss 35% of its content. That's not "loading the whole codebase" — it's loading the codebase and randomly forgetting a third of it.
+A 1M window that's 100% full will miss roughly a third of its content. That's not "loading the whole codebase" — it's loading the codebase and randomly forgetting parts of it.
 
 ### 2. Attention Budget Is Fixed
 The model has a finite attention budget regardless of window size. Doubling the window doesn't double the attention — it halves the attention per token.
@@ -90,10 +85,3 @@ The key: these use cases need the large window for **simultaneous access**, not 
 3. **Cost is linear** — 1M tokens costs 100x more than 10K tokens
 4. **Large windows are for runway** — Long sessions, not lazy loading
 5. **Curation remains essential** — At any window size
-
----
-
-## Next Steps
-
-- 🔗 [Poor State Management](poor-state-management.md) — When agents lose track
-- 🔗 [Minimal Viable Context](../09-best-practices/minimal-viable-context.md) — The real solution

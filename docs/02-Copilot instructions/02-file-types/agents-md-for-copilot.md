@@ -192,7 +192,3 @@ If you're currently using `.cursorrules` or `CLAUDE.md`:
 # CLAUDE.md
 See AGENTS.md for project conventions.
 ```
-
----
-
-*Next: [Writing Effective Instructions](../03-best-practices/writing-effective-instructions.md) →*

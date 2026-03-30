@@ -101,10 +101,3 @@ Final human judgment:
 3. **Automate stages 3-5** — Static analysis, testing, and AI review in CI/CD
 4. **Human review is always last** — Final authority on merge decisions
 5. **Use as a checklist** — Consistent process for every AI-generated change
-
----
-
-## Next Steps
-
-- 🔗 [Metrics & Benchmarks](metrics-and-benchmarks.md) — Measuring quality
-- 🔗 [Testing Strategies](testing-strategies.md) — Detailed testing approaches

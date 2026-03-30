@@ -135,10 +135,3 @@ CRITICAL:
 3. **Test end-to-end** — Not just unit tests; full user flow
 4. **Commit after each feature** — Clean state for next window
 5. **Progress notes bridge sessions** — Write before ending
-
----
-
-## Next Steps
-
-- 🔗 [State Handoff Strategies](state-handoff-strategies.md) — Clean transitions
-- 🔗 [Just-in-Time Retrieval](../07-context-retrieval/just-in-time-retrieval.md) — Efficient context loading

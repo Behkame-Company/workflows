@@ -87,10 +87,3 @@ Think of the context window as a physical desk:
 3. **Quality over quantity** — The right 10K tokens outperform the wrong 100K
 4. **It grows every turn** — Each message and tool result adds to the pile
 5. **You control it** — What goes in the window is an engineering decision
-
----
-
-## Next Steps
-
-- 🔗 [Tokens and Tokenization](tokens-and-tokenization.md) — How text becomes tokens
-- 🔗 [Context Rot](context-rot.md) — Why more can mean worse

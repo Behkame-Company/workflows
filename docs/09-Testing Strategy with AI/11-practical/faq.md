@@ -342,16 +342,3 @@ User flow (E2E):          3-5 scenarios
 ```
 
 Quality matters more than quantity. 5 well-designed tests beat 50 superficial ones.
-
----
-
-## Next Steps
-
-- [Resources & Further Reading](resources.md) — tools, docs, and references
-- [Testing Templates](templates.md) — ready-to-use templates
-- [Troubleshooting AI Testing](troubleshooting.md) — fixing specific problems
-- [Test-First Development](../09-best-practices/test-first-development.md) — the recommended workflow
-
----
-
-*Part of the [Testing Strategy with AI](../README.md) series.*

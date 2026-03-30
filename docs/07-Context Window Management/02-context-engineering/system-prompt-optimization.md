@@ -110,10 +110,3 @@ Put the most critical rules first (strongest recall position):
 3. **Budget: 1K-3K tokens** — For most coding use cases
 4. **Reference, don't inline** — Let the agent read files on demand
 5. **Critical rules first** — Strongest recall at the start of context
-
----
-
-## Next Steps
-
-- 🔗 [Tool Design for Context Efficiency](tool-design-for-context-efficiency.md) — Efficient tools
-- 🔗 [Minimal Viable Context](../09-best-practices/minimal-viable-context.md) — The guiding principle

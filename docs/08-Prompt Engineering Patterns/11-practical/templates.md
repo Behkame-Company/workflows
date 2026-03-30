@@ -186,10 +186,3 @@ Recommend one with clear reasoning.
 ## What NOT to Do
 - [Critical anti-pattern to avoid]
 ```
-
----
-
-## Next Steps
-
-- 🔗 [Troubleshooting](troubleshooting.md) — When prompts don't work
-- 🔗 [FAQ](faq.md) — Quick answers

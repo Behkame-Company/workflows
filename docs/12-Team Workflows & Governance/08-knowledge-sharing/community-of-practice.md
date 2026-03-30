@@ -693,21 +693,3 @@ If your organization has an AI Champion program, the CoP and champion network na
 | **Scope creep** | CoP tries to cover all AI topics | Stay focused on AI-assisted *development*, refer other topics elsewhere |
 | **Forced participation** | Management mandates attendance | Keep it voluntary; if people aren't coming, improve the value proposition |
 | **No organizational support** | No budget, no time allocated | Secure a sponsor; demonstrate ROI with data |
-
----
-
-## Next Steps
-
-Continue building your team's knowledge-sharing practices:
-
-- [Internal Documentation](./internal-documentation.md) — Document your CoP's discoveries and standards
-- [Prompt Sharing & Collaboration](./prompt-sharing.md) — Build the shared prompt library your CoP curates
-- [AI Retrospectives](./retrospectives.md) — Run team retrospectives that feed insights into the CoP
-
-Explore related topics:
-
-- [AI-First Culture](../01-fundamentals/ai-first-culture.md) — Build the cultural foundation that makes a CoP thrive
-- [Developer Onboarding](../02-onboarding/developer-onboarding.md) — Connect new hires to the CoP from day one
-- [Why Team Workflows Matter](../01-fundamentals/why-team-workflows-matter.md) — CoPs as a driver of team workflow improvement
-- [Role of the Team Lead](../01-fundamentals/role-of-team-lead.md) — How team leads support and champion the CoP
-- [Maturity Model](../01-fundamentals/maturity-model.md) — A CoP is a hallmark of higher AI maturity levels

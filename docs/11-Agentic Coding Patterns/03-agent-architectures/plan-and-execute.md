@@ -231,7 +231,7 @@ async function executePlan(plan: Plan): Promise<ExecutionResult> {
 
 ### The Re-Planner
 
-When reality diverges from the plan, re-plan rather than blindly continuing:
+When reality diverges from the plan, re-plan rather than blindly continuing. The executor detects step failure, collects context (what completed, what failed, why), and asks the planner to create a revised plan for the remaining work.
 
 ```typescript
 async function replanAndExecute(
@@ -240,25 +240,18 @@ async function replanAndExecute(
   failedStep: PlanStep,
   failure: VerificationResult
 ): Promise<ExecutionResult> {
-  console.log(`\nRe-planning: step ${failedStep.id} failed`);
-
-  const newPlan = await llm.complete({
-    system: `You are re-planning after a step failed. 
-             Adjust the remaining plan based on what actually happened.`,
-    prompt: `Original plan: ${JSON.stringify(originalPlan)}
-             
-             Completed steps: ${JSON.stringify(completedResults)}
-             
-             Failed step: ${failedStep.description}
-             Failure reason: ${failure.reason}
-             
-             Create a new plan for the remaining work, accounting for 
-             what was already done and what went wrong.`
+  const revisedPlan = await llm.complete({
+    system: "Adjust the remaining plan based on what actually happened.",
+    prompt: `Original: ${JSON.stringify(originalPlan)}
+             Completed: ${JSON.stringify(completedResults)}
+             Failed: ${failedStep.description} — ${failure.reason}
+             Create a revised plan for remaining work.`
   });
-
-  const revisedPlan = JSON.parse(newPlan);
-  return await executePlan(revisedPlan);
+  return await executePlan(JSON.parse(revisedPlan));
 }
+```
+
+For error recovery patterns including retry strategies, loop detection, and escalation, see [Infinite Agent Loops](../10-anti-patterns/infinite-loops.md).
 ```
 
 ### Python Implementation
@@ -387,10 +380,3 @@ async function multiAgentPlanExecute(task: string) {
 3. **Budget for re-planning** — no plan survives first contact; build in replanning triggers
 4. **Don't over-plan** — 3-7 steps is ideal; more than 10 suggests the task should be decomposed
 5. **Plans are living documents** — update the plan as reality emerges during execution
-
-## Next Steps
-
-- [ReAct Pattern](./react-pattern.md) — the interleaved alternative for exploratory tasks
-- [Autonomous Agents](./autonomous-agents.md) — full autonomous loop with planning
-- [Reflection and Self-Critique](./reflection.md) — adding quality checks to plan execution
-- [Orchestrator-Workers](../02-workflow-patterns/orchestrator-workers.md) — dynamic task decomposition

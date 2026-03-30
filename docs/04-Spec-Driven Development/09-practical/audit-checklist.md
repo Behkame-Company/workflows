@@ -142,7 +142,3 @@ Track audit scores over time:
 | Q4 2026 | /20 | /25 | /20 | /20 | /15 | /100 |
 
 **Target**: Steady improvement quarter over quarter. Don't expect perfection — aim for consistent progress.
-
----
-
-*← Back to [README](../README.md)*

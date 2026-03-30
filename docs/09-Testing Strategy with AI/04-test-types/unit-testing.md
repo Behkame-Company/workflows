@@ -2,6 +2,8 @@
 
 > Isolated component testing with AI assistance — writing focused, independent tests that verify individual units of behavior.
 
+See [Choosing a Framework](../01-fundamentals/choosing-a-framework.md) for framework comparison and AI familiarity tiers. Examples below use Jest/Vitest syntax.
+
 ## What Makes a Good AI-Generated Unit Test
 
 The best unit tests share these characteristics whether written by humans or AI:
@@ -227,9 +229,3 @@ expect(result.createdAt).toBeInstanceOf(Date);
 | Get meaningful assertions | "Include at least 2-3 assertions per test case" |
 | Cover edge cases | "Include tests for null inputs, empty arrays, and error paths" |
 | Get descriptive names | "Use the pattern: should [expected behavior] when [condition]" |
-
-## Next Steps
-
-- [Integration Testing](./integration-testing.md) — Test how units work together across boundaries
-- [Test Quality Metrics](../05-coverage-and-quality/test-quality-metrics.md) — Measure whether your unit tests actually catch bugs
-- [Mutation Testing](../05-coverage-and-quality/mutation-testing.md) — Validate that unit test assertions are strong enough

@@ -192,7 +192,3 @@ Same information, 4.4× fewer tokens.
 | Links to: External docs, tutorials | Links to: Nothing (agents can't browse) |
 
 ⚠️ **Critical**: Agents cannot follow links. Never write "See our wiki for style guide." Include the rules inline.
-
----
-
-*Next: [Section-by-Section Guide](section-by-section.md) →*

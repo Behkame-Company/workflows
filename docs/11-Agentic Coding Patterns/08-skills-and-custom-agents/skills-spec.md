@@ -282,10 +282,3 @@ Run: `npx tsc --noEmit`
 - Always include tests for error paths
 - Follow existing patterns in src/app/api/
 ```
-
-## Next Steps
-
-- [Building Custom Skills](./building-skills.md) — step-by-step guide to creating skills
-- [Custom Agent Design](./custom-agent-design.md) — design agents that leverage skills
-- [Agent Composition](./agent-composition.md) — combine skills into complex workflows
-- [Copilot Skills](../06-copilot-agent-patterns/copilot-skills.md) — Copilot-specific skill usage

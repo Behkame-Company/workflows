@@ -63,21 +63,7 @@ After compaction (30K tokens):
 
 ## The Compaction Trade-Off
 
-```
-Aggressive compaction:
-  ✅ More room for new work
-  ✅ Faster inference (less to process)
-  ❌ May lose subtle but critical context
-  ❌ Information that seems unimportant now may matter later
-
-Conservative compaction:
-  ✅ Preserves more detail
-  ✅ Fewer missed connections
-  ❌ Less room for new work
-  ❌ Context rot still affects quality
-```
-
-**Best practice**: Start by maximizing recall (keep everything), then iterate to improve precision (remove what's truly unneeded).
+Aggressive compaction frees room but risks losing critical context; conservative compaction preserves detail but leaves less headroom. See [Compaction Tuning](compaction-tuning.md) for the Recall-Compression Spectrum and tuning strategies.
 
 ---
 
@@ -88,10 +74,3 @@ Conservative compaction:
 3. **Tool result clearing is cheapest** — Start there
 4. **Balance recall vs. compression** — Don't over-compress
 5. **Compact before you run out** — Proactive > reactive
-
----
-
-## Next Steps
-
-- 🔗 [Server-Side Compaction](server-side-compaction.md) — Anthropic's API approach
-- 🔗 [Manual Summarization Strategies](manual-summarization-strategies.md) — DIY approaches

@@ -69,10 +69,3 @@ Build a dashboard with these key indicators:
 3. **Optimize signal-to-noise** — False positive rate under 20%
 4. **Time to merge is key** — If AI review slows merging, it's a net negative
 5. **Dashboard visibility** — Make metrics visible to the whole team
-
----
-
-## Next Steps
-
-- 🔗 [Trust Framework](../07-human-ai-collaboration/trust-framework.md) — Building confidence in AI
-- 🔗 [Metrics & KPIs](../08-best-practices/metrics-and-kpis.md) — Comprehensive KPI guide

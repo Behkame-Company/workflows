@@ -194,11 +194,4 @@ Enterprise:  Host + Gateway + dozens of servers + multi-tenant routing
 
 ---
 
-## Next Steps
-
-- 🔗 [Protocol Lifecycle](protocol-lifecycle.md) — How sessions start, negotiate, and end
-- 🔗 [Tools](../03-primitives/tools.md) — The most important primitive
-
----
-
 *"The host sees everything. The server sees nothing it shouldn't. The client ensures isolation."*

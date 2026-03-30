@@ -187,9 +187,3 @@ copilot-instructions.md   ← Copilot-specific features
 1. Put universal coding rules in `AGENTS.md`
 2. Put Copilot-specific workflow and build details in `copilot-instructions.md`
 3. Put domain-specific rules in `.instructions.md` files
-
----
-
-*📋 Template: [AGENTS.md Template](../07-templates/agents-md-template.md)*
-
-*Next: [Memory Bank for Teams](../04-memory-bank/memory-bank-for-teams.md) →*

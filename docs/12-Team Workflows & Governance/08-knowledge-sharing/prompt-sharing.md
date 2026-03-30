@@ -590,21 +590,3 @@ Maintain a `README.md` that serves as the library's table of contents:
 | Review turnaround | PR metrics | < 2 business days |
 | Showcase attendance | Meeting attendance | > 70% of team |
 | Cross-team adoption | Forks or copies of prompts | Growing month-over-month |
-
----
-
-## Next Steps
-
-Continue building your team's knowledge-sharing practices:
-
-- [Internal Documentation](./internal-documentation.md) — Document your team's complete AI workflow practices
-- [AI Retrospectives](./retrospectives.md) — Reflect on prompt effectiveness and team learning
-- [Community of Practice](./community-of-practice.md) — Scale prompt sharing across the organization
-
-Explore related topics:
-
-- [AI-First Culture](../01-fundamentals/ai-first-culture.md) — Foster the cultural foundation that makes sharing natural
-- [Developer Onboarding](../02-onboarding/developer-onboarding.md) — Include prompt sharing in your onboarding program
-- [Why Team Workflows Matter](../01-fundamentals/why-team-workflows-matter.md) — Connect prompt sharing to team velocity
-- [Role of the Team Lead](../01-fundamentals/role-of-team-lead.md) — Lead by example in sharing effective prompts
-- [Maturity Model](../01-fundamentals/maturity-model.md) — Prompt sharing as a maturity indicator

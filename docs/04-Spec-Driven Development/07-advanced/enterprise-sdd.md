@@ -158,7 +158,3 @@ Track before/after SDD adoption:
 - Bug escape rate (should decrease)
 - Onboarding time (should decrease)
 - AI agent effectiveness (should increase)
-
----
-
-*Next: [Multi-Agent Pipelines →](multi-agent-pipelines.md)*

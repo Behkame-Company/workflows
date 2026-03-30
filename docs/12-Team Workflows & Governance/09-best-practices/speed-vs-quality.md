@@ -638,17 +638,3 @@ Use this template when your team debates whether to prioritize speed or quality 
 ## Retrospective Note
 [Fill in after shipping: Did the balance feel right? What would you adjust?]
 ```
-
----
-
-## Next Steps
-
-- [Gradual Adoption Strategy](./gradual-adoption.md) — each adoption stage needs its own speed/quality calibration
-- [Standardize Before Scaling](./standardize-before-scaling.md) — quality gates are a core standard to establish early
-- [Feedback Loops](./feedback-loops.md) — use feedback to continuously calibrate your speed/quality balance
-- [AI-First Culture](../01-fundamentals/ai-first-culture.md) — culture shapes whether teams default toward speed or quality
-- [Role of the Team Lead](../01-fundamentals/role-of-team-lead.md) — leads set the tone for quality expectations
-- [Developer Onboarding](../02-onboarding/developer-onboarding.md) — teach speed/quality balance from day one
-- [AI Usage Policy](../06-governance-and-policies/ai-usage-policy.md) — policies that encode your quality requirements
-- [Measuring AI Impact](../07-metrics-and-measurement/measuring-ai-impact.md) — metrics that reveal your speed/quality balance
-- [Cowboy AI Development](../10-anti-patterns/cowboy-ai-development.md) — the anti-pattern of choosing speed over quality every time

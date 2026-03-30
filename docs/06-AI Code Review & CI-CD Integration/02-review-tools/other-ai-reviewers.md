@@ -74,10 +74,3 @@ PR opened → Copilot reviews (native) + CodeRabbit reviews (bot) + PR-Agent (Ac
 3. **Pick one primary AI reviewer** — Multiple AI tools create noise
 4. **Complement with static analysis** — CodeQL/Semgrep for deterministic checks
 5. **Evaluate on your codebase** — Trial before committing
-
----
-
-## Next Steps
-
-- 🔗 [Static Analysis Tools](static-analysis-tools.md) — Deterministic quality tools
-- 🔗 [Automated PR Review Pipelines](../04-ai-in-ci-cd/automated-pr-review.md) — CI/CD integration

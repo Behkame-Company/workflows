@@ -8,12 +8,10 @@
 # Repository Instructions
 
 ## Project
-<!-- 2-3 sentences: what it is, stack, status -->
 [Project name] is a [type of application] built with [primary technologies].
 Currently [status: in development / production / maintenance].
 
 ## Commands
-<!-- List every command the AI might need to run -->
 - `npm install` — Install dependencies (always run after pulling changes)
 - `npm run dev` — Start development server (http://localhost:3000)
 - `npm run build` — Production build (must pass before merging PRs)
@@ -27,7 +25,6 @@ Always run `npm install` before building if dependencies changed.
 Always run `npm run lint && npm run test` before considering work complete.
 
 ## Structure
-<!-- Key directories the AI needs to know about -->
 src/
   app/          # Next.js App Router pages and API routes
   components/   # Reusable React components
@@ -39,7 +36,6 @@ tests/
   e2e/          # Playwright end-to-end tests
 
 ## Conventions
-<!-- 5-10 of your most important rules -->
 - TypeScript strict mode; never use `any` type
 - Named exports only; no default exports
 - Use `async/await`, not `.then()` chains
@@ -50,7 +46,6 @@ tests/
 - Prefer composition over inheritance
 
 ## Do Not
-<!-- Explicit boundaries -->
 - Never commit secrets or API keys; use environment variables via `.env.local`
 - Never modify files in `legacy/` or `generated/`
 - Never disable TypeScript errors with `@ts-ignore` or `@ts-expect-error`
@@ -70,6 +65,5 @@ After making changes:
 3. `npm run build` — must compile without errors
 
 ## Project Context
-<!-- Optional: link to memory bank -->
 For current work status and architecture decisions, refer to `memory-bank/activeContext.md`.
 ```

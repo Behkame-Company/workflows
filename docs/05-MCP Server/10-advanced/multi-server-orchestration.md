@@ -111,10 +111,3 @@ AI workflow:
 3. **Keep total tool count manageable** — 30-40 max across all servers
 4. **Avoid name collisions** — Each tool name must be unique across servers
 5. **Document recommended sets** — Create server "presets" for common workflows
-
----
-
-## Next Steps
-
-- 🔗 [Custom Transport](custom-transport.md) — Building custom transports
-- 🔗 [MCP + Meta-Prompting](mcp-plus-meta-prompting.md) — Framework integration

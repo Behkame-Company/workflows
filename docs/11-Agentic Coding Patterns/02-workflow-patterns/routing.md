@@ -300,9 +300,3 @@ async function routeWithLogging(input: string) {
   return await handlers[category](input);
 }
 ```
-
-## Next Steps
-
-- [Parallelization](./parallelization.md) — run multiple routes simultaneously
-- [Orchestrator-Workers](./orchestrator-workers.md) — when routing needs to be dynamic
-- [Prompt Chaining](./prompt-chaining.md) — chain steps within a single route

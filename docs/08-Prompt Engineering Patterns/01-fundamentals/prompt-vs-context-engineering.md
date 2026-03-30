@@ -88,13 +88,7 @@ Prompt engineering is a **subset** of context engineering. You need both:
 
 This section (Phase 8) focuses on **prompt engineering patterns** — the techniques for crafting effective individual prompts.
 
-For context engineering topics, see:
-- 🔗 [Context Window Management](../../07-Context%20Window%20Management/) — Managing the full context window
+For a deeper dive into context engineering, see [Context Window Management](../../07-Context%20Window%20Management/).
+
+Also see:
 - 🔗 [Copilot Instructions](../../Copilot%20instructions/) — Persistent system-level instructions
-
----
-
-## Next Steps
-
-- 🔗 [Zero-Shot Prompting](../02-core-techniques/zero-shot-prompting.md) — Start writing effective prompts
-- 🔗 [System Prompt Design](../06-system-prompts/system-prompt-design.md) — Where prompt and context engineering meet

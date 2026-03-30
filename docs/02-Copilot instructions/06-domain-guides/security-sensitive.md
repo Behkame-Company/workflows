@@ -127,7 +127,3 @@ When creating review-specific instructions for security code:
 6. Race conditions in auth/payment flows
 7. Missing rate limiting on sensitive endpoints
 ```
-
----
-
-*Next: [DevOps & CI/CD Domain Guide](devops-cicd.md) →*

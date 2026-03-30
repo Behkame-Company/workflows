@@ -178,7 +178,3 @@ Acceptance: Drag updates status, failure reverts position
 
 ... (Tasks 6-10: filtering, empty states, E2E tests, etc.)
 ```
-
----
-
-*Next: [API Service Spec →](api-service.md)*

@@ -63,10 +63,3 @@
 3. **Tune continuously** — Instructions evolve every 2 weeks
 4. **Measure everything** — Baseline → improvement → proof
 5. **Start with one repo** — Expand to org after proving value
-
----
-
-## Next Steps
-
-- 🔗 [Metrics & KPIs](metrics-and-kpis.md) — What to track
-- 🔗 [Team Adoption](../07-human-ai-collaboration/team-adoption.md) — Change management

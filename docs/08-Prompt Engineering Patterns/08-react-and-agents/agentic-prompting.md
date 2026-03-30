@@ -136,11 +136,3 @@ For reversible actions (git commit, file edits), proceed without asking.
 ```
 
 Anthropic recommends this pattern: classify actions by reversibility and only gate irreversible ones.
-
----
-
-## Next Steps
-
-- 🔗 [ReAct Pattern](react-pattern.md) — The reasoning+acting foundation
-- 🔗 [Tool-Augmented Prompting](tool-augmented-prompting.md) — Effective tool use
-- 🔗 [Prompt Chaining](../07-prompt-composition/prompt-chaining.md) — Sequential workflows

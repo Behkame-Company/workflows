@@ -302,10 +302,3 @@ if (tests.allPassed && coverage.adequate && diff.looksCorrect) {
 ```
 
 > *"The goal isn't to distrust agents — it's to build systems where trust is earned through evidence, not assumed through convenience."*
-
-## Next Steps
-
-- [Over-Engineering](./over-engineering.md) — when verification systems themselves become over-complex
-- [Infinite Agent Loops](./infinite-loops.md) — loops that go undetected without verification
-- [Context Starvation](./context-starvation.md) — when agents forget they haven't verified
-- [Testing Strategy](../09-best-practices/testing-strategy.md) — building tests agents can't subvert

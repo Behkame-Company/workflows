@@ -115,10 +115,3 @@ Keep your summary under 2,000 tokens.
 3. **100K internal → 2K returned** — Massive compression ratio
 4. **Not for simple tasks** — Overhead isn't worth it for quick reads
 5. **Natural separation of concerns** — Explore, implement, test separately
-
----
-
-## Next Steps
-
-- 🔗 [Delegation Patterns](delegation-patterns.md) — When and how to delegate
-- 🔗 [Multi-Agent Context Coordination](multi-agent-context-coordination.md) — Orchestration

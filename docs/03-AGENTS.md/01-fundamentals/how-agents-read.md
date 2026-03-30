@@ -21,40 +21,11 @@ Every file in the project uses the root AGENTS.md.
 
 ### Monorepo (Hierarchical Resolution)
 
-```
-monorepo/
-├── AGENTS.md                    ← Default for everything
-├── apps/
-│   ├── web/
-│   │   └── AGENTS.md            ← Used for files in apps/web/
-│   └── mobile/
-│       └── AGENTS.md            ← Used for files in apps/mobile/
-├── packages/
-│   └── shared/
-│       └── AGENTS.md            ← Used for files in packages/shared/
-└── services/
-    └── api/
-        └── AGENTS.md            ← Used for files in services/api/
-```
+**Rule: Nearest AGENTS.md in the directory tree wins.** The agent walks up from the file being edited and uses the first AGENTS.md it finds. Root AGENTS.md may also be merged depending on the tool.
 
-**Rule: Nearest AGENTS.md in the directory tree wins.**
+Merging behavior, inheritance patterns, and tool-specific resolution rules vary significantly across tools.
 
-When an agent works on `apps/web/src/Button.tsx`:
-1. Looks for `apps/web/src/AGENTS.md` — not found
-2. Looks for `apps/web/AGENTS.md` — **found, uses this**
-3. Root `AGENTS.md` may also be loaded depending on the tool
-
-### Tool-Specific Behavior
-
-| Tool | Resolution |
-|------|-----------|
-| **Codex CLI** | Nearest AGENTS.md wins; may merge with root |
-| **GitHub Copilot** | Reads root AGENTS.md + .github/copilot-instructions.md |
-| **Claude Code** | Nearest CLAUDE.md wins; reads AGENTS.md as fallback |
-| **Cursor** | Reads root AGENTS.md; also reads .cursorrules and .cursor/rules/ |
-| **Gemini CLI** | Reads AGENTS.md from root |
-
-⚠️ **Merging behavior varies by tool.** Some tools only read the nearest file; others merge root + nearest. Test with your specific tool.
+For detailed monorepo resolution rules, inheritance patterns, and tool-specific behaviors, see [Directory Hierarchy](../02-deep-dives/directory-hierarchy.md).
 
 ---
 
@@ -189,7 +160,3 @@ Include a boundary and try to violate it:
 ```
 
 Ask the agent to add logging. Does it use a logger instead of console.log?
-
----
-
-*Next: [Directory Hierarchy & Resolution](../02-deep-dives/directory-hierarchy.md) →*

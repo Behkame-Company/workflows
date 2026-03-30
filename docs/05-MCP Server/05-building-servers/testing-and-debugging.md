@@ -132,10 +132,3 @@ async def query_database(sql: str) -> str:
 3. **Log to stderr**, never stdout
 4. **Test tool descriptions** — if the AI picks the wrong tool, the description needs work
 5. **Check the basics first** — most issues are path, config, or dependency problems
-
----
-
-## Next Steps
-
-- 🔗 [Server Design Principles](../06-best-practices/server-design-principles.md) — Core design rules
-- 🔗 [Troubleshooting Guide](../11-practical/troubleshooting.md) — Common problems and fixes

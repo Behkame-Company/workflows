@@ -128,10 +128,3 @@ Next agent: Picks up instantly, starts building immediately.
 3. **Git is your safety net** — Descriptive commits enable recovery
 4. **Verify before handing off** — Run tests to confirm working state
 5. **Level 3 handoffs save the most time** — Invest 2 minutes to save 20
-
----
-
-## Next Steps
-
-- 🔗 [Just-in-Time Retrieval](../07-context-retrieval/just-in-time-retrieval.md) — Efficient context loading
-- 🔗 [Context Isolation with Sub-Agents](../08-sub-agent-architectures/context-isolation-with-subagents.md) — Per-task windows

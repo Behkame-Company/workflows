@@ -112,10 +112,3 @@ Instead of one massive instruction file, use scoped files:
 src/api/.instructions.md                → 5 API-specific rules
 src/components/.instructions.md         → 5 component-specific rules
 ```
-
----
-
-## Next Steps
-
-- 🔗 [Prompt Injection Risks](prompt-injection-risks.md) — Security concerns
-- 🔗 [System Prompt Design](../06-system-prompts/system-prompt-design.md) — Right-sizing system prompts

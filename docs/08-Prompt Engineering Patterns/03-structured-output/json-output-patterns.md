@@ -112,10 +112,3 @@ function parseAIResponse<T>(raw: string, schema: z.ZodSchema<T>): T {
 3. **Add field descriptions** — `"severity": "critical|high|medium|low"` is clearer than `"severity": "string"`
 4. **Include a complete example** — One valid JSON example prevents most format issues
 5. **Validate on the receiving end** — Never trust raw model output as valid JSON
-
----
-
-## Next Steps
-
-- 🔗 [XML Structuring](xml-structuring.md) — Alternative structure approach
-- 🔗 [Schema Enforcement](schema-enforcement.md) — Advanced validation patterns

@@ -162,17 +162,4 @@ Prompt:  "Given this plan [paste plan.md], generate an ordered task list.
 
 ## Quality Gate: Task Review
 
-Before proceeding to Implement:
-
-| Check | Question |
-|-------|----------|
-| **Completeness** | Does every plan section have tasks? |
-| **Granularity** | Can each task be done in one session? |
-| **Dependencies** | Are dependencies correct and non-circular? |
-| **Acceptance** | Can you test each task independently? |
-| **Ordering** | Is the sequence logical? |
-| **Coverage** | Do tasks include both implementation AND testing? |
-
----
-
-*Next: [Phase 4: Implement →](phase-implement.md)*
+Verify completeness, granularity, dependencies, and test coverage of all tasks. See [Quality Gates](quality-gates.md) for the full validation checklist for this phase.

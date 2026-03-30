@@ -111,10 +111,3 @@ Mark the EXACT line where actual behavior diverges from expected.
 | "Fix all the bugs" | Unfocused, model invents problems |
 | Not including error messages | Forces model to guess |
 | Not sharing what you tried | Model suggests your failed attempts |
-
----
-
-## Next Steps
-
-- 🔗 [Test Generation Prompts](test-generation-prompts.md) — Write tests to prevent regressions
-- 🔗 [Chain-of-Thought](../02-core-techniques/chain-of-thought.md) — Step-by-step reasoning for debugging

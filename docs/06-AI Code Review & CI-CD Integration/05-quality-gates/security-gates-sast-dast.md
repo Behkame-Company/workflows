@@ -108,10 +108,3 @@ Don't forget dependency vulnerabilities:
 3. **CodeQL + Semgrep** — Combine for defense-in-depth
 4. **Include SCA** — Dependency vulnerabilities are real attack vectors
 5. **Tune regularly** — Reduce false positives to prevent alert fatigue
-
----
-
-## Next Steps
-
-- 🔗 [Test Coverage Gates](test-coverage-gates.md) — Ensuring adequate testing
-- 🔗 [AI-Specific Quality Gates](ai-specific-quality-gates.md) — Catching AI-specific risks

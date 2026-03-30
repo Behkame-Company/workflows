@@ -158,7 +158,3 @@ If you can't answer that question, the requirement is too vague.
 | 5 | Appropriate Granularity | Right-size for complexity |
 | 6 | Human-in-the-Loop | Humans validate phase transitions |
 | 7 | Testable Requirements | Every requirement must be verifiable |
-
----
-
-*Next: [The SDD Mindset →](the-sdd-mindset.md)*

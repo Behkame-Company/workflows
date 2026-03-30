@@ -87,7 +87,3 @@
 
 - [Spec-Driven Development: From Code to Contract in the Age of AI (arXiv)](https://arxiv.org/pdf/2602.00180) — Academic analysis of SDD
 - [From Literal to Liberal: A Meta-Prompting Framework (arXiv)](https://arxiv.org/html/2510.12864v1) — Meta-prompting for human-aligned exception handling
-
----
-
-*← Back to [Table of Contents](../README.md)*

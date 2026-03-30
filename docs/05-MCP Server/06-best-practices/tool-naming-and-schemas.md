@@ -134,10 +134,3 @@
 3. **Enums over strings**: Constrain values wherever possible
 4. **Describe everything**: Every parameter needs a clear description
 5. **Descriptions sell the tool**: The AI reads them to decide which tool to use
-
----
-
-## Next Steps
-
-- 🔗 [Error Handling](error-handling.md) — When things go wrong
-- 🔗 [Common Mistakes](../07-anti-patterns/common-mistakes.md) — What to avoid

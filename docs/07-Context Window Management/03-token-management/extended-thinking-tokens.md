@@ -93,10 +93,3 @@ Turn 3:  Thinking from Turn 1 automatically stripped
 3. **Must preserve during tool cycles** — Don't manually strip mid-tool-use
 4. **Adaptive thinking self-calibrates** — Use `effort` to adjust
 5. **Complex tasks benefit, simple don't** — Match thinking to task complexity
-
----
-
-## Next Steps
-
-- 🔗 [Context Awareness](context-awareness.md) — Models that track their budget
-- 🔗 [Cost Optimization](cost-optimization.md) — Reducing spend

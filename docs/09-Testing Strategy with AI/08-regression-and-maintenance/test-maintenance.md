@@ -298,16 +298,3 @@ tests/
 6. Update test documentation if features changed
 7. Ensure AI instruction files reference current test patterns
 ```
-
----
-
-## Next Steps
-
-- [Regression Testing Strategy](regression-testing.md) — preventing AI-introduced regressions
-- [Flaky Test Detection](flaky-test-detection.md) — identifying non-deterministic tests
-- [Testing Templates](../11-practical/templates.md) — ready-to-use test maintenance templates
-- [Structured Test Tracking](../09-best-practices/structured-test-tracking.md) — tracking test state across sessions
-
----
-
-*Part of the [Testing Strategy with AI](../README.md) series.*

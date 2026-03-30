@@ -274,12 +274,3 @@ Regardless of format or tool, these rules belong in every AI instruction file:
 ❌ **Don't** write vague rules like "be secure" — AI needs specific patterns
 ❌ **Don't** forget to test that AI actually follows your instructions
 ❌ **Don't** copy security rules without understanding them — they need to match your stack
-
----
-
-## Next Steps
-
-- [Automated Security Gates](./automated-security-gates.md) — enforce rules with CI/CD checks
-- [Security Templates](../11-practical/templates.md) — copy-paste ready instruction files
-- [Prompt Injection Defense](../02-prompt-injection/) — protect instructions from being overridden
-- [Anti-Pattern: Security by Obscurity](../10-anti-patterns/security-by-obscurity.md) — why instructions alone aren't enough

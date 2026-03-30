@@ -391,10 +391,3 @@ describe('FeatureName', () => {
 3. `tests.json` provides continuity across AI sessions and context resets
 4. Every assertion is a requirement; every test is a user story
 5. Human writes the spec (tests), AI writes the implementation — not the other way around
-
----
-
-*Previous: [Testing Pyramid with AI](testing-pyramid-with-ai.md)*
-*Next: [Choosing a Testing Framework](choosing-a-framework.md) — Framework selection for AI-assisted workflows*
-
-*Part of the [Testing Strategy with AI](../README.md) documentation series.*

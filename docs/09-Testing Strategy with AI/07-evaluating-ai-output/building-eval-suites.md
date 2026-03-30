@@ -390,8 +390,3 @@ final = run_eval("suite-v1", prompt="v3")
 | **Review eval cases periodically** | Requirements change — evals should too |
 | **Separate generation from grading** | Use different models for generation vs evaluation |
 | **Store raw outputs** | Enable re-grading with improved rubrics |
-
-## Next Steps
-
-- 🔗 [AI Output Evaluation Framework](evaluation-framework.md) — Framework design and grading methods
-- 🔗 [LLM-Based Grading](llm-based-grading.md) — Rubric design and LLM-as-judge patterns

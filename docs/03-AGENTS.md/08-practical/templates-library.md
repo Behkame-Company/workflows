@@ -273,7 +273,3 @@ environments/     — Per-environment variable files
 2. ✅ Test: Have an agent try a task
 3. ✅ Iterate: Add rules when agents make mistakes
 4. ✅ Review: Schedule quarterly audits (see [Audit Checklist](audit-checklist.md))
-
----
-
-*Next: [Troubleshooting Guide](troubleshooting.md) →*

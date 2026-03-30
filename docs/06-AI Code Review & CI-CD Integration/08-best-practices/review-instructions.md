@@ -86,10 +86,3 @@ When reviewing pull requests for this project:
 3. **Separate by severity** — Block, fix, warn, inform
 4. **Keep it focused** — 10-15 critical rules, not 100 nice-to-haves
 5. **Update quarterly** — Instructions should evolve with your codebase
-
----
-
-## Next Steps
-
-- 🔗 [Signal-to-Noise](signal-to-noise.md) — Optimizing feedback quality
-- 🔗 [Incremental Adoption](incremental-adoption.md) — Phased rollout

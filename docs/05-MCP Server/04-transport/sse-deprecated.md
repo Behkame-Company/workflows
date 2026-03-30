@@ -1,5 +1,7 @@
 # SSE Transport (Deprecated)
 
+> **⚠️ Deprecated**: SSE transport has been replaced by Streamable HTTP. See [Streamable HTTP](streamable-http.md) for the current approach.
+
 > The original HTTP-based MCP transport. Replaced by Streamable HTTP as of March 2025.
 
 ---
@@ -29,13 +31,9 @@ SSE required **two separate endpoints**:
 
 ## Why SSE Was Replaced
 
-| Problem | Impact |
-|---------|--------|
-| **Two endpoints** | Complex setup, harder to reason about |
-| **Persistent connection** | SSE requires a long-lived connection; proxy/firewall issues |
-| **Unidirectional streaming** | SSE only streams server → client |
-| **Infrastructure incompatibility** | Many proxies, CDNs, and load balancers don't handle SSE well |
-| **Session management** | Complex state tracking across two connections |
+See [Transport Overview](transport-overview.md) for a comparison of all transport types.
+
+SSE required two separate endpoints, a persistent connection (causing proxy/firewall issues), only supported unidirectional streaming, and had complex session management across two connections.
 
 ---
 
@@ -88,10 +86,3 @@ const transport = new StreamableHTTPServerTransport({ endpoint: "/mcp" });
 ## Key Takeaway
 
 **Don't start new projects with SSE.** Use Streamable HTTP for all new HTTP-based MCP servers. If you have existing SSE servers, plan a migration — the change is straightforward.
-
----
-
-## Next Steps
-
-- 🔗 [Streamable HTTP](streamable-http.md) — The replacement transport
-- 🔗 [Transport Overview](transport-overview.md) — Full comparison

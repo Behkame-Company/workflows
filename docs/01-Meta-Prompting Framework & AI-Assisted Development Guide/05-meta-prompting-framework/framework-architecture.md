@@ -27,59 +27,15 @@ A meta-prompting framework is a **layered system** of instruction files, memory,
 └───────────────────────────────────────────┘
 ```
 
+For the underlying instruction hierarchy concept, see [What Is Meta-Prompting](../../01-foundations/what-is-meta-prompting.md#instruction-hierarchy).
+
 ---
 
 ## The Conductor-Expert Pattern
 
-The most effective architecture for AI-assisted development separates **planning** from **execution**:
+The Conductor-Expert Pattern is the core of meta-prompting. The **conductor** (your instruction files + prompt files + memory bank) decomposes tasks, assigns roles, and defines acceptance criteria. **Experts** (individual Copilot Chat sessions or Coding Agent tasks) execute focused sub-tasks within the boundaries set by your instruction files.
 
-### Conductor (Meta-Level)
-
-The conductor doesn't write code — it decides *what to do* and *how to validate it*:
-
-- Receives a high-level request ("Add user authentication")
-- Decomposes it into discrete, testable tasks
-- Assigns each task appropriate context (path-specific instructions, reference files)
-- Defines acceptance criteria for each task
-- Orchestrates the order of execution
-
-In practice, the conductor is your **instruction files + prompt files + memory bank** working together.
-
-### Experts (Task-Level)
-
-Experts execute specific sub-tasks with focused context:
-
-- Work on one bounded piece (e.g., "Create the JWT middleware")
-- Receive only the relevant instructions for their domain
-- Self-validate against provided criteria
-- Report completion status
-
-In practice, experts are **individual Copilot Chat sessions or Coding Agent tasks** that operate within the boundaries set by your instruction files.
-
-### Flow
-
-```
-High-Level Request
-       │
-       ▼
-┌─────────────────┐
-│   CONDUCTOR      │  Reads: copilot-instructions.md, memory-bank/activeContext.md
-│   (Planning)     │  Produces: Task breakdown, acceptance criteria
-└────────┬────────┘
-         │
-    ┌────┼────┬────────┐
-    ▼    ▼    ▼        ▼
-┌──────┐┌──────┐┌──────┐┌──────┐
-│Expert││Expert││Expert││Expert│  Each reads: path-specific .instructions.md
-│  #1  ││  #2  ││  #3  ││  #4  │  Produces: Code changes, tests
-└──┬───┘└──┬───┘└──┬───┘└──┬───┘
-   │       │       │       │
-   ▼       ▼       ▼       ▼
-┌─────────────────────────────┐
-│     VERIFICATION LAYER      │  Runs: lint, test, build, review
-│    (Self-Validation)        │  Updates: memory-bank/activeContext.md
-└─────────────────────────────┘
-```
+See [What Is Meta-Prompting](../../01-foundations/what-is-meta-prompting.md) for the full explanation of this pattern.
 
 ---
 
@@ -267,7 +223,3 @@ packages/
 └── backend/
     └── AGENTS.md                  # Backend-specific overrides
 ```
-
----
-
-*Next: [Building Your Framework](building-your-framework.md) →*

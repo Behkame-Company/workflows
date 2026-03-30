@@ -259,7 +259,3 @@ tools: [search, edit, run]
 ## Endpoint Details
 [Describe the endpoint: path, method, input, output, auth requirements]
 ```
-
----
-
-*Next: [Troubleshooting Guide](troubleshooting.md) →*

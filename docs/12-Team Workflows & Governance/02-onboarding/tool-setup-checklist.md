@@ -265,10 +265,3 @@ Buddy sign-off: _________________ Date: __________
 | MCP server won't connect | Check network/proxy settings, verify server command |
 | Pre-commit hook not running | Run `chmod +x .git/hooks/pre-commit` or reinstall hooks |
 | AI output ignores conventions | Verify instruction file content, check for conflicting settings |
-
-## Next Steps
-
-- [Follow the first week learning path →](first-week.md)
-- [Start the developer onboarding program →](developer-onboarding.md)
-- [Avoid common beginner mistakes →](beginner-mistakes.md)
-- [Review instruction file standards →](../03-standards-and-conventions/instruction-file-standards.md)

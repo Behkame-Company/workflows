@@ -167,21 +167,15 @@ e2e/             — Playwright end-to-end tests
 
 ## Sizing Guidelines
 
-| File Size | Rating | Notes |
-|-----------|--------|-------|
-| 20-50 lines | ✅ Ideal | Focused, high signal-to-noise |
-| 50-100 lines | ✅ Good | Room for more detail |
-| 100-200 lines | ⚠️ Acceptable | Test that all sections are read |
-| 200-300 lines | ⛔ Getting long | Consider splitting for monorepos |
-| 300+ lines | 🚫 Too long | Agent performance degrades |
-
-**Target: under 200 lines, under 1,000 words.**
+See [Context Budget & Sizing](../03-best-practices/context-budget-and-sizing.md) for detailed token analysis and optimization strategies.
 
 ---
 
 ## Formatting Best Practices
 
-### ✅ Effective: Bullets and Code Blocks
+- **Bullets** for unordered rules — agents parse discrete items more reliably than paragraphs
+- **Numbered steps** when execution order matters (e.g., build → test → deploy)
+- **Tables** for structured data with multiple attributes per item
 
 ```markdown
 ## Conventions
@@ -190,18 +184,4 @@ e2e/             — Playwright end-to-end tests
 - Validate with Zod
 ```
 
-### ❌ Ineffective: Dense Paragraphs
-
-```markdown
-## Conventions
-When writing code for this project, we generally prefer to use named exports
-rather than default exports, and we try to keep TypeScript in strict mode
-whenever possible. For validation, we tend to lean towards using Zod, though
-other approaches may be acceptable in some cases.
-```
-
-**Why?** Agents parse bullets more reliably than paragraphs. Each bullet becomes a discrete, followable instruction.
-
----
-
-*Next: [How Agents Read AGENTS.md](how-agents-read.md) →*
+Avoid dense paragraphs — agents extract instructions from bullets at ~90% accuracy vs ~50% from prose.

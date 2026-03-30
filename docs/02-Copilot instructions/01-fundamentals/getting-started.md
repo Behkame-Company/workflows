@@ -103,7 +103,3 @@ Ask Copilot to do something your instructions address:
 | Path-specific | `.github/instructions/NAME.instructions.md` | Rules for matching files |
 | Prompt files | `.github/prompts/NAME.prompt.md` | Reusable task workflows |
 | Cross-tool | `AGENTS.md` (repo root) | Universal AI agent instructions |
-
----
-
-*Next: [Anatomy of Instructions](anatomy-of-instructions.md) →*

@@ -85,10 +85,3 @@ Error: [What happened].
 3. **Use `isError: true`** — So the AI knows this is an error, not normal output
 4. **Validate early** — Catch bad inputs before making expensive calls
 5. **Handle partial success** — Report what worked and what didn't
-
----
-
-## Next Steps
-
-- 🔗 [Performance & Context Budget](performance-and-context.md) — Managing payload sizes
-- 🔗 [Common Mistakes](../07-anti-patterns/common-mistakes.md) — Errors in error handling

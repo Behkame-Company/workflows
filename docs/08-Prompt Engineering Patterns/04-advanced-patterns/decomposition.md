@@ -124,10 +124,3 @@ Simple (1 subtask): Direct prompt
 Medium (2-4 subtasks): Sequential prompts
 Complex (5+ subtasks): Decompose → Plan → Execute sequentially
 ```
-
----
-
-## Next Steps
-
-- 🔗 [Prompt Chaining](../07-prompt-composition/prompt-chaining.md) — Connecting decomposed subtasks
-- 🔗 [Code Generation Prompts](../05-coding-specific/code-generation-prompts.md) — Applying decomposition to coding

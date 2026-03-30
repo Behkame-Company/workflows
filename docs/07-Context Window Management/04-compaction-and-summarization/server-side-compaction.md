@@ -121,10 +121,3 @@ if compaction_count >= MAX_COMPACTIONS:
 3. **Pass blocks back** — Append full response including compaction block
 4. **Cache system prompt** — Survives compaction, saves re-caching cost
 5. **Budget enforcement** — Count compactions to limit total spend
-
----
-
-## Next Steps
-
-- 🔗 [Manual Summarization Strategies](manual-summarization-strategies.md) — DIY alternatives
-- 🔗 [Compaction Tuning](compaction-tuning.md) — Optimizing what's preserved

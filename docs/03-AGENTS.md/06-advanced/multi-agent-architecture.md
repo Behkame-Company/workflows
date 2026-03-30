@@ -96,81 +96,34 @@ Each agent has its own AGENTS.md or section:
 
 Agents expose modular **skills** — discrete functions that can be composed and chained.
 
-```
-skills/
-├── test.md         — Run tests and report
-├── lint.md         — Lint and auto-fix
-├── deploy.md       — Deploy to staging
-├── db-migrate.md   — Run database migrations
-└── docs-build.md   — Build documentation
-```
-
-### Implementation
-
 ```markdown
 # AGENTS.md
 
 ## Available Skills
 - `test` — Run `pnpm test` and report pass/fail summary
-- `lint` — Run `pnpm lint --fix` and list remaining issues  
-- `typecheck` — Run `pnpm typecheck` and report errors
+- `lint` — Run `pnpm lint --fix` and list remaining issues
 - `build` — Run `pnpm build` and verify success
-- `deploy:staging` — Deploy to staging environment
 
 ## Skill Chaining
 For feature PRs, run: test → lint → typecheck → build
 For hotfix PRs, run: test → build → deploy:staging
 ```
 
-### With GitHub Copilot Coding Agent
-
-```markdown
-## Workflow
-When assigned an issue:
-1. Read the issue description
-2. Implement the changes
-3. Run skill: test
-4. Run skill: lint
-5. If all pass, create PR
-6. If any fail, fix and retry (max 3 attempts)
-```
-
 ### When to Use
-- Automating repetitive workflows
-- Building CI-like quality gates into agent behavior
+- Automating repetitive workflows and CI-like quality gates
 - Projects with multiple deployment targets
 
 ---
 
 ## Pattern 4: Parallel Agents
 
-Multiple agents work simultaneously on independent tasks.
-
-```
-Issue: "Add user authentication"
-          │
-    ┌─────┼─────────┐
-    ▼     ▼         ▼
-  [DB]  [API]   [Frontend]
-  Agent  Agent    Agent
-    │     │         │
-    ▼     ▼         ▼
-  Schema  Routes   Login page
-  + migration      + auth hooks
-```
-
-### Implementation
-
-Per-directory AGENTS.md files enable parallel work:
+Multiple agents work simultaneously on independent tasks, each with its own per-directory AGENTS.md.
 
 ```
 services/
-├── db/
-│   ├── AGENTS.md     ← "Create user table migration"
-├── api/
-│   ├── AGENTS.md     ← "Create auth endpoints"
-└── web/
-    ├── AGENTS.md     ← "Create login page"
+├── db/AGENTS.md      ← "Create user table migration"
+├── api/AGENTS.md     ← "Create auth endpoints"
+└── web/AGENTS.md     ← "Create login page"
 ```
 
 ### When to Use
@@ -181,109 +134,35 @@ services/
 
 ## Pattern 5: Supervisor-Worker
 
-A supervisor agent decomposes tasks and assigns sub-tasks to worker agents.
-
-```
-Supervisor (plans and coordinates)
-    ├── Worker 1: "Implement User model"
-    ├── Worker 2: "Create API endpoints"
-    ├── Worker 3: "Write integration tests"
-    └── Worker 4: "Update API documentation"
-```
-
-### Implementation
+A supervisor agent decomposes complex tasks and assigns sub-tasks to worker agents in dependency order.
 
 ```markdown
 # AGENTS.md
 
 ## Task Decomposition
 For complex features (multi-file, multi-concern):
-1. Break into independent sub-tasks
-2. Execute sub-tasks in dependency order
+1. Break into independent sub-tasks (each with single objective)
+2. Execute in dependency order
 3. Verify integration between sub-tasks
 4. Run full test suite
-
-## Sub-Task Template
-Each sub-task should:
-- Have a clear, single objective
-- List files it will modify (and only those files)
-- Include verification (test command or manual check)
-- Be reviewable independently
 ```
 
 ### When to Use
-- Complex features requiring coordinated changes
-- Tasks that span 5+ files
+- Complex features requiring coordinated changes across 5+ files
 
 ---
 
 ## Agent Communication Patterns
 
-### Direct File-Based Communication
-
-Agents communicate through the codebase itself:
-- Agent 1 creates a type definition
-- Agent 2 imports and uses that type
-- Agent 3 writes tests for the type
-
-No explicit messaging needed — the code is the message.
-
-### Status File Communication
-
-For complex workflows, agents can use status files:
-
-```
-.agent-status/
-├── feature-auth.json     ← "stage: testing, blocked: false"
-├── feature-search.json   ← "stage: implementing, blocked: true, reason: needs API schema"
-```
-
-### Pull Request Communication
-
-Agents communicate through PRs:
-- Agent 1 creates PR for database changes
-- Agent 2 reads the merged PR and builds API on top
-- Agent 3 reads both PRs and builds the frontend
+- **File-based**: Agents communicate through the codebase itself (types, imports, tests)
+- **Status files**: For complex workflows, use `.agent-status/*.json` to track stage and blockers
+- **Pull requests**: Sequential agents build on each other’s merged PRs
 
 ---
 
 ## Orchestration with GitHub Actions
 
-```yaml
-# .github/workflows/agent-pipeline.yml
-name: Agent Pipeline
-on:
-  issues:
-    types: [assigned]
-
-jobs:
-  implement:
-    if: github.event.assignee.login == 'copilot[bot]'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Implement feature
-        uses: github/copilot-coding-agent@v1
-        with:
-          task: implement
-
-  test:
-    needs: implement
-    runs-on: ubuntu-latest
-    steps:
-      - name: Generate tests
-        uses: github/copilot-coding-agent@v1
-        with:
-          task: write-tests
-
-  review:
-    needs: test
-    runs-on: ubuntu-latest
-    steps:
-      - name: Code review
-        uses: github/copilot-coding-agent@v1
-        with:
-          task: review
-```
+Agent pipelines can be orchestrated as sequential GitHub Actions jobs (implement → test → review), triggered on issue assignment to `copilot[bot]`. Each job invokes the coding agent with a specific task.
 
 ---
 
@@ -298,7 +177,3 @@ jobs:
 | Supervisor-Worker | Complex features | High |
 
 **Start with the simplest pattern that solves your problem.** Add complexity only when needed.
-
----
-
-*Next: [Enterprise & Org Strategies](enterprise-strategies.md) →*

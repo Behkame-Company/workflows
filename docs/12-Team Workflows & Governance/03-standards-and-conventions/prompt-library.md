@@ -371,10 +371,3 @@ Create a simple feedback system:
 - 2025-07-08 @dev2: ⭐⭐⭐ "Good for basic cases, needed tweaking for complex validation"
 - 2025-06-28 @dev3: ⭐⭐⭐⭐ "Added edge case tests I wouldn't have thought of"
 ```
-
-## Next Steps
-
-- [Set code quality standards for AI output →](code-quality-standards.md)
-- [Define naming and style conventions →](naming-style-conventions.md)
-- [Design your review process →](../04-review-processes/ai-code-review-workflow.md)
-- [Create PR templates for AI-assisted work →](../04-review-processes/pr-templates.md)

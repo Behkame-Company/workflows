@@ -215,7 +215,3 @@ When files change, verify:
 - [ ] All `applyTo` patterns still match the current directory structure
 - [ ] Prompt files reference instructions that still exist
 - [ ] Total instruction content stays under context budget
-
----
-
-*Next: [Context Budget Management](context-budget-management.md) →*

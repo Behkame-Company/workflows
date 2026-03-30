@@ -119,7 +119,3 @@ For teams using **GitHub Copilot**, meta-prompting manifests through:
 - The instruction hierarchy goes from organization → repo → path → session
 - Always define **intent and constraints**, not step-by-step scripts
 - Include **feedback loops** so the AI validates its own output
-
----
-
-*Next: [Context Engineering](context-engineering.md) →*

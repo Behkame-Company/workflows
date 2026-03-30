@@ -6,17 +6,9 @@
 
 ## The Core Tradeoff
 
-From Anthropic's research:
+For the complete agentic systems spectrum, see [What Are Agentic Systems](what-are-agentic-systems.md). This guide focuses on the decision framework.
 
-> *"Agentic systems trade latency and cost for better task performance."*
-
-Every step up the complexity spectrum adds:
-- **More latency** — multiple LLM calls take longer than one
-- **More cost** — each call costs tokens and money
-- **More error surface** — mistakes compound across steps
-- **More debugging difficulty** — harder to trace what went wrong
-
-The question isn't "should I build an agent?" It's **"does the performance gain justify the added complexity?"**
+Every step up the complexity spectrum trades **latency, cost, and error surface** for better task performance. The question isn't "should I build an agent?" It's **"does the performance gain justify the added complexity?"**
 
 ## The Decision Tree
 
@@ -255,9 +247,3 @@ const result = await llm.complete(
 ```
 
 Don't start at step 6. Start at step 1 and only escalate when you have evidence that the simpler approach falls short.
-
-## Next Steps
-
-- [Agent-Computer Interface Design](./agent-computer-interface.md) — make your tools work well at any complexity level
-- [Prompt Chaining](../02-workflow-patterns/prompt-chaining.md) — the simplest workflow pattern
-- [Orchestrator-Workers](../02-workflow-patterns/orchestrator-workers.md) — when you need dynamic task decomposition

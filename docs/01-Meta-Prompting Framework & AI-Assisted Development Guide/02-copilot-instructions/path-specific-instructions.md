@@ -190,9 +190,3 @@ frontend.instructions.md says:    "Use Tailwind for all styling"
 - Keep each file focused on **one domain** (frontend, backend, database, etc.)
 - Target **half a page to one page** per file
 - If a file grows beyond a page, split into sub-domains
-
----
-
-*📋 Template: [Path-Specific Instructions Template](../07-templates/path-instructions-template.md)*
-
-*Next: [Prompt Files](prompt-files.md) →*

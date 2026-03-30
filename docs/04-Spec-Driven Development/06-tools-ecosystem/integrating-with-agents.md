@@ -199,7 +199,3 @@ Put specs where AI agents can find them:
 ❌  Confluence (requires authentication)
 ❌  Slack messages (ephemeral, unsearchable)
 ```
-
----
-
-*Next: [SDD + Meta-Prompting →](../07-advanced/sdd-plus-meta-prompting.md)*

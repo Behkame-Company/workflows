@@ -268,16 +268,3 @@ I'm continuing testing work on this project. Before we start:
 | **Memory bank** | ✅ Directory | ⚠️ Mixed | High | Large projects |
 
 **Recommendation:** Use **tests.json** (machine-readable status) + **one memory file** (human-readable context) + **custom instructions** (rules and conventions).
-
----
-
-## Next Steps
-
-- [Structured Test Tracking](structured-test-tracking.md) — deep dive on the tests.json format
-- [Test-First Development with AI](test-first-development.md) — the workflow that generates tests to track
-- [Coding Agent Test Verification](../06-ai-qa-workflows/agent-verification.md) — how agents use persistent test state
-- [Testing Templates](../11-practical/templates.md) — templates for memory files and tracking
-
----
-
-*Part of the [Testing Strategy with AI](../README.md) series.*

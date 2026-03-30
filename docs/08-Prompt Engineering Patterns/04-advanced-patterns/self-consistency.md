@@ -111,10 +111,3 @@ If 5x cost is too high:
 2. **Only apply to critical decisions** (security, breaking changes)
 3. **Use lower-cost models** for the voting paths
 4. **Use at temperature 0 twice** — if answers differ, investigate
-
----
-
-## Next Steps
-
-- 🔗 [Tree of Thought](tree-of-thought.md) — Branching exploration
-- 🔗 [Reflection & Critique](reflection-and-critique.md) — Self-evaluation pattern

@@ -268,10 +268,3 @@ and practitioner feedback.
 | Champions become gatekeepers | Emphasize enabling, not controlling; multiple champions if needed |
 | Network becomes a talking shop | Require tangible outputs (prompts, guides, demos) |
 | Champions drift from practice | Ensure champions still code daily; champion role supplements, not replaces |
-
-## Next Steps
-
-- [Maintain cross-team consistency →](cross-team-consistency.md)
-- [Address enterprise governance →](enterprise-considerations.md)
-- [Plan your rollout strategy →](rollout-strategy.md)
-- [Assess team maturity levels →](../01-fundamentals/maturity-model.md)

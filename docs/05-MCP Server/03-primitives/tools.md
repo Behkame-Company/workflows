@@ -59,61 +59,9 @@ Every tool is defined with a name, description, and input schema:
 
 ## Tool Lifecycle
 
-```
-1. Discovery:   Client calls tools/list → Server returns tool definitions
-2. Selection:   AI reads descriptions, chooses appropriate tool
-3. Invocation:  Client calls tools/call with tool name + arguments
-4. Execution:   Server runs the tool logic
-5. Response:    Server returns result (text, images, or error)
-```
+Tools are discovered during the **Discovery** phase (via `tools/list`) and invoked during the **Operation** phase (via `tools/call`). See [Protocol Lifecycle](../02-architecture/protocol-lifecycle.md) for phase details.
 
-### Discovery
-```json
-// Client → Server
-{ "method": "tools/list", "id": 1 }
-
-// Server → Client
-{
-  "id": 1,
-  "result": {
-    "tools": [
-      { "name": "create_issue", "description": "...", "inputSchema": {...} },
-      { "name": "search_issues", "description": "...", "inputSchema": {...} },
-      { "name": "get_pull_request", "description": "...", "inputSchema": {...} }
-    ]
-  }
-}
-```
-
-### Invocation & Response
-```json
-// Client → Server
-{
-  "method": "tools/call",
-  "id": 5,
-  "params": {
-    "name": "create_issue",
-    "arguments": {
-      "owner": "myorg",
-      "repo": "webapp",
-      "title": "Login returns 500 on invalid email",
-      "labels": ["bug", "priority:high"]
-    }
-  }
-}
-
-// Server → Client
-{
-  "id": 5,
-  "result": {
-    "content": [{
-      "type": "text",
-      "text": "Created issue #247: Login returns 500 on invalid email\nURL: https://github.com/myorg/webapp/issues/247"
-    }],
-    "isError": false
-  }
-}
-```
+The basic flow: **Discover → Select → Invoke → Execute → Respond**.
 
 ---
 
@@ -208,11 +156,3 @@ Research shows LLMs perform best with ≤6 parameters per tool. Bundle related f
 3. Descriptions are critical — they're how the AI decides which tool to use
 4. Keep schemas **flat** and parameters **under 6**
 5. Error messages should be **actionable** for the AI
-
----
-
-## Next Steps
-
-- 🔗 [Resources](resources.md) — Read-only data for AI context
-- 🔗 [Tool Design Patterns](../05-building-servers/tool-design-patterns.md) — Advanced patterns
-- 🔗 [Tool Naming & Schemas](../06-best-practices/tool-naming-and-schemas.md) — Naming conventions

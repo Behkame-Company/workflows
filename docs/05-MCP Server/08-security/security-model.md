@@ -112,10 +112,3 @@ postgres-server ────── client-2 ──┘
 3. **Servers are isolated**: They can't see or talk to each other
 4. **Least privilege applies**: Grant minimum necessary access
 5. **The host is the security boundary**: It enforces all policies
-
----
-
-## Next Steps
-
-- 🔗 [Authentication & OAuth 2.1](authentication.md) — How remote auth works
-- 🔗 [Threat Landscape](threat-landscape.md) — Known attack vectors

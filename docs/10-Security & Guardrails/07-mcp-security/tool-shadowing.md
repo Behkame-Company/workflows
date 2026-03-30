@@ -442,12 +442,3 @@ When reviewing MCP server connections, watch for:
 | Combined | Shadow + delayed mutation | Multi-phase | Very Hard — requires all defenses simultaneously |
 
 The fundamental lesson: **MCP tool descriptions are untrusted input**. Treat them with the same suspicion you would apply to user-supplied data in a web application. Never assume they are static, unique, or honest.
-
----
-
-## Next Steps
-
-- [MCP Threat Landscape](./mcp-threat-landscape.md) — Comprehensive overview of all MCP attack surfaces
-- [Securing MCP Server Implementations](./securing-mcp-servers.md) — How to build MCP servers that resist exploitation
-- [MCP Client Security](./mcp-client-security.md) — Hardening the client side of MCP connections
-- [Tool Poisoning Attacks](../02-prompt-injection/tool-poisoning.md) — Related prompt injection patterns that target tool definitions

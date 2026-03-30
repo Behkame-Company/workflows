@@ -285,9 +285,3 @@ A task management API built with Express + TypeScript + PostgreSQL.
 - See `tests/integration/auth.test.ts` for authenticated API test pattern
 - See `tests/e2e/pages/LoginPage.ts` for Page Object Model example
 ```
-
-## Next Steps
-
-- 🔗 [Testing with GitHub Copilot](copilot-testing.md) — Copilot-specific testing workflows
-- 🔗 [AI Agent Verification Loops](agent-verification.md) — Ensuring agents always verify changes
-- 🔗 [CI/CD Integration](ci-cd-integration.md) — Running AI-generated tests in pipelines

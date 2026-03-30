@@ -235,7 +235,3 @@ project/
 ```
 
 **Maintenance**: 1 universal file + 1-2 tool-specific files. Total effort: ~20 minutes per quarter.
-
----
-
-*Next: [Migration Guide](migration-guide.md) →*

@@ -132,10 +132,3 @@ Tests as specification is extremely effective — it's unambiguous.
 - Custom hooks for logic extraction
 - Error boundaries around async operations
 ```
-
----
-
-## Next Steps
-
-- 🔗 [Refactoring Prompts](refactoring-prompts.md) — Improving existing code
-- 🔗 [Test Generation Prompts](test-generation-prompts.md) — Writing tests with AI

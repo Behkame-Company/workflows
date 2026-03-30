@@ -427,11 +427,3 @@ Every section in the **10 — Security & Guardrails** documentation covers a spe
 | Supply chain attacks | Socket.dev | Before installing unfamiliar packages |
 | Compliance tracking | NIST AI RMF, ISO 42001 | Organizational policy development |
 | Threat modeling | OWASP LLM Top 10 | Project security assessments |
-
----
-
-## Next Steps
-
-- [Templates](templates.md) — Security instruction templates, checklists, and ready-to-use configurations
-- [Troubleshooting](troubleshooting.md) — Common security issues and their solutions
-- [FAQ](faq.md) — Frequently asked security questions about AI-assisted development

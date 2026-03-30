@@ -6,6 +6,8 @@
 
 ## Model Comparison (2025-2026)
 
+> **Note**: Model capabilities and context window sizes change frequently. Verify current specifications at each provider's official documentation.
+
 | Model | Context Window | Effective Limit | Context Awareness | Compaction |
 |-------|---------------|----------------|-------------------|------------|
 | **Claude Opus 4.6** | 1M tokens | ~800K practical | ✅ Yes | ✅ Server-side |
@@ -79,10 +81,3 @@ This enables:
 3. **Compaction extends effective capacity** — Enables sessions beyond raw window size
 4. **Practical limit < advertised limit** — Context rot starts well before the boundary
 5. **Match model to task** — Don't use a 128K model for a 200K task
-
----
-
-## Next Steps
-
-- 🔗 [From Prompt to Context Engineering](../02-context-engineering/from-prompt-to-context-engineering.md) — The bigger picture
-- 🔗 [Token Counting & Budgeting](../03-token-management/token-counting-and-budgeting.md) — Practical management

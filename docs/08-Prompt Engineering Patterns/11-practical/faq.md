@@ -75,10 +75,3 @@ Chain when: you need to inspect intermediate results, different steps need diffe
 
 ### Q: Is prompt engineering becoming obsolete?
 No — it's evolving into context engineering. The core skills (clarity, specificity, examples, constraints) remain essential even as models improve.
-
----
-
-## Next Steps
-
-- 🔗 [Resources](resources.md) — Links and further reading
-- 🔗 [Templates](templates.md) — Ready-to-use prompt templates

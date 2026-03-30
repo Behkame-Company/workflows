@@ -97,7 +97,3 @@ When practiced correctly, SDD delivers:
 - **Architects** defining system boundaries before AI implementation
 - **Solo developers** who want repeatable, maintainable AI-generated code
 - **Regulated industries** requiring specification-to-implementation traceability
-
----
-
-*Next: [SDD vs Vibe Coding →](sdd-vs-vibe-coding.md)*

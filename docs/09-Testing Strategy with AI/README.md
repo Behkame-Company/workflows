@@ -111,7 +111,3 @@ AI coding tools can generate code faster than ever. This makes testing **more im
 2. **Want TDD with AI?** → [TDD Workflow](02-tdd-with-ai/tdd-workflow.md)
 3. **Generating tests?** → [Generation Patterns](03-test-generation/generation-patterns.md)
 4. **Evaluating AI code?** → [Evaluation Framework](07-evaluating-ai-output/evaluation-framework.md)
-
----
-
-*Part of the [AI-Assisted Development Documentation](../README.md) series.*

@@ -528,11 +528,3 @@ def detect_suspicious_patterns(value):
 | **Descriptions are attack surface** | Full visibility into descriptions is essential for detection |
 | **Rug pulls are real** | Description changes after approval are a documented attack vector |
 | **Least privilege always** | Fewer servers, fewer tools, fewer auto-approvals = smaller attack surface |
-
----
-
-## Next Steps
-
-- [Securing MCP Servers](securing-mcp-servers.md) — Harden the server side of the MCP equation with input validation, sandboxing, and least-privilege patterns
-- [MCP Threat Landscape](mcp-threat-landscape.md) — Understand the full attack surface across every MCP layer — from tool descriptions to transport channels
-- [Tool Shadowing Attacks](tool-shadowing.md) — Deep dive into how malicious servers impersonate trusted tools and silently mutate after approval

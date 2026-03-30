@@ -825,16 +825,3 @@ Based on overall average:
 | Quarterly review of AI adoption    | #10 (Maturity), #7 (ROI)       |
 | Team struggling with adoption      | #9 (Survey), #10 (Maturity)    |
 | Onboarding a new developer         | #3 (Onboarding), #1 (Policy)   |
-
----
-
-## Next Steps
-
-- **[Troubleshooting Guide](./troubleshooting.md)** — When templates don't solve the problem and you need to debug specific issues
-- **[FAQ](./faq.md)** — Quick answers to questions that come up while using these templates
-- **[Resources & Further Reading](./resources.md)** — Deep-dive into the topics covered by these templates
-- **[AI Usage Policy (Governance)](../06-governance-and-policies/ai-usage-policy.md)** — Detailed governance framework behind Template 1
-- **[Developer Onboarding](../02-onboarding/developer-onboarding.md)** — Extended onboarding guide that pairs with Template 3
-- **[Maturity Model](../01-fundamentals/maturity-model.md)** — The maturity framework behind Template 10
-- **[Gradual Adoption](../09-best-practices/gradual-adoption.md)** — Best practices for rolling out these templates incrementally
-- **[Why Team Workflows Matter](../01-fundamentals/why-team-workflows-matter.md)** — The strategic context for why these templates exist

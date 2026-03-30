@@ -182,7 +182,3 @@ Story 2: Validation  Story 4: Resend link  Story 6: Onboarding wizard
 ```
 
 This helps identify gaps — stories that are needed but not yet written.
-
----
-
-*Next: [Edge Cases & Error Handling →](edge-cases-and-errors.md)*

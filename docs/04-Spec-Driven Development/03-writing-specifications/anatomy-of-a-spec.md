@@ -87,26 +87,7 @@ so that I can catch up on events I may have missed.
 
 ### 4. Acceptance Criteria
 
-```markdown
-## Acceptance Criteria
-
-### US-1: Receive in-app notifications
-- AC-1.1: Given a triggering event occurs
-  When the user is logged in
-  Then a notification appears within 3 seconds
-- AC-1.2: Given multiple unread notifications exist
-  When the user views the notification bell
-  Then the unread count badge shows the correct number
-- AC-1.3: Given the user clicks a notification
-  When it links to a specific page
-  Then the user is navigated to that page and the notification is marked read
-```
-
-**Rules**:
-- Given/When/Then format for clarity
-- Number criteria to match their user story (AC-1.1, AC-1.2)
-- Each criterion is independently testable
-- Include both success and failure paths
+Each user story needs numbered, testable acceptance criteria (e.g., AC-1.1, AC-1.2). Include both success and failure paths. For detailed AC formatting with Given/When/Then patterns, see [User Stories & Acceptance Criteria](user-stories-and-acceptance-criteria.md).
 
 ### 5. Edge Cases & Error Handling
 
@@ -186,7 +167,3 @@ so that I can catch up on events I may have missed.
 - **20–25**: Excellent spec, ready for Plan phase
 - **15–19**: Good but needs refinement in weak areas
 - **<15**: Needs significant rework before proceeding
-
----
-
-*Next: [User Stories & Acceptance Criteria →](user-stories-and-acceptance-criteria.md)*

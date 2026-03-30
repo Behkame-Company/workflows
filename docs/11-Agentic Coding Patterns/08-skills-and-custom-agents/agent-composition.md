@@ -342,10 +342,3 @@ Composition adds complexity. Use it only when needed:
 | Complex deployment | Yes | Multiple skills, verification |
 | Quick code review | No | Single agent review is fine |
 | Audit across multiple concerns | Yes | Each concern needs depth |
-
-## Next Steps
-
-- [Custom Agent Design](./custom-agent-design.md) — design the agents you'll compose
-- [Building Custom Skills](./building-skills.md) — create the skills agents use
-- [Start Simple](../09-best-practices/start-simple.md) — don't compose until you need to
-- [Over-Engineering](../10-anti-patterns/over-engineering.md) — when composition becomes a problem

@@ -88,10 +88,3 @@ on:
 3. **Human approval is mandatory** — AI proposes, humans approve
 4. **Start with read-only** — Triage and reporting before write operations
 5. **Monitor costs and noise** — Continuous AI can generate a lot of output
-
----
-
-## Next Steps
-
-- 🔗 [Agentic Workflows](agentic-workflows.md) — The platform for Continuous AI
-- 🔗 [Enterprise Review at Scale](../10-advanced/enterprise-review-at-scale.md) — Scaling across teams

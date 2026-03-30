@@ -134,10 +134,3 @@ I'll investigate the reported issue by:
 3. **Use `mode: agent`** for any prompt that uses tools
 4. **Declare minimally** — only tools the prompt actually needs
 5. **Version control** your prompt files for team consistency
-
----
-
-## Next Steps
-
-- 🔗 [Popular Servers](popular-servers.md) — Top servers to configure
-- 🔗 [Prompt Files Guide](../../01-Meta-Prompting Framework & AI-Assisted Development Guide/02-copilot-instructions/prompt-files.md) — Full prompt file documentation

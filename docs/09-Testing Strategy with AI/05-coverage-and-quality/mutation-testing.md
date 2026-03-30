@@ -285,9 +285,3 @@ export default {
   },
 };
 ```
-
-## Next Steps
-
-- [Test Quality Metrics](./test-quality-metrics.md) — Mutation score is one of several metrics for evaluating test quality
-- [Coverage Analysis](./coverage-analysis.md) — Use coverage data to focus mutation testing on the right files
-- [AI-Generated Code Quality](./ai-code-quality.md) — Apply quality gates to AI code before it reaches your test suite

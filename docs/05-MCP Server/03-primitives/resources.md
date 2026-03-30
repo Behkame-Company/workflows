@@ -141,10 +141,3 @@ Each resource has a URI, name, description, and MIME type:
 3. Use resources for data the AI needs to **read**, tools for actions it needs to **perform**
 4. Resources can be **subscribed to** for real-time updates
 5. Right-size your data — don't overwhelm the AI's context window
-
----
-
-## Next Steps
-
-- 🔗 [Prompts](prompts.md) — Reusable interaction templates
-- 🔗 [Resource & Prompt Design](../05-building-servers/resource-prompt-design.md) — Design patterns

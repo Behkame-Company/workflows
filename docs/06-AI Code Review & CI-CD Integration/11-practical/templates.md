@@ -231,10 +231,3 @@ migrations/**      @backend-team @team-lead
 - [ ] Documentation updated
 - [ ] No new warnings introduced
 ```
-
----
-
-## Next Steps
-
-- 🔗 [Troubleshooting](troubleshooting.md) — Common problems and fixes
-- 🔗 [FAQ](faq.md) — Frequently asked questions

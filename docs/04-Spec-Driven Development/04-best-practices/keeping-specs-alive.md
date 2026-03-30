@@ -139,7 +139,3 @@ Not every code change requires a spec update:
 | Dependency update | ❌ No |
 | Bug fix (original spec was correct) | ❌ No |
 | Bug fix (spec was wrong) | ✅ Fix the spec |
-
----
-
-*Next: [Team Collaboration →](team-collaboration.md)*

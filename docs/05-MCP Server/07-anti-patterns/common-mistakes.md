@@ -148,10 +148,3 @@
 | Secrets in config | Security breach | Environment variables |
 | Ignoring capabilities | Feature failures | Check before using |
 | Over-engineering | Slow + complex | Let the LLM reason |
-
----
-
-## Next Steps
-
-- 🔗 [The API Wrapper Trap](api-wrapper-trap.md) — The #1 architectural mistake
-- 🔗 [Server Design Principles](../06-best-practices/server-design-principles.md) — How to do it right

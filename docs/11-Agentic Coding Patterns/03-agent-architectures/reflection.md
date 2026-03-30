@@ -399,10 +399,3 @@ async function planWithReflection(task: string) {
   }
 }
 ```
-
-## Next Steps
-
-- [Evaluator-Optimizer](../02-workflow-patterns/evaluator-optimizer.md) — the formalized two-agent version
-- [ReAct Pattern](./react-pattern.md) — the core loop that reflection enhances
-- [Autonomous Agents](./autonomous-agents.md) — full autonomous loop with self-assessment
-- [Plan-and-Execute](./plan-and-execute.md) — adding reflection to structured plans

@@ -140,14 +140,11 @@ await server.connect(transport);
 
 ## When to Use Streamable HTTP
 
-| Scenario | Use? |
-|----------|------|
-| Remote/cloud deployment | ✅ Yes |
-| Multiple clients connecting | ✅ Yes |
-| Behind corporate proxy | ✅ Yes |
-| Team-shared server | ✅ Yes |
-| Local single-user tool | ❌ Use stdio instead |
-| Maximum latency requirements | ❌ stdio is faster |
+See [Transport Overview](transport-overview.md) for a comparison of all transport types.
+
+**Use Streamable HTTP for**: remote/cloud deployments, multiple clients, corporate proxies, team-shared servers.
+
+**Use stdio instead for**: local single-user tools or when maximum latency performance is needed.
 
 ---
 
@@ -158,10 +155,3 @@ await server.connect(transport);
 3. **Optional streaming** — SSE only when the server needs to stream
 4. **Always use TLS** — never expose unencrypted MCP over the network
 5. **Replaced SSE transport** — migrate legacy SSE servers to Streamable HTTP
-
----
-
-## Next Steps
-
-- 🔗 [SSE (Deprecated)](sse-deprecated.md) — If you need to migrate from SSE
-- 🔗 [Enterprise Deployment](../10-advanced/enterprise-deployment.md) — Production-scale HTTP deployment

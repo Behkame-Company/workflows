@@ -108,10 +108,3 @@ async def run_tests(suite: str) -> str:
 3. **Paginate large results** — 20-50 items per page is the sweet spot
 4. **Keep tool count low** — 10-15 per server; use multiple servers for more
 5. **Stream long operations** — Progress notifications over blocking responses
-
----
-
-## Next Steps
-
-- 🔗 [Common Mistakes](../07-anti-patterns/common-mistakes.md) — Performance anti-patterns
-- 🔗 [Enterprise Deployment](../10-advanced/enterprise-deployment.md) — Scaling considerations

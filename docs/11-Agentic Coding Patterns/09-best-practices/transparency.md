@@ -277,10 +277,3 @@ High Oversight ◀────────────────────�
 ```
 
 You can only reduce oversight when you can **observe** that the agent is consistently doing the right thing. Without transparency, you're stuck at high oversight forever — or taking blind risks.
-
-## Next Steps
-
-- [Error Recovery](./error-recovery.md) — transparent systems recover better
-- [Testing Agentic Systems](./testing-agents.md) — verify agent behavior systematically
-- [Blind Delegation](../10-anti-patterns/blind-delegation.md) — what happens without transparency
-- [Start Simple](./start-simple.md) — simpler systems are inherently more transparent

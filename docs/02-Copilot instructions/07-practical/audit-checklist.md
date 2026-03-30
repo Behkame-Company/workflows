@@ -157,7 +157,3 @@ Gather from the team:
 **Auditor**: _______________
 **Date**: _______________
 **Next audit due**: _______________
-
----
-
-*Next: [Migration Guide](migration-guide.md) →*

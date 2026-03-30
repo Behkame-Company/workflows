@@ -113,10 +113,3 @@ Window 3 (fresh 1M tokens):
 3. **Pair with memory tool** — Persist state before compaction
 4. **Prompt for behavior** — Tell the model what to do when context is low
 5. **Multi-window workflows** — Each window picks up cleanly
-
----
-
-## Next Steps
-
-- 🔗 [What Is Compaction?](../04-compaction-and-summarization/what-is-compaction.md) — The complementary strategy
-- 🔗 [Multi-Context Window Design](../06-multi-window-workflows/multi-context-window-design.md) — Long-running workflows

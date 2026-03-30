@@ -79,10 +79,3 @@ Cache static content, use targeted file reads, compress tool outputs, use cheape
 
 ### Q: Are thinking tokens expensive?
 **Yes.** Thinking tokens are billed at output rates (3-5x input cost). Use lower effort for straightforward tasks. See [Extended Thinking Tokens](../03-token-management/extended-thinking-tokens.md).
-
----
-
-## Next Steps
-
-- 🔗 [Resources](resources.md) — Links and further reading
-- 🔗 [Templates](templates.md) — Ready-to-use configurations

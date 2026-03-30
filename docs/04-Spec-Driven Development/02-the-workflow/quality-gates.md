@@ -164,7 +164,3 @@ Prompt: "Review this spec for completeness. Check:
 3. Is scope clearly bounded?
 4. Would a developer know exactly what to build?"
 ```
-
----
-
-*Next: [Anatomy of a Spec →](../03-writing-specifications/anatomy-of-a-spec.md)*

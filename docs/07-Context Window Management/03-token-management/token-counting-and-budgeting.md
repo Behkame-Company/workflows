@@ -99,10 +99,3 @@ Turn 20: Approaching 80,000 tokens → consider compaction
 3. **Reserve output space** — Don't fill the window completely
 4. **Compact at 75%** — Before you run out, not after
 5. **Track per-turn growth** — Predict when you'll need action
-
----
-
-## Next Steps
-
-- 🔗 [Cost Optimization](cost-optimization.md) — Reducing token spend
-- 🔗 [Context Awareness](context-awareness.md) — Models that self-manage

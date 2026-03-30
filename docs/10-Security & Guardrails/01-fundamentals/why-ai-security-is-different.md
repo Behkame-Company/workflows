@@ -202,12 +202,3 @@ Apply the same principle to AI agents:
 3. Auto-merging AI-generated PRs without human review
 4. Trusting AI output in security-sensitive code paths
 5. Assuming AI tools are immune to manipulation
-
----
-
-## Next Steps
-
-- [Threat Modeling for AI Workflows](./threat-modeling.md) — Build a systematic threat model for your AI development setup
-- [Defense in Depth for AI Pipelines](./defense-in-depth.md) — Layer security controls for comprehensive protection
-- [Trust Boundaries in AI Development](./trust-boundaries.md) — Understand where trust exists and where it breaks down
-- [What Is Prompt Injection?](../02-prompt-injection/what-is-prompt-injection.md) — Deep dive into the most novel AI security risk

@@ -1,12 +1,10 @@
 # Prompt File Template
 
-> Copy and customize. Place in `.github/prompts/` with the `.prompt.md` extension.
+> Place in `.github/prompts/` with the `.prompt.md` extension.
 
 ---
 
 ## Add Feature Prompt
-
-**File**: `.github/prompts/add-feature.prompt.md`
 
 ```markdown
 # Add New Feature
@@ -46,8 +44,6 @@
 
 ## Fix Bug Prompt
 
-**File**: `.github/prompts/fix-bug.prompt.md`
-
 ```markdown
 # Fix Bug
 
@@ -82,8 +78,6 @@ Fixes #[issue-number]
 ---
 
 ## Code Review Prompt
-
-**File**: `.github/prompts/code-review.prompt.md`
 
 ```markdown
 # Code Review
@@ -131,8 +125,6 @@ For each issue found, provide:
 
 ## Database Migration Prompt
 
-**File**: `.github/prompts/migrate-db.prompt.md`
-
 ```markdown
 # Database Migration
 
@@ -164,8 +156,6 @@ For each issue found, provide:
 ---
 
 ## Refactoring Prompt
-
-**File**: `.github/prompts/refactor.prompt.md`
 
 ```markdown
 # Refactoring

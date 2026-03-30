@@ -90,10 +90,3 @@ Before sending a prompt, check for these words:
 ## The Golden Rule
 
 > If a colleague with minimal context on the task would be confused by your prompt, the AI will be too.
-
----
-
-## Next Steps
-
-- 🔗 [Over-Constraining](over-constraining.md) — The opposite problem
-- 🔗 [Clarity & Specificity](../09-best-practices/clarity-and-specificity.md) — How to be precise

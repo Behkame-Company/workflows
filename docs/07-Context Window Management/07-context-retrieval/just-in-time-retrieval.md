@@ -96,10 +96,3 @@ Turn 7: Clear the raw file content (save 1,500 tokens)
 3. **Targeted reads** — Specific lines, not entire files
 4. **Clear after use** — Free up context once information is absorbed
 5. **Hybrid works best** — Small context upfront + JIT for details
-
----
-
-## Next Steps
-
-- 🔗 [Hybrid Retrieval Strategies](hybrid-retrieval-strategies.md) — Combining approaches
-- 🔗 [Agentic Search](agentic-search.md) — AI-driven discovery

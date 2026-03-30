@@ -83,10 +83,3 @@ When investigating an issue or implementing a feature:
 3. **Metadata is free context** — File names, sizes, timestamps
 4. **Progressive narrowing** — Each step reduces the search space
 5. **Prompt for exploration strategy** — Guide HOW the agent searches
-
----
-
-## Next Steps
-
-- 🔗 [Progressive Disclosure](progressive-disclosure.md) — Layer-by-layer context
-- 🔗 [Context Isolation with Sub-Agents](../08-sub-agent-architectures/context-isolation-with-subagents.md) — Parallel search

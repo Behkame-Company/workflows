@@ -121,10 +121,3 @@ Vague ────────────────────────�
 | + CoT | "Think through each step..." |
 | + Constraints | "Without changing the public API..." |
 | + Format | "Respond as a JSON object with..." |
-
----
-
-## Next Steps
-
-- 🔗 [Clarity & Specificity](../09-best-practices/clarity-and-specificity.md) — Deep dive on precision
-- 🔗 [Constraint Specification](../06-system-prompts/constraint-specification.md) — Defining boundaries

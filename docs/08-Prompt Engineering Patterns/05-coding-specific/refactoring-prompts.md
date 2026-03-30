@@ -115,10 +115,3 @@ After refactoring, show me:
 | Move | "Move this function to [target file], update all imports" |
 | Simplify | "Reduce nesting to max 2 levels using early returns" |
 | Modernize | "Convert to [modern pattern] while keeping same behavior" |
-
----
-
-## Next Steps
-
-- 🔗 [Debugging Prompts](debugging-prompts.md) — Finding and fixing bugs
-- 🔗 [Code Generation Prompts](code-generation-prompts.md) — Creating new code

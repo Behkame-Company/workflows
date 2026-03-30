@@ -82,10 +82,3 @@ Layer 6: Human review         → Catches business logic, architecture
 3. **Deprecation scanning** — AI uses outdated APIs from training data
 4. **Error handling checks** — AI generates happy-path code; enforce error handling
 5. **Defense-in-depth** — Layer all gates for comprehensive coverage
-
----
-
-## Next Steps
-
-- 🔗 [Testing Strategies](../06-testing-ai-code/testing-strategies.md) — Testing AI-generated code
-- 🔗 [Validation Framework](../06-testing-ai-code/validation-framework.md) — Structured validation
