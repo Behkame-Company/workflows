@@ -1,1 +1,1 @@
-this folder is for managing instructions
+this folder contains base instructions for projects 
